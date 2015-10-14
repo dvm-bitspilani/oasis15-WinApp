@@ -1,0 +1,80 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="HubApp4.ItemPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HubApp4"
+    xmlns:data="using:HubApp4.Data"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="WhiteSmoke">
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Page.Resources>
+        <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
+        <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>
+    </Page.Resources>
+    <Grid Background="WhiteSmoke"
+          
+        DataContext="{Binding Items}"
+          
+        d:DataContext="{Binding Groups[1].Items, Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+      <!--  <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions> -->
+        
+        <!--
+            TODO: Content should be placed within the following grid 
+                  to show details for the current item
+        -->
+       <!-- <Grid
+            Grid.Row="1" x:Name="contentRegion">
+            -->
+          <!--  <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="560"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" Width="560" HorizontalAlignment="Left">
+                <Image Source="{Binding ImagePath}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
+            </Border>-->
+           <!-- <Image Source="{Binding ImagePath}" Height="*" Width="420" HorizontalAlignment="Left"/>
+        -->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="140"/>
+                <RowDefinition Height="*"/>
+                
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="pageTitle" Text="{Binding Title}" TextAlignment="Center" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1"
+                        IsHitTestVisible="false" TextWrapping="NoWrap" Foreground="{StaticResource foreg2}" VerticalAlignment="Bottom" Margin="40,0,30,40"/>
+            <ScrollViewer Grid.Row="1">
+            <TextBlock Margin="40,20,40,20" Text="{Binding Content}" Foreground="{StaticResource foreg}" TextWrapping="Wrap" Style="{ThemeResource BodyTextBlockStyle}" FontSize="20"/>
+            </ScrollViewer>
+        </Grid>
+
+        <!-- Back button and page title -->
+        <Grid  x:Name="titlePanel">
+            
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                    RequestedTheme="Light"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+           
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29F6A688-64C2-49BA-9C19-6F70607AF739}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HubApp4</RootNamespace>
+    <AssemblyName>HubApp4.Windows</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SynthesizeLinkMetadata>true</SynthesizeLinkMetadata>
+    <PackageCertificateKeyFile>HubApp4.Windows_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutTheFest.xaml.cs">
+      <DependentUpon>AboutTheFest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GroupedItemsPage1.xaml.cs">
+      <DependentUpon>GroupedItemsPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule1.xaml.cs">
+      <DependentUpon>Schedule1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SubItemPage.xaml.cs">
+      <DependentUpon>SubItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EventsCat.xaml.cs">
+      <DependentUpon>EventsCat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HubPage.xaml.cs">
+      <DependentUpon>HubPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule.xaml.cs">
+      <DependentUpon>Schedule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SectionPage.xaml.cs">
+      <DependentUpon>SectionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemPage.xaml.cs">
+      <DependentUpon>ItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="Assets\events\Thumbs.db" />
+    <None Include="HubApp4.Windows_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\106x106.png" />
+    <Content Include="Assets\120x120.png" />
+    <Content Include="Assets\170x170 Comp 2_00000.jpg" />
+    <Content Include="Assets\1920 splash new.scale-240.png" />
+    <Content Include="Assets\360x360.png" />
+    <Content Include="Assets\434x210.scale-140.png" />
+    <Content Include="Assets\58x58.scale-240.png" />
+    <Content Include="Assets\about.png" />
+    <Content Include="Assets\acco.png" />
+    <Content Include="Assets\adp.jpg" />
+    <Content Include="Assets\adp.png" />
+    <Content Include="Assets\ap15.png" />
+    <Content Include="Assets\color Comp 1_00000.jpg" />
+    <Content Include="Assets\colorComp 1_1_00000.png" />
+    <Content Include="Assets\Comp 2 %280%3b00%3b00%3b00%29.png" />
+    <Content Include="Assets\controls.jpg" />
+    <Content Include="Assets\controls.png" />
+    <Content Include="Assets\DarkGray.png" />
+    <Content Include="Assets\dvm.jpg" />
+    <Content Include="Assets\dvm.png" />
+    <Content Include="Assets\events\Ahvaan.jpg" />
+    <Content Include="Assets\events\Airborne.jpg" />
+    <Content Include="Assets\events\Angels and Demons.jpg" />
+    <Content Include="Assets\anubhav.png" />
+    <Content Include="Assets\events\APOGEE Innovation Challenge.jpg" />
+    <Content Include="Assets\events\Astronomy Workshop.jpg" />
+    <Content Include="Assets\events\Battle of Waterloo.jpg" />
+    <Content Include="Assets\events\Bibliomania.jpg" />
+    <Content Include="Assets\events\Bits Fantasy.jpg" />
+    <Content Include="Assets\events\BITSopoly.jpg" />
+    <Content Include="Assets\events\Brain OF BITS %28BOB%29.jpg" />
+    <Content Include="Assets\events\Brain Wave.jpg" />
+    <Content Include="Assets\events\Business Master_Ace the Case.jpg" />
+    <Content Include="Assets\events\C-Doku.jpg" />
+    <Content Include="Assets\events\Checkmate.jpg" />
+    <Content Include="Assets\events\Chem-E-Car.jpg" />
+    <Content Include="Assets\events\Coder.jpg" />
+    <Content Include="Assets\events\CodeStorm.jpg" />
+    <Content Include="Assets\events\Daily Redesigned.jpg" />
+    <Content Include="Assets\events\Dexters Laboratory.jpg" />
+    <Content Include="Assets\events\Dhiti old.jpg" />
+    <Content Include="Assets\events\Dhiti.jpg" />
+    <Content Include="Assets\events\Dopers Quiz.jpg" />
+    <Content Include="Assets\events\Dual Mode Vehicle Challenge.jpg" />
+    <Content Include="Assets\events\ESPOIR%28A Health B-Plan Competition%29.jpg" />
+    <Content Include="Assets\events\Ethical Quotient %28E.Q.%29.jpg" />
+    <Content Include="Assets\events\FTGP %28Full Throttle Grand Prix%29.jpg" />
+    <Content Include="Assets\events\Gambling Mathematics.jpg" />
+    <Content Include="Assets\events\Gameathon %28Game Making Contest%29.jpg" />
+    <Content Include="Assets\events\GEOTECKNIQUE.jpg" />
+    <Content Include="Assets\events\Google Hackathon.jpg" />
+    <Content Include="Assets\events\Green Challenge.jpg" />
+    <Content Include="Assets\events\Hackathon.jpg" />
+    <Content Include="Assets\events\Hackatronics.jpg" />
+    <Content Include="Assets\events\I-Strike.jpg" />
+    <Content Include="Assets\events\India quiz.jpg" />
+    <Content Include="Assets\events\Ingenieur.jpg" />
+    <Content Include="Assets\events\Ink-quisitive.jpg" />
+    <Content Include="Assets\events\International Coding League.jpg" />
+    <Content Include="Assets\events\iReport.jpg" />
+    <Content Include="Assets\events\Jeopardy.jpg" />
+    <Content Include="Assets\events\Junkyard Wars.jpg" />
+    <Content Include="Assets\events\KRAZYBRIDGE.jpg" />
+    <Content Include="Assets\events\Lacuna.jpg" />
+    <Content Include="Assets\events\Marooned.jpg" />
+    <Content Include="Assets\events\Media Mania.jpg" />
+    <Content Include="Assets\events\Media quiz.jpg" />
+    <Content Include="Assets\events\Mindsweeper.jpg" />
+    <Content Include="Assets\events\Overhead Transmission %28OHT%29.jpg" />
+    <Content Include="Assets\events\PhotoFunia.jpg" />
+    <Content Include="Assets\events\Physics of the impossible.jpg" />
+    <Content Include="Assets\events\PiCaption.jpg" />
+    <Content Include="Assets\events\plAI.jpg" />
+    <Content Include="Assets\events\Poetic Warfare.jpg" />
+    <Content Include="Assets\events\Portfolio.jpg" />
+    <Content Include="Assets\events\Puts and Punters.jpg" />
+    <Content Include="Assets\events\Qrious.jpg" />
+    <Content Include="Assets\events\Raze and Rise.jpg" />
+    <Content Include="Assets\events\Relay Dumb Charades.jpg" />
+    <Content Include="Assets\events\Reverse Engineering.jpg" />
+    <Content Include="Assets\events\Robotetris.jpg" />
+    <Content Include="Assets\events\Robots At War %28RAW%29.jpg" />
+    <Content Include="Assets\events\Roll On.jpg" />
+    <Content Include="Assets\events\Science and Technology Quiz.jpg" />
+    <Content Include="Assets\shivani.png" />
+    <Content Include="Assets\events\SHRISHTI.jpg" />
+    <Content Include="Assets\events\Sky Watching Session.jpg" />
+    <Content Include="Assets\events\Smash the Bug.jpg" />
+    <Content Include="Assets\events\Speed Scrabble.jpg" />
+    <Content Include="Assets\events\Spelling Bee.jpg" />
+    <Content Include="Assets\events\Stock Market Simulation.jpg" />
+    <Content Include="Assets\events\Taboo.jpg" />
+    <Content Include="Assets\events\Telescope Making Workshop.jpg" />
+    <Content Include="Assets\events\The Usual Suspects.jpg" />
+    <Content Include="Assets\events\Track O Mania.jpg" />
+    <Content Include="Assets\events\Treasure Hunt.jpg" />
+    <Content Include="Assets\events\Triathlon - the complete package.jpg" />
+    <Content Include="Assets\events\Up in the Air.jpg" />
+    <Content Include="Assets\events\Whodunnit.jpg" />
+    <Content Include="Assets\events\Word-a-Maze.jpg" />
+    <Content Include="Assets\events\Wordstock.jpg" />
+    <Content Include="Assets\gensec.png" />
+    <Content Include="Assets\how to reach pilani.png" />
+    <Content Include="Assets\LightGray.png" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Logo.scale-240.png" />
+    <Content Include="Assets\map.png" />
+    <Content Include="Assets\mapi4.png" />
+    <Content Include="Assets\mapi6.png" />
+    <Content Include="Assets\mapi7.png" />
+    <Content Include="Assets\MediumGray.png" />
+    <Content Include="Assets\oasis-logo.png" />
+    <Content Include="Assets\pcr.jpg" />
+    <Content Include="Assets\pcr.png" />
+    <Content Include="Assets\pep.jpg" />
+    <Content Include="Assets\pep.png" />
+    <Content Include="Assets\prez.png" />
+    <Content Include="Assets\rateandreview.png" />
+    <Content Include="Assets\rec.jpg" />
+    <Content Include="Assets\rec.png" />
+    <Content Include="Assets\scheduleicon.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SmallLogo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\sponsors.png" />
+    <Content Include="Assets\sponsors1.png" />
+    <Content Include="Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-240.png" />
+    <Content Include="Assets\url.png" />
+    <Content Include="Assets\WideLogo.scale-100.png" />
+    <Content Include="Assets\WideLogo.scale-140.png" />
+    <Content Include="Assets\WideLogo.scale-240.png" />
+    <Content Include="Assets\wikipedia-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="AboutTheFest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GroupedItemsPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Schedule1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SubItemPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EventsCat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HubPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Schedule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SectionPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ItemPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="..\HubApp4.Shared\HubApp4.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

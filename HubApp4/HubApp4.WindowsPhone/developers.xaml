@@ -1,0 +1,99 @@
+﻿<Page
+    x:Class="HubApp4.developers"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HubApp4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="WhiteSmoke">
+    <Page.Resources>
+        <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
+        <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>
+
+        <Style TargetType="TextBlock" x:Key="ContactName">
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+        <Style TargetType="TextBlock" x:Key="ContactPost">
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="FontStyle" Value="Italic" />
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="TextWrapping" Value="Wrap"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="ContactNo">
+            <Setter Property="Foreground" Value="Black" />
+
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+        <Style TargetType="TextBlock" x:Key="ContactEmail">
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="TextWrapping" Value="Wrap"/>
+
+            <Setter Property="FontSize" Value="15" />
+        </Style>
+    </Page.Resources>
+
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="APOGEE 2015" Foreground="{StaticResource foreg}" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Foreground="{StaticResource foreg2}" Text="developers" Margin="0,0,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <ScrollViewer>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="110"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+
+
+                    <Image Source="Assets/anubhav.png" Margin="0,0,0,0" Height="100" Width="100" Grid.Column="0" Grid.Row="0">
+                    </Image>
+                    <StackPanel Margin="15,0,0,0" Grid.Column="1"  >
+                        <TextBlock  Style="{StaticResource ContactName}">Anubhav Gupta</TextBlock>
+                        <TextBlock Style="{StaticResource ContactPost}">Senior Developer</TextBlock>
+                        <TextBlock x:Name="Prez" Style="{StaticResource ContactNo}" Tapped="Prez_Tapped">+91-8503999757</TextBlock>
+
+                        <TextBlock Style="{StaticResource ContactEmail}" Tapped="PrezEmail_Tapped">gupta.anubhav@live.in</TextBlock>
+                    </StackPanel>
+
+
+
+                    <Image Source="Assets/shivani.png" Margin="0,10,0,0" Height="100" Width="100" Grid.Row="1">
+                    </Image>
+                    <StackPanel Margin="15,10,0,0" Grid.Row="1" Grid.Column="1">
+                        <TextBlock Style="{StaticResource ContactName}">Shivani Mittal</TextBlock>
+                        <TextBlock Style="{StaticResource ContactPost}">Junior Developer</TextBlock>
+                        <TextBlock Tapped="GenSec_Tapped" Style="{StaticResource ContactNo}">+91-8503987302</TextBlock>
+                        <TextBlock Style="{StaticResource ContactEmail}" Tapped="GenSecEmail_Tapped">shivanimittal2895@gmail.com</TextBlock>
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+
+
+        </Grid>
+    </Grid>
+</Page>

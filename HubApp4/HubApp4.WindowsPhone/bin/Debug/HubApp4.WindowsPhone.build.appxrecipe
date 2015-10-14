@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LENOVO-PC</Machine>
+    <WindowsUser>user</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>47ddca0d-8aca-4234-ab97-1b1915f4645b</PackageIdentityName>
+    <IntermediateOutputPath>G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\HubApp4.WindowsPhone.exe">
+      <PackagePath>HubApp4.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\106x106.png">
+      <PackagePath>Assets\106x106.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\120x120.png">
+      <PackagePath>Assets\120x120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\1920 splash new.scale-240.png">
+      <PackagePath>Assets\1920 splash new.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\360x360.png">
+      <PackagePath>Assets\360x360.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\434x210.scale-140.png">
+      <PackagePath>Assets\434x210.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\58x58.scale-240.png">
+      <PackagePath>Assets\58x58.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\about.png">
+      <PackagePath>Assets\about.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\acco.png">
+      <PackagePath>Assets\acco.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\adp.png">
+      <PackagePath>Assets\adp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\anubhav.png">
+      <PackagePath>Assets\anubhav.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\ap15.png">
+      <PackagePath>Assets\ap15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\colorComp 1_1_00000.png">
+      <PackagePath>Assets\colorComp 1_1_00000.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\Comp 2 %280%3b00%3b00%3b00%29.png">
+      <PackagePath>Assets\Comp 2 %280%3b00%3b00%3b00%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\controls.png">
+      <PackagePath>Assets\controls.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\dvm.png">
+      <PackagePath>Assets\dvm.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\gensec.png">
+      <PackagePath>Assets\gensec.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\how to reach pilani.png">
+      <PackagePath>Assets\how to reach pilani.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\map.png">
+      <PackagePath>Assets\map.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\mapi4.png">
+      <PackagePath>Assets\mapi4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\mapi6.png">
+      <PackagePath>Assets\mapi6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\mapi7.png">
+      <PackagePath>Assets\mapi7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\oasis-logo.png">
+      <PackagePath>Assets\oasis-logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\pcr.png">
+      <PackagePath>Assets\pcr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\pep.png">
+      <PackagePath>Assets\pep.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\prez.png">
+      <PackagePath>Assets\prez.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\rateandreview.png">
+      <PackagePath>Assets\rateandreview.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\rec.png">
+      <PackagePath>Assets\rec.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\scheduleicon.png">
+      <PackagePath>Assets\scheduleicon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\shivani.png">
+      <PackagePath>Assets\shivani.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\sponsors.png">
+      <PackagePath>Assets\sponsors.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\sponsors1.png">
+      <PackagePath>Assets\sponsors1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\url.png">
+      <PackagePath>Assets\url.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\HubBackground.theme-dark.png">
+      <PackagePath>Assets\HubBackground.theme-dark.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\HubBackground.theme-light.png">
+      <PackagePath>Assets\HubBackground.theme-light.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\wikipedia-icon.png">
+      <PackagePath>Assets\wikipedia-icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Shared\Assets\DarkGray1.png">
+      <PackagePath>Assets\DarkGray1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\170x170 Comp 2_00000.jpg">
+      <PackagePath>Assets\170x170 Comp 2_00000.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\adp.jpg">
+      <PackagePath>Assets\adp.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\color Comp 1_00000.jpg">
+      <PackagePath>Assets\color Comp 1_00000.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\controls.jpg">
+      <PackagePath>Assets\controls.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\dvm.jpg">
+      <PackagePath>Assets\dvm.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Ahvaan.jpg">
+      <PackagePath>Assets\events\Ahvaan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Airborne.jpg">
+      <PackagePath>Assets\events\Airborne.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Angels and Demons.jpg">
+      <PackagePath>Assets\events\Angels and Demons.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\APOGEE Innovation Challenge.jpg">
+      <PackagePath>Assets\events\APOGEE Innovation Challenge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Astronomy Workshop.jpg">
+      <PackagePath>Assets\events\Astronomy Workshop.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Battle of Waterloo.jpg">
+      <PackagePath>Assets\events\Battle of Waterloo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Bibliomania.jpg">
+      <PackagePath>Assets\events\Bibliomania.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Bits Fantasy.jpg">
+      <PackagePath>Assets\events\Bits Fantasy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\BITSopoly.jpg">
+      <PackagePath>Assets\events\BITSopoly.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Brain OF BITS %28BOB%29.jpg">
+      <PackagePath>Assets\events\Brain OF BITS %28BOB%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Brain Wave.jpg">
+      <PackagePath>Assets\events\Brain Wave.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Business Master_Ace the Case.jpg">
+      <PackagePath>Assets\events\Business Master_Ace the Case.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\C-Doku.jpg">
+      <PackagePath>Assets\events\C-Doku.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Checkmate.jpg">
+      <PackagePath>Assets\events\Checkmate.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Chem-E-Car.jpg">
+      <PackagePath>Assets\events\Chem-E-Car.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Coder.jpg">
+      <PackagePath>Assets\events\Coder.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\CodeStorm.jpg">
+      <PackagePath>Assets\events\CodeStorm.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Daily Redesigned.jpg">
+      <PackagePath>Assets\events\Daily Redesigned.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Dexters Laboratory.jpg">
+      <PackagePath>Assets\events\Dexters Laboratory.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Dhiti old.jpg">
+      <PackagePath>Assets\events\Dhiti old.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Dhiti.jpg">
+      <PackagePath>Assets\events\Dhiti.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Dopers Quiz.jpg">
+      <PackagePath>Assets\events\Dopers Quiz.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Dual Mode Vehicle Challenge.jpg">
+      <PackagePath>Assets\events\Dual Mode Vehicle Challenge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\ESPOIR%28A Health B-Plan Competition%29.jpg">
+      <PackagePath>Assets\events\ESPOIR%28A Health B-Plan Competition%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Ethical Quotient %28E.Q.%29.jpg">
+      <PackagePath>Assets\events\Ethical Quotient %28E.Q.%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\FTGP %28Full Throttle Grand Prix%29.jpg">
+      <PackagePath>Assets\events\FTGP %28Full Throttle Grand Prix%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Gambling Mathematics.jpg">
+      <PackagePath>Assets\events\Gambling Mathematics.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Gameathon %28Game Making Contest%29.jpg">
+      <PackagePath>Assets\events\Gameathon %28Game Making Contest%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\GEOTECKNIQUE.jpg">
+      <PackagePath>Assets\events\GEOTECKNIQUE.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Google Hackathon.jpg">
+      <PackagePath>Assets\events\Google Hackathon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Green Challenge.jpg">
+      <PackagePath>Assets\events\Green Challenge.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Hackathon.jpg">
+      <PackagePath>Assets\events\Hackathon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Hackatronics.jpg">
+      <PackagePath>Assets\events\Hackatronics.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\I-Strike.jpg">
+      <PackagePath>Assets\events\I-Strike.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\India quiz.jpg">
+      <PackagePath>Assets\events\India quiz.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Ingenieur.jpg">
+      <PackagePath>Assets\events\Ingenieur.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Ink-quisitive.jpg">
+      <PackagePath>Assets\events\Ink-quisitive.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\International Coding League.jpg">
+      <PackagePath>Assets\events\International Coding League.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\iReport.jpg">
+      <PackagePath>Assets\events\iReport.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Jeopardy.jpg">
+      <PackagePath>Assets\events\Jeopardy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Junkyard Wars.jpg">
+      <PackagePath>Assets\events\Junkyard Wars.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\KRAZYBRIDGE.jpg">
+      <PackagePath>Assets\events\KRAZYBRIDGE.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Lacuna.jpg">
+      <PackagePath>Assets\events\Lacuna.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Marooned.jpg">
+      <PackagePath>Assets\events\Marooned.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Media Mania.jpg">
+      <PackagePath>Assets\events\Media Mania.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Media quiz.jpg">
+      <PackagePath>Assets\events\Media quiz.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Mindsweeper.jpg">
+      <PackagePath>Assets\events\Mindsweeper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Overhead Transmission %28OHT%29.jpg">
+      <PackagePath>Assets\events\Overhead Transmission %28OHT%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\PhotoFunia.jpg">
+      <PackagePath>Assets\events\PhotoFunia.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Physics of the impossible.jpg">
+      <PackagePath>Assets\events\Physics of the impossible.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\PiCaption.jpg">
+      <PackagePath>Assets\events\PiCaption.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\plAI.jpg">
+      <PackagePath>Assets\events\plAI.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Poetic Warfare.jpg">
+      <PackagePath>Assets\events\Poetic Warfare.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Portfolio.jpg">
+      <PackagePath>Assets\events\Portfolio.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Puts and Punters.jpg">
+      <PackagePath>Assets\events\Puts and Punters.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Qrious.jpg">
+      <PackagePath>Assets\events\Qrious.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Raze and Rise.jpg">
+      <PackagePath>Assets\events\Raze and Rise.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Relay Dumb Charades.jpg">
+      <PackagePath>Assets\events\Relay Dumb Charades.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Reverse Engineering.jpg">
+      <PackagePath>Assets\events\Reverse Engineering.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Robotetris.jpg">
+      <PackagePath>Assets\events\Robotetris.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Robots At War %28RAW%29.jpg">
+      <PackagePath>Assets\events\Robots At War %28RAW%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Roll On.jpg">
+      <PackagePath>Assets\events\Roll On.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Science and Technology Quiz.jpg">
+      <PackagePath>Assets\events\Science and Technology Quiz.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\SHRISHTI.jpg">
+      <PackagePath>Assets\events\SHRISHTI.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Sky Watching Session.jpg">
+      <PackagePath>Assets\events\Sky Watching Session.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Smash the Bug.jpg">
+      <PackagePath>Assets\events\Smash the Bug.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Speed Scrabble.jpg">
+      <PackagePath>Assets\events\Speed Scrabble.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Spelling Bee.jpg">
+      <PackagePath>Assets\events\Spelling Bee.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Stock Market Simulation.jpg">
+      <PackagePath>Assets\events\Stock Market Simulation.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Taboo.jpg">
+      <PackagePath>Assets\events\Taboo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Telescope Making Workshop.jpg">
+      <PackagePath>Assets\events\Telescope Making Workshop.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\The Usual Suspects.jpg">
+      <PackagePath>Assets\events\The Usual Suspects.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Track O Mania.jpg">
+      <PackagePath>Assets\events\Track O Mania.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Treasure Hunt.jpg">
+      <PackagePath>Assets\events\Treasure Hunt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Triathlon - the complete package.jpg">
+      <PackagePath>Assets\events\Triathlon - the complete package.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Up in the Air.jpg">
+      <PackagePath>Assets\events\Up in the Air.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Whodunnit.jpg">
+      <PackagePath>Assets\events\Whodunnit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Word-a-Maze.jpg">
+      <PackagePath>Assets\events\Word-a-Maze.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\events\Wordstock.jpg">
+      <PackagePath>Assets\events\Wordstock.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\pcr.jpg">
+      <PackagePath>Assets\pcr.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\pep.jpg">
+      <PackagePath>Assets\pep.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\Assets\rec.jpg">
+      <PackagePath>Assets\rec.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Shared\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Shared\DataModel\SampleData1.json">
+      <PackagePath>DataModel\SampleData1.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\AboutTheFest.xbf">
+      <PackagePath>AboutTheFest.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\developers.xbf">
+      <PackagePath>developers.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\EventItemPage.xbf">
+      <PackagePath>EventItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\Map.xbf">
+      <PackagePath>Map.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\Parti.xbf">
+      <PackagePath>Parti.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\Schedule.xbf">
+      <PackagePath>Schedule.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\SubItemPage.xbf">
+      <PackagePath>SubItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\HubApp4.WindowsPhone.xr.xml">
+      <PackagePath>HubApp4.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

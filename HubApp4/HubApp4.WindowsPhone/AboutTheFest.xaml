@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="HubApp4.AboutTheFest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HubApp4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="WhiteSmoke">
+    <Page.Resources>
+        <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
+        <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>
+    </Page.Resources>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Label="wikipedia" Click="Wikipedia_click">
+                <AppBarButton.Icon >
+                    <FontIcon Glyph="W" FontFamily="Copperplate Gothic Bold"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <AppBarButton Label="facebook" Click="Facebook_Click">
+                <AppBarButton.Icon>
+                    <FontIcon Glyph="f"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="APOGEE 2015" Foreground="{StaticResource foreg}" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Foreground="{StaticResource foreg2}" Text="about the fest" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <ScrollViewer>
+                <StackPanel>
+                    <Image Source="Assets/oasis-logo.png" Margin="0,0,0,20" Height="100" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" ></Image>
+                    <TextBlock  Foreground="{StaticResource foreg}" TextWrapping="Wrap" FontSize="20">
+                    
+                    
+Birla Institute of Technology and Science, Pilani is one of the most prestigious institutes in the country. Over the years, BITS Pilani has maintained the reputation of imparting the right mix of education and experience that forms the basis for achieving success in the world.
+
+Apogee, the first ISO 9001:2008 certified technical fest in India, is a large scale event that has attracted the connoisseurs of engineering and technology over the years. It represents the zenith of science and engineering in a landscape of future visionaries and scientists.
+                    </TextBlock>
+                </StackPanel>
+            </ScrollViewer>
+
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LENOVO-PC</Machine>
+    <WindowsUser>user</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>69d15f85-f90c-4046-851f-8567912b8642</PackageIdentityName>
+    <IntermediateOutputPath>G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>AE31577CE35E9803AEE9B99F77C6BD3F01D73AB21222455FD52EA99A859363AE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>69d15f85-f90c-4046-851f-8567912b8642_1.0.0.0_neutral__pxqb1cfhdj928</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>69d15f85-f90c-4046-851f-8567912b8642_pxqb1cfhdj928!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>69d15f85-f90c-4046-851f-8567912b8642</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Welcome</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-13T18:35:12.316</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.exe">
+      <PackagePath>HubApp4.Windows.exe</PackagePath>
+      <Modified>2015-10-13T18:35:11.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\106x106.png">
+      <PackagePath>Assets\106x106.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.472</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\120x120.png">
+      <PackagePath>Assets\120x120.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\1920 splash new.scale-240.png">
+      <PackagePath>Assets\1920 splash new.scale-240.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\360x360.png">
+      <PackagePath>Assets\360x360.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\434x210.scale-140.png">
+      <PackagePath>Assets\434x210.scale-140.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\58x58.scale-240.png">
+      <PackagePath>Assets\58x58.scale-240.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\about.png">
+      <PackagePath>Assets\about.png</PackagePath>
+      <Modified>2015-10-12T16:53:45.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\acco.png">
+      <PackagePath>Assets\acco.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\adp.png">
+      <PackagePath>Assets\adp.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\ap15.png">
+      <PackagePath>Assets\ap15.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\colorComp 1_1_00000.png">
+      <PackagePath>Assets\colorComp 1_1_00000.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\Comp 2 %280%3b00%3b00%3b00%29.png">
+      <PackagePath>Assets\Comp 2 %280%3b00%3b00%3b00%29.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\controls.png">
+      <PackagePath>Assets\controls.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\dvm.png">
+      <PackagePath>Assets\dvm.png</PackagePath>
+      <Modified>2015-03-23T20:11:17.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\gensec.png">
+      <PackagePath>Assets\gensec.png</PackagePath>
+      <Modified>2015-03-23T20:11:23.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\how to reach pilani.png">
+      <PackagePath>Assets\how to reach pilani.png</PackagePath>
+      <Modified>2015-03-23T20:11:23.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2015-03-23T20:11:23.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-23T20:11:23.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\map.png">
+      <PackagePath>Assets\map.png</PackagePath>
+      <Modified>2015-10-12T16:53:57.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\mapi4.png">
+      <PackagePath>Assets\mapi4.png</PackagePath>
+      <Modified>2015-03-23T20:11:23.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\mapi6.png">
+      <PackagePath>Assets\mapi6.png</PackagePath>
+      <Modified>2015-03-23T20:11:23.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\mapi7.png">
+      <PackagePath>Assets\mapi7.png</PackagePath>
+      <Modified>2015-03-23T20:11:23.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2015-03-23T20:11:23.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\oasis-logo.png">
+      <PackagePath>Assets\oasis-logo.png</PackagePath>
+      <Modified>2015-03-23T20:11:23.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\pcr.png">
+      <PackagePath>Assets\pcr.png</PackagePath>
+      <Modified>2015-03-23T20:11:24.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\pep.png">
+      <PackagePath>Assets\pep.png</PackagePath>
+      <Modified>2015-03-23T20:11:24.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\prez.png">
+      <PackagePath>Assets\prez.png</PackagePath>
+      <Modified>2015-03-23T20:11:26.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\rateandreview.png">
+      <PackagePath>Assets\rateandreview.png</PackagePath>
+      <Modified>2015-10-12T16:53:34.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\rec.png">
+      <PackagePath>Assets\rec.png</PackagePath>
+      <Modified>2015-03-23T20:11:26.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\scheduleicon.png">
+      <PackagePath>Assets\scheduleicon.png</PackagePath>
+      <Modified>2015-10-12T15:42:12.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-23T20:11:26.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\sponsors.png">
+      <PackagePath>Assets\sponsors.png</PackagePath>
+      <Modified>2015-10-12T17:15:13.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\sponsors1.png">
+      <PackagePath>Assets\sponsors1.png</PackagePath>
+      <Modified>2015-10-12T17:18:28.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <Modified>2015-03-23T20:11:26.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-23T20:11:26.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\url.png">
+      <PackagePath>Assets\url.png</PackagePath>
+      <Modified>2015-03-23T20:11:26.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\WideLogo.scale-140.png">
+      <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
+      <Modified>2015-03-23T20:11:26.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <Modified>2015-03-23T20:11:26.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\wikipedia-icon.png">
+      <PackagePath>Assets\wikipedia-icon.png</PackagePath>
+      <Modified>2015-03-23T20:11:26.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Shared\Assets\DarkGray1.png">
+      <PackagePath>Assets\DarkGray1.png</PackagePath>
+      <Modified>2014-03-14T05:25:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\170x170 Comp 2_00000.jpg">
+      <PackagePath>Assets\170x170 Comp 2_00000.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\adp.jpg">
+      <PackagePath>Assets\adp.jpg</PackagePath>
+      <Modified>2015-03-21T10:00:49.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\color Comp 1_00000.jpg">
+      <PackagePath>Assets\color Comp 1_00000.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\controls.jpg">
+      <PackagePath>Assets\controls.jpg</PackagePath>
+      <Modified>2015-03-21T10:01:00.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\dvm.jpg">
+      <PackagePath>Assets\dvm.jpg</PackagePath>
+      <Modified>2015-03-21T10:01:14.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Ahvaan.jpg">
+      <PackagePath>Assets\events\Ahvaan.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Airborne.jpg">
+      <PackagePath>Assets\events\Airborne.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Angels and Demons.jpg">
+      <PackagePath>Assets\events\Angels and Demons.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\APOGEE Innovation Challenge.jpg">
+      <PackagePath>Assets\events\APOGEE Innovation Challenge.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Astronomy Workshop.jpg">
+      <PackagePath>Assets\events\Astronomy Workshop.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Battle of Waterloo.jpg">
+      <PackagePath>Assets\events\Battle of Waterloo.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Bibliomania.jpg">
+      <PackagePath>Assets\events\Bibliomania.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Bits Fantasy.jpg">
+      <PackagePath>Assets\events\Bits Fantasy.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\BITSopoly.jpg">
+      <PackagePath>Assets\events\BITSopoly.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Brain OF BITS %28BOB%29.jpg">
+      <PackagePath>Assets\events\Brain OF BITS %28BOB%29.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Brain Wave.jpg">
+      <PackagePath>Assets\events\Brain Wave.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Business Master_Ace the Case.jpg">
+      <PackagePath>Assets\events\Business Master_Ace the Case.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\C-Doku.jpg">
+      <PackagePath>Assets\events\C-Doku.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Checkmate.jpg">
+      <PackagePath>Assets\events\Checkmate.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Chem-E-Car.jpg">
+      <PackagePath>Assets\events\Chem-E-Car.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Coder.jpg">
+      <PackagePath>Assets\events\Coder.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\CodeStorm.jpg">
+      <PackagePath>Assets\events\CodeStorm.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Daily Redesigned.jpg">
+      <PackagePath>Assets\events\Daily Redesigned.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Dexters Laboratory.jpg">
+      <PackagePath>Assets\events\Dexters Laboratory.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Dhiti old.jpg">
+      <PackagePath>Assets\events\Dhiti old.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Dhiti.jpg">
+      <PackagePath>Assets\events\Dhiti.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Dopers Quiz.jpg">
+      <PackagePath>Assets\events\Dopers Quiz.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Dual Mode Vehicle Challenge.jpg">
+      <PackagePath>Assets\events\Dual Mode Vehicle Challenge.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\ESPOIR%28A Health B-Plan Competition%29.jpg">
+      <PackagePath>Assets\events\ESPOIR%28A Health B-Plan Competition%29.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Ethical Quotient %28E.Q.%29.jpg">
+      <PackagePath>Assets\events\Ethical Quotient %28E.Q.%29.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\FTGP %28Full Throttle Grand Prix%29.jpg">
+      <PackagePath>Assets\events\FTGP %28Full Throttle Grand Prix%29.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Gambling Mathematics.jpg">
+      <PackagePath>Assets\events\Gambling Mathematics.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Gameathon %28Game Making Contest%29.jpg">
+      <PackagePath>Assets\events\Gameathon %28Game Making Contest%29.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\GEOTECKNIQUE.jpg">
+      <PackagePath>Assets\events\GEOTECKNIQUE.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Google Hackathon.jpg">
+      <PackagePath>Assets\events\Google Hackathon.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Green Challenge.jpg">
+      <PackagePath>Assets\events\Green Challenge.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Hackathon.jpg">
+      <PackagePath>Assets\events\Hackathon.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Hackatronics.jpg">
+      <PackagePath>Assets\events\Hackatronics.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\I-Strike.jpg">
+      <PackagePath>Assets\events\I-Strike.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\India quiz.jpg">
+      <PackagePath>Assets\events\India quiz.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Ingenieur.jpg">
+      <PackagePath>Assets\events\Ingenieur.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Ink-quisitive.jpg">
+      <PackagePath>Assets\events\Ink-quisitive.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\International Coding League.jpg">
+      <PackagePath>Assets\events\International Coding League.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\iReport.jpg">
+      <PackagePath>Assets\events\iReport.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Jeopardy.jpg">
+      <PackagePath>Assets\events\Jeopardy.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Junkyard Wars.jpg">
+      <PackagePath>Assets\events\Junkyard Wars.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\KRAZYBRIDGE.jpg">
+      <PackagePath>Assets\events\KRAZYBRIDGE.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Lacuna.jpg">
+      <PackagePath>Assets\events\Lacuna.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:17.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Marooned.jpg">
+      <PackagePath>Assets\events\Marooned.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Media Mania.jpg">
+      <PackagePath>Assets\events\Media Mania.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Media quiz.jpg">
+      <PackagePath>Assets\events\Media quiz.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Mindsweeper.jpg">
+      <PackagePath>Assets\events\Mindsweeper.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Overhead Transmission %28OHT%29.jpg">
+      <PackagePath>Assets\events\Overhead Transmission %28OHT%29.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\PhotoFunia.jpg">
+      <PackagePath>Assets\events\PhotoFunia.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Physics of the impossible.jpg">
+      <PackagePath>Assets\events\Physics of the impossible.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\PiCaption.jpg">
+      <PackagePath>Assets\events\PiCaption.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\plAI.jpg">
+      <PackagePath>Assets\events\plAI.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Poetic Warfare.jpg">
+      <PackagePath>Assets\events\Poetic Warfare.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Portfolio.jpg">
+      <PackagePath>Assets\events\Portfolio.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Puts and Punters.jpg">
+      <PackagePath>Assets\events\Puts and Punters.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Qrious.jpg">
+      <PackagePath>Assets\events\Qrious.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Raze and Rise.jpg">
+      <PackagePath>Assets\events\Raze and Rise.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Relay Dumb Charades.jpg">
+      <PackagePath>Assets\events\Relay Dumb Charades.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Reverse Engineering.jpg">
+      <PackagePath>Assets\events\Reverse Engineering.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Robotetris.jpg">
+      <PackagePath>Assets\events\Robotetris.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Robots At War %28RAW%29.jpg">
+      <PackagePath>Assets\events\Robots At War %28RAW%29.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Roll On.jpg">
+      <PackagePath>Assets\events\Roll On.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Science and Technology Quiz.jpg">
+      <PackagePath>Assets\events\Science and Technology Quiz.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\SHRISHTI.jpg">
+      <PackagePath>Assets\events\SHRISHTI.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Sky Watching Session.jpg">
+      <PackagePath>Assets\events\Sky Watching Session.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Smash the Bug.jpg">
+      <PackagePath>Assets\events\Smash the Bug.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Speed Scrabble.jpg">
+      <PackagePath>Assets\events\Speed Scrabble.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Spelling Bee.jpg">
+      <PackagePath>Assets\events\Spelling Bee.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Stock Market Simulation.jpg">
+      <PackagePath>Assets\events\Stock Market Simulation.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Taboo.jpg">
+      <PackagePath>Assets\events\Taboo.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Telescope Making Workshop.jpg">
+      <PackagePath>Assets\events\Telescope Making Workshop.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\The Usual Suspects.jpg">
+      <PackagePath>Assets\events\The Usual Suspects.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Track O Mania.jpg">
+      <PackagePath>Assets\events\Track O Mania.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Treasure Hunt.jpg">
+      <PackagePath>Assets\events\Treasure Hunt.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Triathlon - the complete package.jpg">
+      <PackagePath>Assets\events\Triathlon - the complete package.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Up in the Air.jpg">
+      <PackagePath>Assets\events\Up in the Air.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Whodunnit.jpg">
+      <PackagePath>Assets\events\Whodunnit.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Word-a-Maze.jpg">
+      <PackagePath>Assets\events\Word-a-Maze.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\events\Wordstock.jpg">
+      <PackagePath>Assets\events\Wordstock.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:18.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\pcr.jpg">
+      <PackagePath>Assets\pcr.jpg</PackagePath>
+      <Modified>2015-03-23T20:11:24.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\pep.jpg">
+      <PackagePath>Assets\pep.jpg</PackagePath>
+      <Modified>2015-03-21T10:01:41.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\Assets\rec.jpg">
+      <PackagePath>Assets\rec.jpg</PackagePath>
+      <Modified>2015-03-21T10:02:23.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Shared\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2015-10-12T02:22:48.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Shared\DataModel\SampleData1.json">
+      <PackagePath>DataModel\SampleData1.json</PackagePath>
+      <Modified>2015-03-20T12:20:36.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-10-13T17:28:33.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\AboutTheFest.xbf">
+      <PackagePath>AboutTheFest.xbf</PackagePath>
+      <Modified>2015-10-13T17:28:33.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\GroupedItemsPage1.xbf">
+      <PackagePath>GroupedItemsPage1.xbf</PackagePath>
+      <Modified>2015-10-13T17:28:33.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\Schedule1.xbf">
+      <PackagePath>Schedule1.xbf</PackagePath>
+      <Modified>2015-10-13T17:28:33.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\SubItemPage.xbf">
+      <PackagePath>SubItemPage.xbf</PackagePath>
+      <Modified>2015-10-13T17:28:33.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\EventsCat.xbf">
+      <PackagePath>EventsCat.xbf</PackagePath>
+      <Modified>2015-10-13T17:28:33.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+      <Modified>2015-10-13T18:35:11.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\Schedule.xbf">
+      <PackagePath>Schedule.xbf</PackagePath>
+      <Modified>2015-10-13T17:28:33.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+      <Modified>2015-10-13T17:28:33.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+      <Modified>2015-10-13T17:28:33.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.xr.xml">
+      <PackagePath>HubApp4.Windows.xr.xml</PackagePath>
+      <Modified>2015-10-13T18:35:11.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Baackup\Documents\Visual Studio 2013\Projects\HubApp4\HubApp4\HubApp4.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-13T18:35:12.127</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

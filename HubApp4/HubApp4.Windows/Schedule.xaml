@@ -1,0 +1,198 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="HubApp4.Schedule"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HubApp4"
+    xmlns:common="using:HubApp4.Common"
+    xmlns:data="using:HubApp4.Data"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="WhiteSmoke">
+    
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+       <!-- <x:String x:Key="AppName">My Application</x:String> -->
+        
+            <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
+            <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>
+            <DataTemplate x:Key="ListItemTemplatex">
+                <StackPanel Height="Auto" Margin="5,0,5,15">
+                    <TextBlock TextWrapping="Wrap" Text="{Binding Title}" FontWeight="SemiBold" Style="{ThemeResource TitleTextBlockStyle}" Foreground="{StaticResource foreg}"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                        <TextBlock  Foreground="{StaticResource foreg2}" Margin="0,0,5,0" TextWrapping="Wrap" Text="Time:  " Height="18" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        <TextBlock TextWrapping="Wrap" Text="{Binding Subtitle}" Foreground="{StaticResource foreg}" Height="18" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                        <TextBlock Foreground="{StaticResource foreg2}" Margin="0,0,5,0" TextWrapping="Wrap" Text="Venue:  " Height="18" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+                        <TextBlock TextWrapping="Wrap" Text="{Binding Content}" Height="18" Style="{ThemeResource SubtitleTextBlockStyle}" Foreground="{StaticResource foreg}" />
+                    </StackPanel>
+                </StackPanel>
+            </DataTemplate>
+        <!--<CollectionViewSource
+            x:Name="itemsViewSource"
+            Source="{Binding SubItems}"
+            d:Source="{Binding Groups[1].Items[0].SubItems, Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"/>
+        </Page.Resources>-->
+    <CollectionViewSource
+        x:Name="itemsViewSource0"
+        Source="{Binding SubItems}"
+          d:Source="{Binding Groups[5].Items[0].SubItems, Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"/>
+        <CollectionViewSource
+        x:Name="itemsViewSource1"   
+        Source="{Binding SubItems}"
+          d:Source="{Binding Groups[5].Items[1].SubItems, Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"/>
+        <CollectionViewSource
+        x:Name="itemsViewSource2"
+        Source="{Binding SubItems}"
+          d:Source="{Binding Groups[5].Items[2].SubItems, Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"/>
+        <CollectionViewSource
+        x:Name="itemsViewSource3"
+        Source="{Binding SubItems}"
+          d:Source="{Binding Groups[5].Items[3].SubItems, Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"/>
+        <CollectionViewSource
+        x:Name="itemsViewSource4"
+        Source="{Binding SubItems}"
+          d:Source="{Binding Groups[5].Items[4].SubItems, Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"/>
+
+
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Background="WhiteSmoke"
+           DataContext="{Binding Groups[5]}"
+        d:DataContext="{Binding Groups[5], Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <ScrollViewer HorizontalScrollMode="Enabled">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="420"/>
+                        <ColumnDefinition Width="420"/>
+                        <ColumnDefinition Width="420"/>
+                        <ColumnDefinition Width="420"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="1" Margin="20,0,20,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Foreground="Gray" FontWeight="SemiBold" Text="March 25" Style="{ThemeResource SubheaderTextBlockStyle}"/>
+                        <ListView Grid.Row="1" 
+                  
+                        AutomationProperties.AutomationId="SchList25"
+                        AutomationProperties.Name="Items"
+                        SelectionMode="None"
+                        IsItemClickEnabled="False"
+                        ItemsSource="{Binding Source={StaticResource itemsViewSource0}}"          
+                       
+                        ItemTemplate="{StaticResource ListItemTemplatex}">
+                        </ListView>
+                        <!-- ItemsSource="{StaticResource itemsViewSource0}"-->
+                    </Grid>
+                    <Grid Grid.Column="2" Margin="20,0,20,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Foreground="Gray" FontWeight="SemiBold" Text="March 26" Style="{ThemeResource SubheaderTextBlockStyle}"/>
+                        <ListView Grid.Row="1" 
+                  
+                        AutomationProperties.AutomationId="SchList26"
+                        AutomationProperties.Name="Items"
+                        SelectionMode="None"
+                        IsItemClickEnabled="False"
+                       ItemsSource="{Binding Source={StaticResource itemsViewSource1}}" 
+                        ItemTemplate="{StaticResource ListItemTemplatex}">
+                        </ListView>
+                    </Grid>
+                    <Grid Grid.Column="3" Margin="20,0,20,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Foreground="Gray" FontWeight="SemiBold" Text="March 27" Style="{ThemeResource SubheaderTextBlockStyle}"/>
+                        <ListView Grid.Row="1" 
+                  
+                        AutomationProperties.AutomationId="SchList27"
+                        AutomationProperties.Name="Items"
+                        SelectionMode="None"
+                        IsItemClickEnabled="False"
+                        ItemsSource="{Binding Source={StaticResource itemsViewSource2}}" 
+                        ItemTemplate="{StaticResource ListItemTemplatex}">
+                        </ListView>
+                    </Grid>
+                    <Grid Grid.Column="4" Margin="20,0,20,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Foreground="Gray" FontWeight="SemiBold" Text="March 28" Style="{ThemeResource SubheaderTextBlockStyle}"/>
+                        <ListView Grid.Row="1" 
+                  
+                        AutomationProperties.AutomationId="SchList28"
+                        AutomationProperties.Name="Items"
+                        SelectionMode="None"
+                        IsItemClickEnabled="False"
+                        ItemsSource="{Binding Source={StaticResource itemsViewSource3}}" 
+                        ItemTemplate="{StaticResource ListItemTemplatex}">
+                        </ListView>
+                    </Grid>
+                    <Grid Grid.Column="5" Margin="20,0,20,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Foreground="Gray" FontWeight="SemiBold" Text="March 29" Style="{ThemeResource SubheaderTextBlockStyle}"/>
+                        <ListView Grid.Row="1" 
+                  
+                        AutomationProperties.AutomationId="SchList29"
+                        AutomationProperties.Name="Items"
+                        SelectionMode="None"
+                        IsItemClickEnabled="False"
+                        ItemsSource="{Binding Source={StaticResource itemsViewSource4}}" 
+                        ItemTemplate="{StaticResource ListItemTemplatex}">
+                        </ListView>
+                    </Grid>
+                </Grid>
+            </ScrollViewer>
+        </Grid>
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Foreground="Gray" Text="Schedule" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
+        </Grid>
+    </Grid>
+</Page>

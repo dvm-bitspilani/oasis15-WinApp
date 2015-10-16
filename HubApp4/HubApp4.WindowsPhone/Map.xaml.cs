@@ -4,11 +4,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Windows.Input;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Devices.Geolocation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage.Streams;
+using Windows.Graphics.Display;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Maps;
@@ -17,6 +19,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -28,6 +31,8 @@ namespace HubApp4
     public sealed partial class Map : Page
     {
         MapIcon mapIcon = new MapIcon();
+        public string eventTitle { get; set; }
+        public string eventName { get; set; }
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
@@ -50,8 +55,12 @@ namespace HubApp4
         {
             get { return this.defaultViewModel; }
         }
-        private void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
+        private async void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
+            var eventpin = await SampleDataSource.GetSubItemAsync((string)e.NavigationParameter);
+            if (eventpin != null)
+                eventName = eventpin.Title;
+                eventTitle = eventpin.Content;
         }
 
         /// <summary>
@@ -97,7 +106,8 @@ namespace HubApp4
             // Windows.Phone.UI.Input.HardwareButtons.BackPressed event.
             // If you are using the NavigationHelper provided by some templates,
             // this event is handled for you.
-            await Windows.UI.ViewManagement.StatusBar.GetForCurrentView().HideAsync();
+            //await Windows.UI.ViewManagement.StatusBar.GetForCurrentView().HideAsync();
+           
 
             var locator = new Geolocator();
             var position = await locator.GetGeopositionAsync();
@@ -109,7 +119,10 @@ namespace HubApp4
             mapIcon.NormalizedAnchorPoint = new Point(0.5, 1);
             myMap.MapElements.Add(mapIcon);
             var centerPoint = new Geopoint(new BasicGeoposition() { Latitude = 28.3641, Longitude = 075.5869 });
+            if(eventTitle==null)
+            { 
             await myMap.TrySetViewAsync(centerPoint, 15, 0, 0, MapAnimationKind.Bow);
+            }
 
             MapIcon mi1 = new MapIcon();
             mi1.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mapi6.png"));
@@ -316,6 +329,265 @@ namespace HubApp4
             mi41.Location = new Geopoint(new BasicGeoposition() { Latitude = 28.3641, Longitude = 075.5869 });
             mi41.Title = "BITS Pilani";
             myMap.MapElements.Add(mi41);
+
+            //event pin
+            if (eventTitle != null)
+            {
+                //MapIcon eventicon = new MapIcon();
+                
+                    if (String.Compare(eventTitle, mi1.Title)==0)
+                    {
+
+                        mi1.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        //eventicon.Location = new Geopoint(new BasicGeoposition() { Latitude = 28.3580, Longitude = 075.5890 });
+                        mi1.Title = eventName + ", " + eventTitle;
+                       // myMap.MapElements.Add(eventicon);
+                        await myMap.TrySetViewAsync(mi1.Location, 15, 0, 0, MapAnimationKind.Bow);
+        
+                    }
+                    else if (String.Compare(eventTitle, mi2.Title) == 0)
+                    {
+                        mi2.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi2.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi2.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi3.Title) == 0)
+                    {
+                        mi3.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi3.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi3.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi4.Title) == 0)
+                    {
+                        mi4.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi4.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi4.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi5.Title) == 0)
+                    {
+                        mi5.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi5.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi5.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi6.Title) == 0)
+                    {
+                        mi6.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi6.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi6.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi7.Title) == 0)
+                    {
+                        mi7.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi7.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi7.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi8.Title) == 0)
+                    {
+                        mi8.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi8.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi8.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi9.Title) == 0)
+                    {
+                        mi9.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi9.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi9.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi10.Title) == 0)
+                    {
+                        mi10.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi10.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi10.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi11.Title) == 0)
+                    {
+                        mi11.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi11.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi11.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi12.Title) == 0)
+                    {
+                        mi12.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi12.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi12.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi13.Title) == 0)
+                    {
+                        mi13.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi13.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi13.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi14.Title) == 0)
+                    {
+                        mi14.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi14.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi14.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi15.Title) == 0)
+                    {
+                        mi15.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi15.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi15.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi16.Title) == 0)
+                    {
+                        mi16.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi16.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi16.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi17.Title) == 0)
+                    {
+                        mi17.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi17.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi17.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi18.Title) == 0)
+                    {
+                        mi18.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi18.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi18.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi19.Title) == 0)
+                    {
+                        mi19.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi19.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi19.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi20.Title) == 0)
+                    {
+                        mi20.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi20.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi20.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi21.Title) == 0)
+                    {
+                        mi21.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi21.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi21.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi22.Title) == 0)
+                    {
+                        mi22.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi22.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi22.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi23.Title) == 0)
+                    {
+                        mi23.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi23.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi23.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi24.Title) == 0)
+                    {
+                        mi24.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi24.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi24.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi25.Title) == 0)
+                    {
+                        mi25.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi25.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi25.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi26.Title) == 0)
+                    {
+                        mi26.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi26.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi26.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi27.Title) == 0)
+                    {
+                        mi27.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi27.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi27.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi28.Title) == 0)
+                    {
+                        mi28.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi28.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi28.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi29.Title) == 0)
+                    {
+                        mi29.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi29.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi29.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi30.Title) == 0)
+                    {
+                        mi30.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi30.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi30.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi31.Title) == 0)
+                    {
+                        mi31.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi31.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi31.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi32.Title) == 0)
+                    {
+                        mi32.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi32.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi32.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi33.Title) == 0)
+                    {
+                        mi33.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi33.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi33.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi34.Title) == 0)
+                    {
+                        mi34.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi34.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi34.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi35.Title) == 0)
+                    {
+                        mi35.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi35.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi35.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi36.Title) == 0)
+                    {
+                        mi36.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi36.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi36.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi37.Title) == 0)
+                    {
+                        mi37.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi37.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi37.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi38.Title) == 0)
+                    {
+                        mi38.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi38.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi38.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi39.Title) == 0)
+                    {
+                        mi39.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi39.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi39.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi40.Title) == 0)
+                    {
+                        mi40.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi40.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi40.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    else if (String.Compare(eventTitle, mi41.Title) == 0)
+                    {
+                        mi41.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mappin.png"));
+                        mi41.Title = eventName + ", " + eventTitle;
+                        await myMap.TrySetViewAsync(mi41.Location, 15, 0, 0, MapAnimationKind.Bow);
+                    }
+                    
+                
+            }
 
         }
         protected override void OnNavigatedFrom(NavigationEventArgs e)

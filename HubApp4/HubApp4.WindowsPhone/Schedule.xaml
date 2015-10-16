@@ -15,22 +15,23 @@
         <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
         <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>
         <DataTemplate x:Key="ListItemTemplatex">
-            <!-- <StackPanel Orientation="Horizontal" Height="Auto">-->
-            <StackPanel Height="Auto" Margin="5,0,5,15" Width="290">
-                <TextBlock TextWrapping="Wrap" Text="{Binding Title}" FontWeight="SemiBold" Style="{ThemeResource ListViewItemTextBlockStyle}" Foreground="{StaticResource foreg}"/>
-                <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
-                    <TextBlock  Foreground="{StaticResource foreg2}" Margin="0,0,5,0" TextWrapping="Wrap" Text="Time:  " Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
-                    <TextBlock TextWrapping="Wrap" Text="{Binding Subtitle}" Foreground="{StaticResource foreg}" Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
-                </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="Auto" Width="350">
+                <StackPanel Height="Auto" Margin="5,0,5,15" Width="290">
+                    <TextBlock TextWrapping="Wrap" Text="{Binding Title}" FontWeight="SemiBold" Style="{ThemeResource ListViewItemTextBlockStyle}" Foreground="{StaticResource foreg}"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                        <TextBlock  Foreground="{StaticResource foreg2}" Margin="0,0,5,0" TextWrapping="Wrap" Text="Time:  " Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
+                        <TextBlock TextWrapping="Wrap" Text="{Binding Subtitle}" Foreground="{StaticResource foreg}" Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
+                    </StackPanel>
                     <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
                         <TextBlock Foreground="{StaticResource foreg2}" Margin="0,0,5,0" TextWrapping="Wrap" Text="Venue:  " Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
                         <TextBlock TextWrapping="Wrap" Text="{Binding Content}" Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}" Foreground="{StaticResource foreg}" />
                     </StackPanel>
                 </StackPanel>
-               <!-- <Button Height="75" Margin="0,-15,0,0" Width="50" Background="{x:Null}">
-                    <Image Source="Assets/mappin.png" Height="30" Margin="-60,-14,0,0" Width="30"/>
+                <Button  Margin="0,-15,0,0"  BorderBrush="{x:Null}" Click="Mappin_Click" Tag="{Binding UniqueId}" MinWidth="50" >
+
+                    <Image Source="Assets/mappin.png" Height="30"  Width="30"/>
                 </Button>
-            </StackPanel>-->
+            </StackPanel>
         </DataTemplate>
     </Page.Resources>
     <Grid>

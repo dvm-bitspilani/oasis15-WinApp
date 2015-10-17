@@ -24,9 +24,10 @@ namespace HubApp4.Data
     /// </summary>
     public class SampleDataItem
     {
-        public SampleDataItem(String uniqueId, String title, String subtitle,  String imagePath, String content)
+        public SampleDataItem(String uniqueId, String id,String title, String subtitle,  String imagePath, String content)
         {
             this.UniqueId = uniqueId;
+            this.Id = id;
             this.Title = title;
            this.Subtitle = subtitle;
           //  this.Description = description;
@@ -37,6 +38,7 @@ namespace HubApp4.Data
         public ObservableCollection<SampleDataSubItem> SubItems { get; private set; }
 
         public string UniqueId { get; private set; }
+        public string Id { get; private set; }
         public string Title { get; private set; }
         public string Subtitle { get; private set; }
      //   public string Description { get; private set; }
@@ -51,9 +53,10 @@ namespace HubApp4.Data
 
     public class SampleDataSubItem
     {
-        public SampleDataSubItem(String uniqueId, String title, String subtitle, String imagePath, String content)
+        public SampleDataSubItem(String uniqueId,String id, String title, String subtitle, String imagePath, String content)
         {
             this.UniqueId = uniqueId;
+            this.Id = id;
             this.Title = title;
             this.Subtitle = subtitle;
             //  this.Description = description;
@@ -62,6 +65,7 @@ namespace HubApp4.Data
         }
 
         public string UniqueId { get; private set; }
+        public string Id { get; private set; }
         public string Title { get; private set; }
         public string Subtitle { get; private set; }
         //   public string Description { get; private set; }
@@ -189,6 +193,7 @@ namespace HubApp4.Data
                     
                     JsonObject itemObject = itemValue.GetObject();
                     group.Items.Add(new SampleDataItem(itemObject["UniqueId"].GetString(),
+                                                       itemObject["Id"].GetString(),
                                                        itemObject["Title"].GetString(),
                                                       itemObject["Subtitle"].GetString(),
                                                        itemObject["ImagePath"].GetString(),
@@ -200,6 +205,7 @@ namespace HubApp4.Data
                     {
                         JsonObject subitemObject = subitemValue.GetObject();
                         group.Items[i].SubItems.Add(new SampleDataSubItem(subitemObject["UniqueId"].GetString(),
+                                                           subitemObject["Id"].GetString(),
                                                            subitemObject["Title"].GetString(),
                                                           subitemObject["Subtitle"].GetString(),
                                                            subitemObject["ImagePath"].GetString(),

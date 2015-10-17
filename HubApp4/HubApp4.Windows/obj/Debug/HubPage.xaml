@@ -156,7 +156,7 @@
                         <Button x:ConnectionId='9' Width="190" Margin="0,0,0,0" Height="60" BorderBrush="{x:Null}"                               >
                             <StackPanel Orientation="Horizontal" Margin="-17,-9,0,0" HorizontalAlignment="Left" Width="210" Height="50">
                                 <Image Source="Assets/rateandreview.png" Margin="10,0,0,0" Width="30"/>
-                                <TextBlock Text="Rate and Review" Margin="10,0,0,0" Foreground="WhiteSmoke" FontSize="28" Style="{ThemeResource HeaderTextBlockStyle}"/>
+                                <TextBlock Text="Review" Margin="10,0,0,0" Foreground="WhiteSmoke" FontSize="28" Style="{ThemeResource HeaderTextBlockStyle}"/>
                             </StackPanel>
                         </Button>
                     </StackPanel>

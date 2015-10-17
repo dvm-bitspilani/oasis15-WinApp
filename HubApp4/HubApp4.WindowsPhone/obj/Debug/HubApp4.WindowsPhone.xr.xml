@@ -11,6 +11,7 @@
     <RootPropertyPathName Name="Items" />
     <RootPropertyPathName Name="Group" />
     <RootPropertyPathName Name="Content" />
+    <RootPropertyPathName Name="UniqueId" />
     <RootPropertyPathName Name="Description" />
     <RootPropertyPathName Name="SubItem" />
   </Roots.PropertyPathNames>
@@ -62,8 +63,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Orientation" />
+      <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
@@ -198,6 +199,15 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="HubApp4.Parti" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Tag" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="HubApp4.Schedule" />
     <RootType FullName="HubApp4.SectionPage" />
     <RootType FullName="HubApp4.ItemPage" />

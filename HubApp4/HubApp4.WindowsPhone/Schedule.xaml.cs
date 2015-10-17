@@ -96,6 +96,12 @@ namespace HubApp4
         }
 
         #endregion
+
+        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            var subitemId = ((SampleDataSubItem)e.ClickedItem).Id;
+            Frame.Navigate(typeof(SubItemPage), subitemId);
+        }
         
     }
 }

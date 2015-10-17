@@ -17,6 +17,13 @@
                 <AppBarButton Label="Zoom Out" Icon="Remove" Click="AppBarButton_Click_1"/>
                 <AppBarButton Label="Me" Icon="Target" Click="AppBarButton_Click_2"/>
             </CommandBar.PrimaryCommands>
+            <!--<CommandBar.SecondaryCommands>
+                <AppBarButton Label="show nearby events" Click="AppBarButton_Click_3">
+                    <AppBarButton.Flyout>
+                        <ListPickerFlyout  ItemsSource="{Binding }" Placement="Full" DisplayMemberPath="Title"/>
+                    </AppBarButton.Flyout>
+                </AppBarButton>
+            </CommandBar.SecondaryCommands>-->
         </CommandBar>
     </Page.BottomAppBar>
 

@@ -41,6 +41,7 @@ namespace HubApp4
         /// <summary>
         /// Gets the <see cref="NavigationHelper"/> associated with this <see cref="Page"/>.
         /// </summary>
+        /// 
         public NavigationHelper NavigationHelper
         {
             get { return this.navigationHelper; }
@@ -69,13 +70,19 @@ namespace HubApp4
         private async void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
             // TODO: Create an appropriate data model for your problem domain to replace the sample data
+            var subId = (string)e.NavigationParameter;
             var item = await SampleDataSource.GetSubItemAsync((string)e.NavigationParameter);
-            /*  if (item != null)
-                  test.Text = "Returned something "+ item.UniqueId;
-              else
-                  test.Text = "Returned Nothing";
-              */
-            this.DefaultViewModel["SubItem"] = item;
+            if (item==null)
+            {
+                Frame.Navigate(typeof(ItemPage), subId);
+
+            }
+                this.DefaultViewModel["SubItem"] = item;
+            
+                  // else
+               //   test.Text = "Returned Nothing";
+              
+            
         }
 
         /// <summary>

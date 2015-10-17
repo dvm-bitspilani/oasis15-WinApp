@@ -52,10 +52,10 @@
                         AutomationProperties.AutomationId="SchList25"
                         AutomationProperties.Name="Items In Group"
                         SelectionMode="None"
-                        IsItemClickEnabled="False"
+                        IsItemClickEnabled="True"
                         ItemsSource="{Binding Items[0].SubItems}"
                         ItemTemplate="{StaticResource ListItemTemplatex}"
-                    
+                    ItemClick="ListView_ItemClick"
                         ContinuumNavigationTransitionInfo.ExitElementContainer="True">
                         </ListView>
                     </Grid>

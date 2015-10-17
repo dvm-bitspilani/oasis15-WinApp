@@ -59,8 +59,11 @@ namespace HubApp4
         {
             var eventpin = await SampleDataSource.GetSubItemAsync((string)e.NavigationParameter);
             if (eventpin != null)
+            { 
                 eventName = eventpin.Title;
+              
                 eventTitle = eventpin.Content;
+            }
         }
 
         /// <summary>
@@ -627,5 +630,20 @@ namespace HubApp4
 
 
         }
+
+        /* private async void AppBarButton_Click_3(object sender, RoutedEventArgs e)
+        {
+            var locator1 = new Geolocator();
+            var position1 = await locator1.GetGeopositionAsync();
+           // myMap.Center = new Geopoint(new BasicGeoposition() { Latitude = position1.Coordinate.Point.Position.Latitude, Longitude = position1.Coordinate.Point.Position.Longitude });
+            double lat = position1.Coordinate.Point.Position.Latitude;
+            double log = position1.Coordinate.Point.Position.Longitude;
+            if(lat>28.360159 && lat<28.361305 && log>75.584945 && log<75.585690)
+            {
+
+            }
+
+        }
+         */
     }
 }

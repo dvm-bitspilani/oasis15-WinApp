@@ -69,10 +69,10 @@
                         AutomationProperties.AutomationId="SchList26"
                         AutomationProperties.Name="Items In Group"
                         SelectionMode="None"
-                        IsItemClickEnabled="False"
+                        IsItemClickEnabled="True"
                         ItemsSource="{Binding Items[1].SubItems}"
                         ItemTemplate="{StaticResource ListItemTemplatex}"
-                    
+                    ItemClick="ListView_ItemClick"
                         ContinuumNavigationTransitionInfo.ExitElementContainer="True">
                         </ListView>
                     </Grid>
@@ -85,10 +85,10 @@
                         AutomationProperties.AutomationId="SchList27"
                         AutomationProperties.Name="Items In Group"
                         SelectionMode="None"
-                        IsItemClickEnabled="False"
+                        IsItemClickEnabled="True"
                         ItemsSource="{Binding Items[2].SubItems}"
                         ItemTemplate="{StaticResource ListItemTemplatex}"
-                    
+                    ItemClick="ListView_ItemClick"
                         ContinuumNavigationTransitionInfo.ExitElementContainer="True">
                         </ListView>
                     </Grid>
@@ -101,10 +101,10 @@
                         AutomationProperties.AutomationId="SchList28"
                         AutomationProperties.Name="Items In Group"
                         SelectionMode="None"
-                        IsItemClickEnabled="False"
+                        IsItemClickEnabled="True"
                         ItemsSource="{Binding Items[3].SubItems}"
                         ItemTemplate="{StaticResource ListItemTemplatex}"
-                    
+                    ItemClick="ListView_ItemClick"
                         ContinuumNavigationTransitionInfo.ExitElementContainer="True">
                         </ListView>
                     </Grid>
@@ -117,10 +117,10 @@
                         AutomationProperties.AutomationId="SchList29"
                         AutomationProperties.Name="Items In Group"
                         SelectionMode="None"
-                        IsItemClickEnabled="False"
+                        IsItemClickEnabled="True"
                         ItemsSource="{Binding Items[4].SubItems}"
                         ItemTemplate="{StaticResource ListItemTemplatex}"
-                    
+                    ItemClick="ListView_ItemClick"
                         ContinuumNavigationTransitionInfo.ExitElementContainer="True">
                         </ListView>
                     </Grid>

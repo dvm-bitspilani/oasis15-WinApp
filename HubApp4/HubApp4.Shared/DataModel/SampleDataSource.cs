@@ -148,20 +148,29 @@ namespace HubApp4.Data
                 return matches.First();
             return null;
         }
+        public static async Task<int> IsItem(string uniqueId)
+        {
+            await _sampleDataSource.GetSampleDataAsync();
+            // Simple linear search is acceptable for small data sets
+            var matches = _sampleDataSource.Groups.SelectMany(group => group.Items).Where((Items) => Items.UniqueId.Equals(uniqueId));
+            if (matches.Count() >= 1)
+                return 1;
+            else
+            return 0;
+        }
 
         public static async Task<SampleDataSubItem> GetSubItemAsync(string uniqueId)
         {
             await _sampleDataSource.GetSampleDataAsync();
             // Simple linear search is acceptable for small data sets
             
-            var matches = _sampleDataSource.Groups.SelectMany(group => group.Items);
+           var matches = _sampleDataSource.Groups.SelectMany(group => group.Items);
                 var match2 = matches.SelectMany(item => item.SubItems).Where((subitem) => subitem.UniqueId.Equals(uniqueId));
-                if (match2.Count() == 1)
+                if (match2.Count() >= 1)
                 {
                     return match2.First();
                 }
-            
-               
+             else            
             return null;
         }
 

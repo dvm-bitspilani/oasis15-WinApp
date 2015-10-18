@@ -55,8 +55,8 @@
                         IsItemClickEnabled="True"
                         ItemsSource="{Binding Items[0].SubItems}"
                         ItemTemplate="{StaticResource ListItemTemplatex}"
-                    ItemClick="ListView_ItemClick"
-                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                    
+                        ContinuumNavigationTransitionInfo.ExitElementContainer="True" ItemClick="ListView_ItemClick">
                         </ListView>
                     </Grid>
                 </ScrollViewer>

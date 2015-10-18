@@ -39,6 +39,7 @@ namespace HubApp4
     {
         private readonly NavigationHelper navigationHelper;
         private readonly ObservableDictionary defaultViewModel = new ObservableDictionary();
+       
 
         public Schedule()
         {
@@ -97,11 +98,24 @@ namespace HubApp4
 
         #endregion
 
-        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        private async void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            var subitemId = ((SampleDataSubItem)e.ClickedItem).Id;
-            Frame.Navigate(typeof(SubItemPage), subitemId);
+            string subitemId = ((SampleDataSubItem)e.ClickedItem).Id;
+            var item = await SampleDataSource.IsItem((string)subitemId);
+            if (item==0)
+            {
+                Frame.Navigate(typeof(SubItemPage), subitemId);
+
+            }
+
+            else
+            {
+               
+                Frame.Navigate(typeof(ItemPage), subitemId);
+            }
+
+
         }
-        
+
     }
 }

@@ -247,3 +247,9 @@ E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.Win
 E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
 E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubApp4.WindowsPhone.csprojResolveAssemblyReference.cache
+E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\Parse.dll
+E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\Parse.WinRT.dll
+E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\Parse.xml
+E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\Parse.WinRT.xml
+E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubApp4.WindowsPhone.csproj.GenerateResource.Cache

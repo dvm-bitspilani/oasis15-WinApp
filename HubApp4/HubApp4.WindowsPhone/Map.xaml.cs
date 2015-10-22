@@ -116,7 +116,7 @@ namespace HubApp4
             var position = await locator.GetGeopositionAsync();
             myMap.Style = MapStyle.AerialWithRoads;
 
-            //MapIcon mapIcon = new MapIcon();
+            MapIcon mapIcon = new MapIcon();
             mapIcon.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mapi4.png"));
             mapIcon.Location = new Geopoint(new BasicGeoposition() { Latitude = position.Coordinate.Point.Position.Latitude, Longitude = position.Coordinate.Point.Position.Longitude });
             mapIcon.NormalizedAnchorPoint = new Point(0.5, 1);
@@ -331,7 +331,8 @@ namespace HubApp4
             mi41.Image = RandomAccessStreamReference.CreateFromUri(new Uri("ms-appx:///Assets/mapi7.png"));
             mi41.Location = new Geopoint(new BasicGeoposition() { Latitude = 28.3641, Longitude = 075.5869 });
             mi41.Title = "BITS Pilani";
-            myMap.MapElements.Add(mi41);
+           myMap.MapElements.Add(mi41);
+           
 
             //event pin
             if (eventTitle != null)
@@ -628,6 +629,11 @@ namespace HubApp4
             //mapIcon1.NormalizedAnchorPoint = new Point(0.5, 1);
             // myMap.MapElements.Add(mapIcon1);
 
+
+        }
+
+        private void myMap_MapTapped(MapControl sender, MapInputEventArgs args)
+        {
 
         }
 

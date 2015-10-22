@@ -2,6 +2,7 @@
 using HubApp4.Data;
 
 using System;
+using System.Net;
 using Windows.ApplicationModel;
 using System.Collections.Generic;
 using System.IO;
@@ -80,9 +81,11 @@ namespace HubApp4
         /// <see cref="Frame.Navigate(Type, Object)"/> when this page was initially requested and
         /// a dictionary of state preserved by this page during an earlier
         /// session.  The state will be null the first time a page is visited.</param>
+       
         private async void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
             // TODO: Create an appropriate data model for your problem domain to replace the sample data
+
             var sampleDataGroups = await SampleDataSource.GetGroupsAsync();
             this.DefaultViewModel["Groups"] = sampleDataGroups;
         }

@@ -21,6 +21,12 @@
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\HubApp4.WindowsPhone.exe">
       <PackagePath>HubApp4.WindowsPhone.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\packages\Parse.1.6.1\lib\wpa81\Parse.dll">
+      <PackagePath>Parse.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\packages\Parse.1.6.1\lib\wpa81\Parse.WinRT.dll">
+      <PackagePath>Parse.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\Assets\106x106.png">
       <PackagePath>Assets\106x106.png</PackagePath>
     </AppxPackagedFile>
@@ -449,6 +455,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\Assets\rec.jpg">
       <PackagePath>Assets\rec.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new\oasis15-WinApp\HubApp4\HubApp4.Shared\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>

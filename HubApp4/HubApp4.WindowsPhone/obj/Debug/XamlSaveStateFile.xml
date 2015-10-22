@@ -1,5 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="g:\baackup\documents\visual studio 2013\projects\hubapp4\hubapp4\hubapp4.windowsphone\obj\debug\intermediatexaml\hubapp4.windowsphone.exe" HashGuid="d1ade32a-36d6-d8eb-f29b-8071150f063a" />
+    <LocalAssembly PathName="e:\documents\documents\githubvisualstudio\new\oasis15-winapp\hubapp4\hubapp4.windowsphone\obj\debug\intermediatexaml\hubapp4.windowsphone.exe" HashGuid="2fd667e5-2567-a50c-00a6-aa55c36a5bd8" />
+    <ReferenceAssembly PathName="e:\documents\documents\githubvisualstudio\new\oasis15-winapp\packages\parse.1.6.1\lib\wpa81\parse.dll" HashGuid="339ec1f6-595a-280d-f5a7-9893107edd75" />
+    <ReferenceAssembly PathName="e:\documents\documents\githubvisualstudio\new\oasis15-winapp\packages\parse.1.6.1\lib\wpa81\parse.winrt.dll" HashGuid="8be1d44c-a9af-48f7-ba0d-5c307ed64799" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

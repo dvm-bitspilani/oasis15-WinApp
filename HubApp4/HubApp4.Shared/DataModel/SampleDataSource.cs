@@ -6,8 +6,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Windows.Data.Json;
 using Windows.Storage;
+using Windows.UI.Popups;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
+using Windows.Web.Http.Filters;
 
 // The data model defined by this file serves as a representative example of a strongly-typed
 // model.  The property names chosen coincide with data bindings in the standard item templates.
@@ -22,6 +24,7 @@ namespace HubApp4.Data
     /// <summary>
     /// Generic item data model.
     /// </summary>
+     
     public class SampleDataItem
     {
         public SampleDataItem(String uniqueId, String id,String title, String subtitle,  String imagePath, String content)
@@ -115,6 +118,7 @@ namespace HubApp4.Data
     /// </summary>
     public sealed class SampleDataSource
     {
+        private HttpBaseProtocolFilter filter;
         private static SampleDataSource _sampleDataSource = new SampleDataSource();
 
         private ObservableCollection<SampleDataGroup> _groups = new ObservableCollection<SampleDataGroup>();
@@ -182,49 +186,69 @@ namespace HubApp4.Data
 
             Uri dataUri = new Uri("ms-appx:///DataModel/SampleData.json");
 
-            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(dataUri);
-            string jsonText = await FileIO.ReadTextAsync(file);
-            JsonObject jsonObject = JsonObject.Parse(jsonText);
-            JsonArray jsonArray = jsonObject["Groups"].GetArray();
-
-            foreach (JsonValue groupValue in jsonArray)
+            //StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(dataUri);
+            //string jsonText = await FileIO.ReadTextAsync(file);
+            try
             {
-                JsonObject groupObject = groupValue.GetObject();
-                SampleDataGroup group = new SampleDataGroup(groupObject["UniqueId"].GetString(),
-                                                            groupObject["Title"].GetString()
-                                                            //groupObject["Subtitle"].GetString(),
-                                                           // groupObject["ImagePath"].GetString(),
-                                                           // groupObject["Description"].GetString()
-                                                           );
-                int i = 0;
-                foreach (JsonValue itemValue in groupObject["Items"].GetArray())
+
+
+                Windows.Web.Http.HttpClient client = new Windows.Web.Http.HttpClient();
+                var jsonText = await client.GetStringAsync(new Uri("http://bits-bosm.org/SampleData.json"));
+                JsonObject jsonObject = JsonObject.Parse(jsonText);
+                JsonArray jsonArray = jsonObject["Groups"].GetArray();
+
+                foreach (JsonValue groupValue in jsonArray)
                 {
-                    
-                    JsonObject itemObject = itemValue.GetObject();
-                    group.Items.Add(new SampleDataItem(itemObject["UniqueId"].GetString(),
-                                                       itemObject["Id"].GetString(),
-                                                       itemObject["Title"].GetString(),
-                                                      itemObject["Subtitle"].GetString(),
-                                                       itemObject["ImagePath"].GetString(),
-                                                      // itemObject["Description"].GetString(),
-                                                       itemObject["Content"].GetString()));
-
-                    foreach (JsonValue subitemValue in itemObject["SubItems"].GetArray())
-
+                    JsonObject groupObject = groupValue.GetObject();
+                    SampleDataGroup group = new SampleDataGroup(groupObject["UniqueId"].GetString(),
+                                                                groupObject["Title"].GetString()
+                                                               //groupObject["Subtitle"].GetString(),
+                                                               // groupObject["ImagePath"].GetString(),
+                                                               // groupObject["Description"].GetString()
+                                                               );
+                    int i = 0;
+                    foreach (JsonValue itemValue in groupObject["Items"].GetArray())
                     {
-                        JsonObject subitemObject = subitemValue.GetObject();
-                        group.Items[i].SubItems.Add(new SampleDataSubItem(subitemObject["UniqueId"].GetString(),
-                                                           subitemObject["Id"].GetString(),
-                                                           subitemObject["Title"].GetString(),
-                                                          subitemObject["Subtitle"].GetString(),
-                                                           subitemObject["ImagePath"].GetString(),
-                            // itemObject["Description"].GetString(),
-                                                           subitemObject["Content"].GetString()));
+
+                        JsonObject itemObject = itemValue.GetObject();
+                        group.Items.Add(new SampleDataItem(itemObject["UniqueId"].GetString(),
+                                                           itemObject["Id"].GetString(),
+                                                           itemObject["Title"].GetString(),
+                                                          itemObject["Subtitle"].GetString(),
+                                                           itemObject["ImagePath"].GetString(),
+                                                           // itemObject["Description"].GetString(),
+                                                           itemObject["Content"].GetString()));
+
+                        foreach (JsonValue subitemValue in itemObject["SubItems"].GetArray())
+
+                        {
+                            JsonObject subitemObject = subitemValue.GetObject();
+                            group.Items[i].SubItems.Add(new SampleDataSubItem(subitemObject["UniqueId"].GetString(),
+                                                               subitemObject["Id"].GetString(),
+                                                               subitemObject["Title"].GetString(),
+                                                              subitemObject["Subtitle"].GetString(),
+                                                               subitemObject["ImagePath"].GetString(),
+                                                               // itemObject["Description"].GetString(),
+                                                               subitemObject["Content"].GetString()));
+                        }
+                        i++;
                     }
-                    i++;
+                    this.Groups.Add(group);
                 }
-                this.Groups.Add(group);
+            } 
+            catch(Exception ex)
+            {
+                //if(ex.Message== "Exception from HRESULT: 0x80072EE7")
+                //{
+                //    MessageDialog msgbox3 = new MessageDialog("Check Your Network Connection. Web Access is required to get data.");
+                //    await msgbox3.ShowAsync();
+                //}
+                //else
+                //{
+                    MessageDialog msgbox3 = new MessageDialog("There was a problem in getting data from the server. Error Message: "+ex.Message);
+                    await msgbox3.ShowAsync();
+                //}
             }
-        }
+            }
     }
 }

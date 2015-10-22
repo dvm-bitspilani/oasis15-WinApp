@@ -259,6 +259,7 @@
     <Content Include="Assets\HubBackground.theme-dark.png" />
     <Content Include="Assets\HubBackground.theme-light.png" />
     <Content Include="Assets\wikipedia-icon.png" />
+    <Content Include="StoreManifest.xml" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="AboutTheFest.xaml">
@@ -308,6 +309,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\events\Thumbs.db" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Parse, Version=1.6.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Parse.1.6.1\lib\wpa81\Parse.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Parse.WinRT, Version=1.6.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Parse.1.6.1\lib\wpa81\Parse.WinRT.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

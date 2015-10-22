@@ -16,6 +16,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 using HubApp4.Common;
+using Parse;
 
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
 
@@ -38,6 +39,7 @@ namespace HubApp4
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
+            ParseClient.Initialize("rw8ge9Pd6twdpXCZToI3xo5M7DrwmGP2Z2ITBhhs", "CN8jWImrhR7OrE33TkjaxD2PTUCNnDv3vWStb75U");
         }
 
         /// <summary>

@@ -103,9 +103,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="AboutTheFest.xaml.cs">
       <DependentUpon>AboutTheFest.xaml</DependentUpon>
     </Compile>
@@ -141,6 +138,7 @@
     </AppxManifest>
     <None Include="Assets\events\Thumbs.db" />
     <None Include="HubApp4.Windows_TemporaryKey.pfx" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\106x106.png" />
@@ -315,6 +313,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Parse, Version=1.6.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Parse.1.6.1\lib\netcore45\Parse.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Parse.WinRT, Version=1.6.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Parse.1.6.1\lib\netcore45\Parse.WinRT.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

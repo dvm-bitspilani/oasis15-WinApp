@@ -39,7 +39,7 @@ namespace HubApp4
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
-            ParseClient.Initialize("rw8ge9Pd6twdpXCZToI3xo5M7DrwmGP2Z2ITBhhs", "CN8jWImrhR7OrE33TkjaxD2PTUCNnDv3vWStb75U");
+            ParseClient.Initialize("2zBSWSycuQVaAZvvVO1vQmm1zN1zBv6pQfCGMYUP", "psz17U1PVyjJ21FfUYiGQ3cOF2xMF2BoCvLoUwJG");
         }
 
         /// <summary>
@@ -118,6 +118,7 @@ namespace HubApp4
 
             // Ensure the current window is active
             Window.Current.Activate();
+            await ParsePush.SubscribeAsync("");
         }
 
 #if WINDOWS_PHONE_APP

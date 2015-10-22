@@ -259,6 +259,7 @@
     <Content Include="Assets\HubBackground.theme-dark.png" />
     <Content Include="Assets\HubBackground.theme-light.png" />
     <Content Include="Assets\wikipedia-icon.png" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="StoreManifest.xml" />
   </ItemGroup>
   <ItemGroup>

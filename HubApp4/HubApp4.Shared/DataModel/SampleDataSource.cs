@@ -173,6 +173,20 @@ namespace HubApp4.Data
              else            
             return null;
         }
+        public static async Task<SampleDataSubItem> GetSubItemAsync2(string id)
+        {
+            await _sampleDataSource.GetSampleDataAsync();
+            // Simple linear search is acceptable for small data sets
+
+            var matches = _sampleDataSource.Groups.SelectMany(group => group.Items);
+            var match2 = matches.SelectMany(item => item.SubItems).Where((subitem) => subitem.Id.Equals(id));
+            if (match2.Count() == 1)
+            {
+                return match2.First();
+            }
+
+            return null;
+        }
 
 
         private async Task GetSampleDataAsync()

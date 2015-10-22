@@ -124,7 +124,7 @@ namespace HubApp4.HubApp4_WindowsPhone_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[17];
+            _typeNameTable = new string[18];
             _typeNameTable[0] = "HubApp4.AboutTheFest";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -135,15 +135,16 @@ namespace HubApp4.HubApp4_WindowsPhone_XamlTypeInfo
             _typeNameTable[7] = "String";
             _typeNameTable[8] = "HubApp4.developers";
             _typeNameTable[9] = "HubApp4.EventItemPage";
-            _typeNameTable[10] = "HubApp4.HubPage";
-            _typeNameTable[11] = "HubApp4.Map";
-            _typeNameTable[12] = "HubApp4.Parti";
-            _typeNameTable[13] = "HubApp4.Schedule";
-            _typeNameTable[14] = "HubApp4.SectionPage";
-            _typeNameTable[15] = "HubApp4.ItemPage";
-            _typeNameTable[16] = "HubApp4.SubItemPage";
+            _typeNameTable[10] = "HubApp4.Favourite";
+            _typeNameTable[11] = "HubApp4.HubPage";
+            _typeNameTable[12] = "HubApp4.Map";
+            _typeNameTable[13] = "HubApp4.Parti";
+            _typeNameTable[14] = "HubApp4.Schedule";
+            _typeNameTable[15] = "HubApp4.SectionPage";
+            _typeNameTable[16] = "HubApp4.ItemPage";
+            _typeNameTable[17] = "HubApp4.SubItemPage";
 
-            _typeTable = new global::System.Type[17];
+            _typeTable = new global::System.Type[18];
             _typeTable[0] = typeof(global::HubApp4.AboutTheFest);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -154,13 +155,14 @@ namespace HubApp4.HubApp4_WindowsPhone_XamlTypeInfo
             _typeTable[7] = typeof(global::System.String);
             _typeTable[8] = typeof(global::HubApp4.developers);
             _typeTable[9] = typeof(global::HubApp4.EventItemPage);
-            _typeTable[10] = typeof(global::HubApp4.HubPage);
-            _typeTable[11] = typeof(global::HubApp4.Map);
-            _typeTable[12] = typeof(global::HubApp4.Parti);
-            _typeTable[13] = typeof(global::HubApp4.Schedule);
-            _typeTable[14] = typeof(global::HubApp4.SectionPage);
-            _typeTable[15] = typeof(global::HubApp4.ItemPage);
-            _typeTable[16] = typeof(global::HubApp4.SubItemPage);
+            _typeTable[10] = typeof(global::HubApp4.Favourite);
+            _typeTable[11] = typeof(global::HubApp4.HubPage);
+            _typeTable[12] = typeof(global::HubApp4.Map);
+            _typeTable[13] = typeof(global::HubApp4.Parti);
+            _typeTable[14] = typeof(global::HubApp4.Schedule);
+            _typeTable[15] = typeof(global::HubApp4.SectionPage);
+            _typeTable[16] = typeof(global::HubApp4.ItemPage);
+            _typeTable[17] = typeof(global::HubApp4.SubItemPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -199,13 +201,14 @@ namespace HubApp4.HubApp4_WindowsPhone_XamlTypeInfo
         private object Activate_5_ObservableDictionary() { return new global::HubApp4.Common.ObservableDictionary(); }
         private object Activate_8_developers() { return new global::HubApp4.developers(); }
         private object Activate_9_EventItemPage() { return new global::HubApp4.EventItemPage(); }
-        private object Activate_10_HubPage() { return new global::HubApp4.HubPage(); }
-        private object Activate_11_Map() { return new global::HubApp4.Map(); }
-        private object Activate_12_Parti() { return new global::HubApp4.Parti(); }
-        private object Activate_13_Schedule() { return new global::HubApp4.Schedule(); }
-        private object Activate_14_SectionPage() { return new global::HubApp4.SectionPage(); }
-        private object Activate_15_ItemPage() { return new global::HubApp4.ItemPage(); }
-        private object Activate_16_SubItemPage() { return new global::HubApp4.SubItemPage(); }
+        private object Activate_10_Favourite() { return new global::HubApp4.Favourite(); }
+        private object Activate_11_HubPage() { return new global::HubApp4.HubPage(); }
+        private object Activate_12_Map() { return new global::HubApp4.Map(); }
+        private object Activate_13_Parti() { return new global::HubApp4.Parti(); }
+        private object Activate_14_Schedule() { return new global::HubApp4.Schedule(); }
+        private object Activate_15_SectionPage() { return new global::HubApp4.SectionPage(); }
+        private object Activate_16_ItemPage() { return new global::HubApp4.ItemPage(); }
+        private object Activate_17_SubItemPage() { return new global::HubApp4.SubItemPage(); }
         private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -286,18 +289,27 @@ namespace HubApp4.HubApp4_WindowsPhone_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 10:   //  HubApp4.HubPage
+            case 10:   //  HubApp4.Favourite
                 userType = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_HubPage;
+                userType.Activator = Activate_10_Favourite;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  HubApp4.Map
+            case 11:   //  HubApp4.HubPage
                 userType = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_Map;
+                userType.Activator = Activate_11_HubPage;
+                userType.AddMemberName("NavigationHelper");
+                userType.AddMemberName("DefaultViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  HubApp4.Map
+                userType = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_Map;
                 userType.AddMemberName("eventTitle");
                 userType.AddMemberName("eventName");
                 userType.AddMemberName("NavigationHelper");
@@ -306,45 +318,45 @@ namespace HubApp4.HubApp4_WindowsPhone_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 12:   //  HubApp4.Parti
+            case 13:   //  HubApp4.Parti
                 userType = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_Parti;
+                userType.Activator = Activate_13_Parti;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  HubApp4.Schedule
+            case 14:   //  HubApp4.Schedule
                 userType = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_Schedule;
+                userType.Activator = Activate_14_Schedule;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  HubApp4.SectionPage
+            case 15:   //  HubApp4.SectionPage
                 userType = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_SectionPage;
+                userType.Activator = Activate_15_SectionPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  HubApp4.ItemPage
+            case 16:   //  HubApp4.ItemPage
                 userType = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_ItemPage;
+                userType.Activator = Activate_16_ItemPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 16:   //  HubApp4.SubItemPage
+            case 17:   //  HubApp4.SubItemPage
                 userType = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_SubItemPage;
+                userType.Activator = Activate_17_SubItemPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
@@ -385,92 +397,102 @@ namespace HubApp4.HubApp4_WindowsPhone_XamlTypeInfo
             var that = (global::HubApp4.EventItemPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_6_HubPage_NavigationHelper(object instance)
+        private object get_6_Favourite_NavigationHelper(object instance)
+        {
+            var that = (global::HubApp4.Favourite)instance;
+            return that.NavigationHelper;
+        }
+        private object get_7_Favourite_DefaultViewModel(object instance)
+        {
+            var that = (global::HubApp4.Favourite)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_8_HubPage_NavigationHelper(object instance)
         {
             var that = (global::HubApp4.HubPage)instance;
             return that.NavigationHelper;
         }
-        private object get_7_HubPage_DefaultViewModel(object instance)
+        private object get_9_HubPage_DefaultViewModel(object instance)
         {
             var that = (global::HubApp4.HubPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_8_Map_eventTitle(object instance)
+        private object get_10_Map_eventTitle(object instance)
         {
             var that = (global::HubApp4.Map)instance;
             return that.eventTitle;
         }
-        private void set_8_Map_eventTitle(object instance, object Value)
+        private void set_10_Map_eventTitle(object instance, object Value)
         {
             var that = (global::HubApp4.Map)instance;
             that.eventTitle = (global::System.String)Value;
         }
-        private object get_9_Map_eventName(object instance)
+        private object get_11_Map_eventName(object instance)
         {
             var that = (global::HubApp4.Map)instance;
             return that.eventName;
         }
-        private void set_9_Map_eventName(object instance, object Value)
+        private void set_11_Map_eventName(object instance, object Value)
         {
             var that = (global::HubApp4.Map)instance;
             that.eventName = (global::System.String)Value;
         }
-        private object get_10_Map_NavigationHelper(object instance)
+        private object get_12_Map_NavigationHelper(object instance)
         {
             var that = (global::HubApp4.Map)instance;
             return that.NavigationHelper;
         }
-        private object get_11_Map_DefaultViewModel(object instance)
+        private object get_13_Map_DefaultViewModel(object instance)
         {
             var that = (global::HubApp4.Map)instance;
             return that.DefaultViewModel;
         }
-        private object get_12_Parti_NavigationHelper(object instance)
+        private object get_14_Parti_NavigationHelper(object instance)
         {
             var that = (global::HubApp4.Parti)instance;
             return that.NavigationHelper;
         }
-        private object get_13_Parti_DefaultViewModel(object instance)
+        private object get_15_Parti_DefaultViewModel(object instance)
         {
             var that = (global::HubApp4.Parti)instance;
             return that.DefaultViewModel;
         }
-        private object get_14_Schedule_NavigationHelper(object instance)
+        private object get_16_Schedule_NavigationHelper(object instance)
         {
             var that = (global::HubApp4.Schedule)instance;
             return that.NavigationHelper;
         }
-        private object get_15_Schedule_DefaultViewModel(object instance)
+        private object get_17_Schedule_DefaultViewModel(object instance)
         {
             var that = (global::HubApp4.Schedule)instance;
             return that.DefaultViewModel;
         }
-        private object get_16_SectionPage_NavigationHelper(object instance)
+        private object get_18_SectionPage_NavigationHelper(object instance)
         {
             var that = (global::HubApp4.SectionPage)instance;
             return that.NavigationHelper;
         }
-        private object get_17_SectionPage_DefaultViewModel(object instance)
+        private object get_19_SectionPage_DefaultViewModel(object instance)
         {
             var that = (global::HubApp4.SectionPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_18_ItemPage_NavigationHelper(object instance)
+        private object get_20_ItemPage_NavigationHelper(object instance)
         {
             var that = (global::HubApp4.ItemPage)instance;
             return that.NavigationHelper;
         }
-        private object get_19_ItemPage_DefaultViewModel(object instance)
+        private object get_21_ItemPage_DefaultViewModel(object instance)
         {
             var that = (global::HubApp4.ItemPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_20_SubItemPage_NavigationHelper(object instance)
+        private object get_22_SubItemPage_NavigationHelper(object instance)
         {
             var that = (global::HubApp4.SubItemPage)instance;
             return that.NavigationHelper;
         }
-        private object get_21_SubItemPage_DefaultViewModel(object instance)
+        private object get_23_SubItemPage_DefaultViewModel(object instance)
         {
             var that = (global::HubApp4.SubItemPage)instance;
             return that.DefaultViewModel;
@@ -519,100 +541,112 @@ namespace HubApp4.HubApp4_WindowsPhone_XamlTypeInfo
                 xamlMember.Getter = get_5_EventItemPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "HubApp4.Favourite.NavigationHelper":
+                userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.Favourite");
+                xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "HubApp4.Common.NavigationHelper");
+                xamlMember.Getter = get_6_Favourite_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "HubApp4.Favourite.DefaultViewModel":
+                userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.Favourite");
+                xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "HubApp4.Common.ObservableDictionary");
+                xamlMember.Getter = get_7_Favourite_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
             case "HubApp4.HubPage.NavigationHelper":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.HubPage");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "HubApp4.Common.NavigationHelper");
-                xamlMember.Getter = get_6_HubPage_NavigationHelper;
+                xamlMember.Getter = get_8_HubPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.HubPage.DefaultViewModel":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.HubPage");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "HubApp4.Common.ObservableDictionary");
-                xamlMember.Getter = get_7_HubPage_DefaultViewModel;
+                xamlMember.Getter = get_9_HubPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.Map.eventTitle":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.Map");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "eventTitle", "String");
-                xamlMember.Getter = get_8_Map_eventTitle;
-                xamlMember.Setter = set_8_Map_eventTitle;
+                xamlMember.Getter = get_10_Map_eventTitle;
+                xamlMember.Setter = set_10_Map_eventTitle;
                 break;
             case "HubApp4.Map.eventName":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.Map");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "eventName", "String");
-                xamlMember.Getter = get_9_Map_eventName;
-                xamlMember.Setter = set_9_Map_eventName;
+                xamlMember.Getter = get_11_Map_eventName;
+                xamlMember.Setter = set_11_Map_eventName;
                 break;
             case "HubApp4.Map.NavigationHelper":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.Map");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "HubApp4.Common.NavigationHelper");
-                xamlMember.Getter = get_10_Map_NavigationHelper;
+                xamlMember.Getter = get_12_Map_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.Map.DefaultViewModel":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.Map");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "HubApp4.Common.ObservableDictionary");
-                xamlMember.Getter = get_11_Map_DefaultViewModel;
+                xamlMember.Getter = get_13_Map_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.Parti.NavigationHelper":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.Parti");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "HubApp4.Common.NavigationHelper");
-                xamlMember.Getter = get_12_Parti_NavigationHelper;
+                xamlMember.Getter = get_14_Parti_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.Parti.DefaultViewModel":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.Parti");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "HubApp4.Common.ObservableDictionary");
-                xamlMember.Getter = get_13_Parti_DefaultViewModel;
+                xamlMember.Getter = get_15_Parti_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.Schedule.NavigationHelper":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.Schedule");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "HubApp4.Common.NavigationHelper");
-                xamlMember.Getter = get_14_Schedule_NavigationHelper;
+                xamlMember.Getter = get_16_Schedule_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.Schedule.DefaultViewModel":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.Schedule");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "HubApp4.Common.ObservableDictionary");
-                xamlMember.Getter = get_15_Schedule_DefaultViewModel;
+                xamlMember.Getter = get_17_Schedule_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.SectionPage.NavigationHelper":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.SectionPage");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "HubApp4.Common.NavigationHelper");
-                xamlMember.Getter = get_16_SectionPage_NavigationHelper;
+                xamlMember.Getter = get_18_SectionPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.SectionPage.DefaultViewModel":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.SectionPage");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "HubApp4.Common.ObservableDictionary");
-                xamlMember.Getter = get_17_SectionPage_DefaultViewModel;
+                xamlMember.Getter = get_19_SectionPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.ItemPage.NavigationHelper":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.ItemPage");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "HubApp4.Common.NavigationHelper");
-                xamlMember.Getter = get_18_ItemPage_NavigationHelper;
+                xamlMember.Getter = get_20_ItemPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.ItemPage.DefaultViewModel":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.ItemPage");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "HubApp4.Common.ObservableDictionary");
-                xamlMember.Getter = get_19_ItemPage_DefaultViewModel;
+                xamlMember.Getter = get_21_ItemPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.SubItemPage.NavigationHelper":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.SubItemPage");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "HubApp4.Common.NavigationHelper");
-                xamlMember.Getter = get_20_SubItemPage_NavigationHelper;
+                xamlMember.Getter = get_22_SubItemPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "HubApp4.SubItemPage.DefaultViewModel":
                 userType = (global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("HubApp4.SubItemPage");
                 xamlMember = new global::HubApp4.HubApp4_WindowsPhone_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "HubApp4.Common.ObservableDictionary");
-                xamlMember.Getter = get_21_SubItemPage_DefaultViewModel;
+                xamlMember.Getter = get_23_SubItemPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             }

@@ -10,6 +10,12 @@
     DataContext="{Binding DefaultViewModel.SubItem, RelativeSource={RelativeSource Self}}"
     d:DataContext="{Binding Groups[1].Items[0].SubItems[0], Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
     Background="WhiteSmoke">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:ConnectionId='1' x:Name="MarkFav" Icon="Favorite" Label="Favourite"                       Tag="{Binding UniqueId}"/>
+            <AppBarButton x:ConnectionId='2' x:Name="MarkUnfav" Icon="UnFavorite"                         Tag="{Binding UniqueId}" Visibility="Collapsed"/>
+        </CommandBar>
+    </Page.BottomAppBar>
     <Page.Resources>
         <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
         <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>

@@ -10,6 +10,12 @@
     DataContext="{Binding DefaultViewModel.Item, RelativeSource={RelativeSource Self}}"
     d:DataContext="{Binding Groups[0].Items[0], Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
     Background="WhiteSmoke">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:Name="MarkFav" Icon="Favorite" Label="Favourite" Click="MarkFav_Click" Tag="{Binding UniqueId}"/>
+            <AppBarButton x:Name="MarkUnfav" Icon="UnFavorite" Click="MarkUnfav_Click" Tag="{Binding UniqueId}" Visibility="Collapsed"/>
+        </CommandBar>
+    </Page.BottomAppBar>
     <Page.Transitions>
         <TransitionCollection>
             <NavigationThemeTransition>

@@ -89,6 +89,9 @@
     <Compile Include="EventItemPage.xaml.cs">
       <DependentUpon>EventItemPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Favourite.xaml.cs">
+      <DependentUpon>Favourite.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HubPage.xaml.cs">
       <DependentUpon>HubPage.xaml</DependentUpon>
     </Compile>
@@ -267,6 +270,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EventItemPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Favourite.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Roots xmlns="clr-namespace:Microsoft.Xaml.Tools.XamlCompiler.RootLog;assembly=Microsoft.Windows.UI.Xaml.81.Build.Tasks">
+<Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="DefaultViewModel" />
     <RootPropertyPathName Name="Item" />
     <RootPropertyPathName Name="Title" />
     <RootPropertyPathName Name="ImagePath" />
     <RootPropertyPathName Name="SubItems" />
+    <RootPropertyPathName Name="UniqueId" />
+    <RootPropertyPathName Name="Content" />
     <RootPropertyPathName Name="Subtitle" />
     <RootPropertyPathName Name="Groups" />
     <RootPropertyPathName Name="Items" />
     <RootPropertyPathName Name="Group" />
-    <RootPropertyPathName Name="Content" />
-    <RootPropertyPathName Name="UniqueId" />
     <RootPropertyPathName Name="Description" />
     <RootPropertyPathName Name="SubItem" />
   </Roots.PropertyPathNames>
@@ -36,6 +36,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Label" />
       <RootProperty Name="Icon" />
+      <RootProperty Name="Tag" />
+      <RootProperty Name="Visibility" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
@@ -62,9 +64,9 @@
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
-      <RootProperty Name="Width" />
       <RootProperty Name="Orientation" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
       <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
@@ -145,6 +147,27 @@
       <RootProperty Name="Orientation" />
     </RootType>
     <RootType FullName="HubApp4.EventItemPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Tag" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="IsSwipeEnabled" />
+      <RootEvent Name="ItemClick" />
+      <RootEvent Name="Loaded" />
+    </RootType>
+    <RootType FullName="HubApp4.Favourite" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
@@ -170,16 +193,6 @@
       <RootProperty Name="HeaderTemplate" />
       <RootProperty Name="ContentTemplate" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="SelectionMode" />
-      <RootProperty Name="IsItemClickEnabled" />
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="ItemTemplate" />
-      <RootProperty Name="TabIndex" />
-      <RootProperty Name="IsSwipeEnabled" />
-      <RootProperty Name="Margin" />
-      <RootEvent Name="ItemClick" />
-    </RootType>
     <RootType FullName="HubApp4.HubPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Maps.MapControl">
       <RootProperty Name="MapServiceToken" />
@@ -199,15 +212,6 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="HubApp4.Parti" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="Tag" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="Content" />
-      <RootEvent Name="Click" />
-    </RootType>
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="HubApp4.Schedule" />
     <RootType FullName="HubApp4.SectionPage" />
     <RootType FullName="HubApp4.ItemPage" />

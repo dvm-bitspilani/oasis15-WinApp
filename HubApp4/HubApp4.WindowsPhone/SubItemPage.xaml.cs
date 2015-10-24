@@ -269,7 +269,10 @@ namespace HubApp4
                         {
                             MessageDialog msgbox4 = new MessageDialog(subitem.UniqueId);
                             await msgbox4.ShowAsync();
-                            ListCars.Remove(favEvent);
+                            //ListCars.Remove(favEvent);
+                            int i = ListCars.FindIndex(f => f == subitem.UniqueId);
+                            ListCars.RemoveAt(i);
+                            break;
                             //ListCars.Remove(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
                         }
                     }

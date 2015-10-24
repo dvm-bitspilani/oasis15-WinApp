@@ -38,6 +38,14 @@
         <DataTemplate x:Key="HubSectionHeaderTemplate">
             <TextBlock Margin="0,0,0,-9.5" Text="{Binding}" Style="{ThemeResource HeaderTextBlockStyle}" Foreground="Gray" />
         </DataTemplate>
+        <DataTemplate x:Key="HubSectionHeaderTemplate2">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin="0,0,0,-9.5" Text="{Binding}" Style="{ThemeResource HeaderTextBlockStyle}" Width="280" Foreground="Gray" />
+                <Button  BorderBrush="{x:Null}" Click="Search_Click" Tag="{Binding UniqueId}" MinWidth="50">
+                    <Image Source="Assets/search_icon.png" Width="30" Height="30" Margin="0,0,0,-25"/>
+                </Button>
+            </StackPanel>
+        </DataTemplate>
 
         <!-- Grid-appropriate item template as seen in section 2 -->
         <DataTemplate x:Key="Standardlong200x180TileItemTemplate">
@@ -207,7 +215,7 @@
             </HubSection>
             
             <HubSection x:Uid="HubSection2" Header="events" Width="Auto"
-                         DataContext="{Binding Groups[1]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
+                         DataContext="{Binding Groups[1]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate2}">
                 <DataTemplate>
                     <GridView
                         Margin="0,9.5,0,0"

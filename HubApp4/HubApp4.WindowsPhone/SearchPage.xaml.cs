@@ -1,17 +1,14 @@
 ﻿using HubApp4.Common;
 using HubApp4.Data;
-//using HubApp4.FavData;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
-using System.Runtime.Serialization.Json;
-using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Graphics.Display;
-using Windows.Storage;
+using Windows.UI.Popups;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -28,15 +25,13 @@ namespace HubApp4
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Favourite : Page
+    public sealed partial class SearchPage : Page
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
-        //private const string JSONFILENAME = "Fav.json";
-        // private SampleDataItem item;
-        //private SampleDataSubItem subitem;
+        public List<string> titleList;
 
-        public Favourite()
+        public SearchPage()
         {
             this.InitializeComponent();
 
@@ -73,16 +68,26 @@ namespace HubApp4
         /// <see cref="Frame.Navigate(Type, Object)"/> when this page was initially requested and
         /// a dictionary of state preserved by this page during an earlier
         /// session.  The state will be null the first time a page is visited.</param>
-        private void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
+        private async void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
-            //item= await  SampleDataSource.GetItemAsync((string)e.NavigationParameter);
-            // if(item==null)
-            //{
-            //subitem= await SampleDataSource.GetSubItemAsync((string)e.NavigationParameter);
-            //}
-            //await AddEntryIntoJsonAsync();
 
+            titleList = new List<string>();
+            var group = await SampleDataSource.GetGroupAsync("Events");
+            foreach (var item in group.Items)
+            {
+                foreach (var subitem in item.SubItems)
+                {
+                    titleList.Add(subitem.Title);
+                }
+            }
+            var groupKerEv = await SampleDataSource.GetGroupAsync("KernelEvents");
+            foreach (var itemKer in groupKerEv.Items)
+            {
 
+                titleList.Add(itemKer.Title);
+
+            }
+            //SearchBox.ItemsSource = titleList;
         }
 
         /// <summary>
@@ -115,12 +120,7 @@ namespace HubApp4
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             this.navigationHelper.OnNavigatedTo(e);
-
-
         }
-
-
-
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
         {
@@ -128,74 +128,51 @@ namespace HubApp4
         }
 
         #endregion
-        private async Task deserializeJsonAsync()
+
+        private void SearchBox_TextChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args)
         {
-            string content = String.Empty;
-
-            List<string> myCars;
-            var jsonSerializer = new DataContractJsonSerializer(typeof(List<string>));
-            StorageFolder local = ApplicationData.Current.LocalFolder;
-            var file = await local.CreateFileAsync("DataFile.json",
-          CreationCollisionOption.OpenIfExists);
-
-            if (local != null)
+            if (args.Reason == AutoSuggestionBoxTextChangeReason.UserInput)
             {
-
-                //var dataFolder = await local.GetFolderAsync("DataFolder");
-
-                var myStream = await local.OpenStreamForReadAsync("DataFile.json");
-
-                myCars = (List<string>)jsonSerializer.ReadObject(myStream);
-                if (myCars != null)
+                List<string> filterList = new List<string>();
+                //titleList.Contains("%{0}%",sender.Text);
+                // filterList = titleList.FindAll("%{0}%", sender.Text);
+                //filterList = titleList.FindAll(delegate(string s) { if (s.Contains(sender.Text) == true) { return s; } else return null; });
+                // filterList = titleList.FindAll(s=>s.Contains(sender.Text));
+                foreach (string s in titleList)
                 {
-                    List<SampleDataSubItem> evobj = new List<SampleDataSubItem>();
-                    foreach (var favEvent in myCars)
+                    if (System.Text.RegularExpressions.Regex.IsMatch(s, sender.Text, System.Text.RegularExpressions.RegexOptions.IgnoreCase))
                     {
-                        var itemId = await SampleDataSource.GetSubItemAsync(favEvent);
-                        evobj.Add(itemId);
-                        //content += String.Format("ID: {0}, Make: {1}, Model: {2} ... ", favEvent.Id, favEvent.Title, favEvent.Model);
+                        filterList.Add(s);
                     }
-
-                    FavListView.ItemsSource = evobj;
                 }
-                /* if (myCars == null)
-                 {
-                     TextBlock tb = new TextBlock();
-                     tb.Text = "Add favourite events";
-                     tb.HorizontalAlignment = HorizontalAlignment.Center;
-                     tb.VerticalAlignment = VerticalAlignment.Center;
-                 }     */
+                if (filterList != null)
+                {
+                    sender.ItemsSource = filterList;
+                }
+                /*    else
+                {
+                    MessageDialog msgbox = new MessageDialog("No such event is there.");
+                    await msgbox.ShowAsync();
+                }*/
+
             }
-        }
-
-        private async void ListView_Loaded(object sender, RoutedEventArgs e)
-        {
-            await deserializeJsonAsync();
-
 
         }
-        private void Mappin_Click(object sender, RoutedEventArgs e)
-        {
-            Button btn = sender as Button;
-            string mappinid = (string)btn.Tag;
-            Frame.Navigate(typeof(Map), mappinid);
 
-        }
-        private async void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        private async void SearchBox_SuggestionChosen(AutoSuggestBox sender, AutoSuggestBoxSuggestionChosenEventArgs args)
         {
-            string subitemId = ((SampleDataSubItem)e.ClickedItem).UniqueId;
-            // ListViewItem btn = sender as ListViewItem;
-            // string subitemId = (string)btn.Tag;
-            var item = await SampleDataSource.IsItem((string)subitemId);
-            if (item == 0)
+
+            var item1 = await SampleDataSource.GetItemAsync3((string)args.SelectedItem);
+            if (item1 == null)
             {
-                Frame.Navigate(typeof(SubItemPage), subitemId);
-
+                var subitem1 = await SampleDataSource.GetSubItemAsync3((string)args.SelectedItem);
+                Frame.Navigate(typeof(SubItemPage), subitem1.UniqueId);
             }
             else
             {
-                Frame.Navigate(typeof(ItemPage), subitemId);
+                Frame.Navigate(typeof(ItemPage), item1.UniqueId);
             }
+
         }
     }
 }

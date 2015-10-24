@@ -199,7 +199,10 @@ namespace HubApp4
                     {
                         if (String.Compare(favEvent, item1.UniqueId) == 0)
                         {
-                            ListCars.Remove((string)favEvent);
+                            //ListCars.Remove((string)favEvent);
+                            int i = ListCars.FindIndex(f => f == item1.UniqueId);
+                            ListCars.RemoveAt(i);
+                            break;
                         }
                     }
 

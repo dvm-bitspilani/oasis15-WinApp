@@ -105,6 +105,9 @@
     <Compile Include="Schedule.xaml.cs">
       <DependentUpon>Schedule.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SearchPage.xaml.cs">
+      <DependentUpon>SearchPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SectionPage.xaml.cs">
       <DependentUpon>SectionPage.xaml</DependentUpon>
     </Compile>
@@ -242,6 +245,7 @@
     <Content Include="Assets\rec.jpg" />
     <Content Include="Assets\rec.png" />
     <Content Include="Assets\scheduleicon.png" />
+    <Content Include="Assets\search_icon.png" />
     <Content Include="Assets\shivani.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SmallLogo.scale-240.png" />
@@ -292,6 +296,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Schedule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SearchPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

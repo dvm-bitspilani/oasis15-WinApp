@@ -149,6 +149,15 @@ namespace HubApp4.Data
                 return matches.First();
             return null;
         }
+        public static async Task<SampleDataItem> GetItemAsync3(string title)
+        {
+            await _sampleDataSource.GetSampleDataAsync();
+            // Simple linear search is acceptable for small data sets
+            var matches = _sampleDataSource.Groups.SelectMany(group => group.Items).Where((item) => item.Title.Equals(title));
+            if (matches.Count() >= 1)
+                return matches.First();
+            return null;
+        }
         public static async Task<int> IsItem(string uniqueId)
         {
             await _sampleDataSource.GetSampleDataAsync();
@@ -187,6 +196,20 @@ namespace HubApp4.Data
             }
 
             return null;
+        }
+        public static async Task<SampleDataSubItem> GetSubItemAsync3(string title)
+        {
+            await _sampleDataSource.GetSampleDataAsync();
+            // Simple linear search is acceptable for small data sets
+
+            var matches = _sampleDataSource.Groups.SelectMany(group => group.Items);
+            var match2 = matches.SelectMany(item => item.SubItems).Where((subitem) => subitem.Title.Equals(title));
+            if (match2.Count() >= 1)
+            {
+                return match2.First();
+            }
+            else
+                return null;
         }
 
 
@@ -257,7 +280,7 @@ namespace HubApp4.Data
                 //else
                 //{
                     MessageDialog msgbox3 = new MessageDialog("There was a problem in getting data from the server. Error Message: "+ex.Message);
-                    await msgbox3.ShowAsync();
+                   // await msgbox3.ShowAsync();
                 //}
             }
             }

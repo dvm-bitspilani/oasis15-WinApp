@@ -175,9 +175,9 @@ namespace HubApp4
 
         }
 
-        private void AppBarButton_Click(object sender, RoutedEventArgs e)
+        private void Search_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(SearchPage));
         }
         async void DefaultLaunch(string uriToLaunch)
         {

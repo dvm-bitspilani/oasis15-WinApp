@@ -100,7 +100,7 @@ namespace HubApp4
 
         private async void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            string subitemId = ((SampleDataSubItem)e.ClickedItem).Id;
+            string subitemId = ((SampleDataSubItem)e.ClickedItem).UniqueId;
             var item = await SampleDataSource.IsItem((string)subitemId);
             if (item==0)
             {

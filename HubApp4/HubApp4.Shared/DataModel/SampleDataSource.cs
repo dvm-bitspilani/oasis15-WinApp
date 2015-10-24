@@ -27,10 +27,10 @@ namespace HubApp4.Data
      
     public class SampleDataItem
     {
-        public SampleDataItem(String uniqueId, String id,String title, String subtitle,  String imagePath, String content)
+        public SampleDataItem(String uniqueId, String title, String subtitle,  String imagePath, String content)
         {
             this.UniqueId = uniqueId;
-            this.Id = id;
+          
             this.Title = title;
            this.Subtitle = subtitle;
           //  this.Description = description;
@@ -41,7 +41,7 @@ namespace HubApp4.Data
         public ObservableCollection<SampleDataSubItem> SubItems { get; private set; }
 
         public string UniqueId { get; private set; }
-        public string Id { get; private set; }
+
         public string Title { get; private set; }
         public string Subtitle { get; private set; }
      //   public string Description { get; private set; }
@@ -56,10 +56,9 @@ namespace HubApp4.Data
 
     public class SampleDataSubItem
     {
-        public SampleDataSubItem(String uniqueId,String id, String title, String subtitle, String imagePath, String content)
+        public SampleDataSubItem(String uniqueId, String title, String subtitle, String imagePath, String content)
         {
             this.UniqueId = uniqueId;
-            this.Id = id;
             this.Title = title;
             this.Subtitle = subtitle;
             //  this.Description = description;
@@ -68,7 +67,6 @@ namespace HubApp4.Data
         }
 
         public string UniqueId { get; private set; }
-        public string Id { get; private set; }
         public string Title { get; private set; }
         public string Subtitle { get; private set; }
         //   public string Description { get; private set; }
@@ -118,7 +116,6 @@ namespace HubApp4.Data
     /// </summary>
     public sealed class SampleDataSource
     {
-        private HttpBaseProtocolFilter filter;
         private static SampleDataSource _sampleDataSource = new SampleDataSource();
 
         private ObservableCollection<SampleDataGroup> _groups = new ObservableCollection<SampleDataGroup>();
@@ -139,7 +136,7 @@ namespace HubApp4.Data
             await _sampleDataSource.GetSampleDataAsync();
             // Simple linear search is acceptable for small data sets
             var matches = _sampleDataSource.Groups.Where((group) => group.UniqueId.Equals(uniqueId));
-            if (matches.Count() == 1) return matches.First();
+            if (matches.Count() >= 1) return matches.First();
             return null;
         }
 
@@ -148,7 +145,7 @@ namespace HubApp4.Data
             await _sampleDataSource.GetSampleDataAsync();
             // Simple linear search is acceptable for small data sets
             var matches = _sampleDataSource.Groups.SelectMany(group => group.Items).Where((item) => item.UniqueId.Equals(uniqueId));
-            if (matches.Count() == 1) 
+            if (matches.Count() >= 1) 
                 return matches.First();
             return null;
         }
@@ -177,14 +174,14 @@ namespace HubApp4.Data
              else            
             return null;
         }
-        public static async Task<SampleDataSubItem> GetSubItemAsync2(string id)
+        public static async Task<SampleDataSubItem> GetSubItemAsync2(string uniqueid)
         {
             await _sampleDataSource.GetSampleDataAsync();
             // Simple linear search is acceptable for small data sets
 
             var matches = _sampleDataSource.Groups.SelectMany(group => group.Items);
-            var match2 = matches.SelectMany(item => item.SubItems).Where((subitem) => subitem.Id.Equals(id));
-            if (match2.Count() == 1)
+            var match2 = matches.SelectMany(item => item.SubItems).Where((subitem) => subitem.UniqueId.Equals(uniqueid));
+            if (match2.Count() >= 1)
             {
                 return match2.First();
             }
@@ -200,14 +197,14 @@ namespace HubApp4.Data
 
             Uri dataUri = new Uri("ms-appx:///DataModel/SampleData.json");
 
-            //StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(dataUri);
-            //string jsonText = await FileIO.ReadTextAsync(file);
+            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(dataUri);
+            string jsonText = await FileIO.ReadTextAsync(file);
             try
             {
 
 
-                Windows.Web.Http.HttpClient client = new Windows.Web.Http.HttpClient();
-                var jsonText = await client.GetStringAsync(new Uri("http://bits-bosm.org/SampleData.json"));
+              //  Windows.Web.Http.HttpClient client = new Windows.Web.Http.HttpClient();
+               // var jsonText = await client.GetStringAsync(new Uri("http://bits-bosm.org/SampleData.json"));
                 JsonObject jsonObject = JsonObject.Parse(jsonText);
                 JsonArray jsonArray = jsonObject["Groups"].GetArray();
 
@@ -226,7 +223,7 @@ namespace HubApp4.Data
 
                         JsonObject itemObject = itemValue.GetObject();
                         group.Items.Add(new SampleDataItem(itemObject["UniqueId"].GetString(),
-                                                           itemObject["Id"].GetString(),
+                                                          
                                                            itemObject["Title"].GetString(),
                                                           itemObject["Subtitle"].GetString(),
                                                            itemObject["ImagePath"].GetString(),
@@ -238,7 +235,7 @@ namespace HubApp4.Data
                         {
                             JsonObject subitemObject = subitemValue.GetObject();
                             group.Items[i].SubItems.Add(new SampleDataSubItem(subitemObject["UniqueId"].GetString(),
-                                                               subitemObject["Id"].GetString(),
+                                                              
                                                                subitemObject["Title"].GetString(),
                                                               subitemObject["Subtitle"].GetString(),
                                                                subitemObject["ImagePath"].GetString(),

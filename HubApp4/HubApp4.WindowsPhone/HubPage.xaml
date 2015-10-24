@@ -106,6 +106,7 @@
             -->
             <AppBarButton Icon="Map" Label="map" Click="MapButton_Click"/>
             <AppBarButton Icon="Calendar" Label="schedule" Click="ScheduleButton_Click"/>
+            <AppBarButton Icon="Calendar" Label="Fav" Click="favButton_Click"/>
         </CommandBar>
     </Page.BottomAppBar>
 
@@ -189,7 +190,22 @@
                 </DataTemplate>
             </HubSection>
             -->
-
+            <HubSection x:Uid="HubSection5" Header="lectures"
+                            DataContext="{Binding Groups[1]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}" >
+                <DataTemplate>
+                    <ListView 
+                            AutomationProperties.AutomationId="ItemListViewSection5"
+                            AutomationProperties.Name="Items In Group"
+                            SelectionMode="None"
+                            IsItemClickEnabled="True"
+                            ItemsSource="{Binding Items}"
+                            ItemTemplate="{StaticResource StandardDoubleLineItemTemplate}"
+                            ItemClick="ItemView_ItemClick"
+                            ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                    </ListView>
+                </DataTemplate>
+            </HubSection>
+            
             <HubSection x:Uid="HubSection2" Header="events" Width="Auto"
                          DataContext="{Binding Groups[1]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
                 <DataTemplate>
@@ -212,23 +228,9 @@
                 </DataTemplate>
             </HubSection>
 
-            <HubSection x:Uid="HubSection5" Header="lectures"
-                        DataContext="{Binding Groups[2]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}" >
-                <DataTemplate>
-                    <ListView 
-                        AutomationProperties.AutomationId="ItemListViewSection5"
-                        AutomationProperties.Name="Items In Group"
-                        SelectionMode="None"
-                        IsItemClickEnabled="True"
-                        ItemsSource="{Binding Items}"
-                        ItemTemplate="{StaticResource StandardDoubleLineItemTemplate}"
-                        ItemClick="ItemView_ItemClick"
-                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
-                    </ListView>
-                </DataTemplate>
-            </HubSection>
+            
 
-            <HubSection x:Uid="HubSection2" Header="workshops" Width="Auto"
+          <!--<HubSection x:Uid="HubSection2" Header="workshops" Width="Auto"
                          DataContext="{Binding Groups[3]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
                 <DataTemplate>
                     <GridView
@@ -248,7 +250,7 @@
                         </GridView.ItemsPanel>
                     </GridView>
                 </DataTemplate>
-            </HubSection>
+            </HubSection>-->
 
             <HubSection x:Uid="HubSection3" Header="contact us"
                         DataContext="{Binding Groups[5]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">

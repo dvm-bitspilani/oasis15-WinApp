@@ -132,7 +132,7 @@ namespace HubApp4
         private async Task AddEntryIntoJsonAsync()
         {
             string content = String.Empty;
-            List<FavClass> ListCars = new List<FavClass>();
+            List<string> ListCars = new List<string>();
             StorageFolder local = ApplicationData.Current.LocalFolder;
             // Create a new file named DataFile.txt.
             var file = await local.CreateFileAsync("DataFile.json",
@@ -152,12 +152,12 @@ namespace HubApp4
                     ListCars = FavClass.ConvertToFavEvent(content);
                 }
                 //if (item != null)
-                ListCars.Add(new FavClass() { UniqueId = item1.UniqueId, Id = item1.Id, Title = item1.Title, Subtitle = item1.Subtitle, ImagePath = item1.ImagePath, Content = item1.Content });
+                ListCars.Add(item1.UniqueId);
                 //else
                 //  ListCars.Add(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
                 try
                 {
-                    DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<FavClass>));
+                    DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<string>));
                     using (var stream = await local.OpenStreamForWriteAsync(
                                   "DataFile.json",
                                   CreationCollisionOption.ReplaceExisting))
@@ -176,7 +176,7 @@ namespace HubApp4
         private async Task DeleteEntryIntoJsonAsync()
         {
             string content = String.Empty;
-            List<FavClass> ListCars = new List<FavClass>();
+            List<string> ListCars = new List<string>();
             StorageFolder local = ApplicationData.Current.LocalFolder;
             // Create a new file named DataFile.txt.
             var file = await local.CreateFileAsync("DataFile.json",
@@ -197,9 +197,9 @@ namespace HubApp4
 
                     foreach (var favEvent in ListCars)
                     {
-                        if (String.Compare(favEvent.UniqueId, item1.UniqueId) == 0)
+                        if (String.Compare(favEvent, item1.UniqueId) == 0)
                         {
-                            ListCars.Remove((FavClass)favEvent);
+                            ListCars.Remove((string)favEvent);
                         }
                     }
 
@@ -210,7 +210,7 @@ namespace HubApp4
                     //  ListCars.Add(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
                     try
                     {
-                        DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<FavClass>));
+                        DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<string>));
                         using (var stream = await local.OpenStreamForWriteAsync(
                                       "DataFile.json",
                                       CreationCollisionOption.ReplaceExisting))

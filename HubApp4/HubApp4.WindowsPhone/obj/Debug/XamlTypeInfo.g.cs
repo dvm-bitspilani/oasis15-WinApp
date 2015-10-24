@@ -976,3 +976,8 @@ namespace HubApp4.HubApp4_WindowsPhone_XamlTypeInfo
 }
 
 
+
+
+
+
+

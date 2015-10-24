@@ -118,7 +118,7 @@ namespace HubApp4
 
             // Ensure the current window is active
             Window.Current.Activate();
-            await ParsePush.SubscribeAsync("");
+          //  await ParsePush.SubscribeAsync("");
         }
 
 #if WINDOWS_PHONE_APP

@@ -98,6 +98,7 @@ namespace HubApp4
         /// <param name="sender">The source of the event; typically <see cref="NavigationHelper"/></param>
         /// <param name="e">Event data that provides an empty dictionary to be populated with
         /// serializable state.</param>
+        
         private void NavigationHelper_SaveState(object sender, SaveStateEventArgs e)
         {
             // TODO: Save the unique state of the page here.
@@ -417,9 +418,9 @@ namespace HubApp4
             Frame.Navigate(typeof(developers));
         }
 
-
-
-
-
+        private void favButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Favourite));
+        }
     }
 }

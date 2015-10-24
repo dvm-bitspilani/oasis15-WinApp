@@ -132,8 +132,8 @@ namespace HubApp4
         {
             string content = String.Empty;
 
-            List<FavClass> myCars;
-            var jsonSerializer = new DataContractJsonSerializer(typeof(List<FavClass>));
+            List<string> myCars;
+            var jsonSerializer = new DataContractJsonSerializer(typeof(List<string>));
             StorageFolder local = ApplicationData.Current.LocalFolder;
             var file = await local.CreateFileAsync("DataFile.json",
           CreationCollisionOption.OpenIfExists);
@@ -145,19 +145,16 @@ namespace HubApp4
 
                 var myStream = await local.OpenStreamForReadAsync("DataFile.json");
 
-                myCars = (List<FavClass>)jsonSerializer.ReadObject(myStream);
-
+                myCars = (List<string>)jsonSerializer.ReadObject(myStream);
+                List<SampleDataSubItem> evobj = new List<SampleDataSubItem>();
                 foreach (var favEvent in myCars)
                 {
-                    var itemId = await SampleDataSource.GetSubItemAsync((string)favEvent.UniqueId);
-                    favEvent.Title = itemId.Title;
-                    favEvent.Subtitle = itemId.Subtitle;
-                    favEvent.ImagePath = itemId.ImagePath;
-                    favEvent.Content = itemId.Content;
+                    var itemId = await SampleDataSource.GetSubItemAsync(favEvent);
+                    evobj.Add(itemId);
                     //content += String.Format("ID: {0}, Make: {1}, Model: {2} ... ", favEvent.Id, favEvent.Title, favEvent.Model);
                 }
 
-                FavListView.ItemsSource = myCars;
+                FavListView.ItemsSource = evobj;
                 /* if (myCars == null)
                  {
                      TextBlock tb = new TextBlock();
@@ -183,7 +180,7 @@ namespace HubApp4
         }
         private async void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            string subitemId = ((FavClass)e.ClickedItem).Id;
+            string subitemId = ((SampleDataSubItem)e.ClickedItem).UniqueId;
             // ListViewItem btn = sender as ListViewItem;
             // string subitemId = (string)btn.Tag;
             var item = await SampleDataSource.IsItem((string)subitemId);

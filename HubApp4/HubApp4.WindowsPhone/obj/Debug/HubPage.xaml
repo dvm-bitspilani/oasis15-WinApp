@@ -106,6 +106,7 @@
             -->
             <AppBarButton x:ConnectionId='5' Icon="Map" Label="map"                        />
             <AppBarButton x:ConnectionId='6' Icon="Calendar" Label="schedule"                             />
+            <AppBarButton x:ConnectionId='7' Icon="Calendar" Label="Fav"                        />
         </CommandBar>
     </Page.BottomAppBar>
 
@@ -189,11 +190,26 @@
                 </DataTemplate>
             </HubSection>
             -->
-
+            <HubSection x:Uid="HubSection5" Header="lectures"
+                            DataContext="{Binding Groups[1]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}" >
+                <DataTemplate>
+                    <ListView x:ConnectionId='27' 
+                            AutomationProperties.AutomationId="ItemListViewSection5"
+                            AutomationProperties.Name="Items In Group"
+                            SelectionMode="None"
+                            IsItemClickEnabled="True"
+                            ItemsSource="{Binding Items}"
+                            ItemTemplate="{StaticResource StandardDoubleLineItemTemplate}"
+                                                          
+                            ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                    </ListView>
+                </DataTemplate>
+            </HubSection>
+            
             <HubSection x:Uid="HubSection2" Header="events" Width="Auto"
                          DataContext="{Binding Groups[1]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
                 <DataTemplate>
-                    <GridView x:ConnectionId='27'
+                    <GridView x:ConnectionId='26'
                         Margin="0,9.5,0,0"
                         ItemsSource="{Binding Items}"
                         AutomationProperties.AutomationId="ItemGridView"
@@ -212,26 +228,12 @@
                 </DataTemplate>
             </HubSection>
 
-            <HubSection x:Uid="HubSection5" Header="lectures"
-                        DataContext="{Binding Groups[2]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}" >
-                <DataTemplate>
-                    <ListView x:ConnectionId='26' 
-                        AutomationProperties.AutomationId="ItemListViewSection5"
-                        AutomationProperties.Name="Items In Group"
-                        SelectionMode="None"
-                        IsItemClickEnabled="True"
-                        ItemsSource="{Binding Items}"
-                        ItemTemplate="{StaticResource StandardDoubleLineItemTemplate}"
-                                                      
-                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
-                    </ListView>
-                </DataTemplate>
-            </HubSection>
+            
 
-            <HubSection x:Uid="HubSection2" Header="workshops" Width="Auto"
+          <!--<HubSection x:Uid="HubSection2" Header="workshops" Width="Auto"
                          DataContext="{Binding Groups[3]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
                 <DataTemplate>
-                    <GridView x:ConnectionId='25'
+                    <GridView
                         Margin="0,9.5,0,0"
                         ItemsSource="{Binding Items}"
                         AutomationProperties.AutomationId="ItemGridView"
@@ -239,7 +241,7 @@
                         ItemTemplate="{StaticResource Standard200x180TileItemTemplate}"
                         SelectionMode="None"
                         IsItemClickEnabled="True"
-                                                      
+                        ItemClick="ItemView_ItemClick"
                         ContinuumNavigationTransitionInfo.ExitElementContainer="True">
                         <GridView.ItemsPanel>
                             <ItemsPanelTemplate>
@@ -248,7 +250,7 @@
                         </GridView.ItemsPanel>
                     </GridView>
                 </DataTemplate>
-            </HubSection>
+            </HubSection>-->
 
             <HubSection x:Uid="HubSection3" Header="contact us"
                         DataContext="{Binding Groups[5]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
@@ -278,9 +280,9 @@
                             <StackPanel Margin="15,0,0,0" Grid.Column="1"  >
                                 <TextBlock  Style="{StaticResource ContactName}">V.V.Sai Praneeth</TextBlock>
                                 <TextBlock Style="{StaticResource ContactPost}">President</TextBlock>
-                                <TextBlock x:ConnectionId='23' x:Name="Prez" Style="{StaticResource ContactNo}"                     >+91-7891799999</TextBlock>
+                                <TextBlock x:ConnectionId='24' x:Name="Prez" Style="{StaticResource ContactNo}"                     >+91-7891799999</TextBlock>
 
-                                <TextBlock x:ConnectionId='24' Style="{StaticResource ContactEmail}"                          >president@pilani.bits-pilani.ac.in</TextBlock>
+                                <TextBlock x:ConnectionId='25' Style="{StaticResource ContactEmail}"                          >president@pilani.bits-pilani.ac.in</TextBlock>
                             </StackPanel>
 
 
@@ -290,8 +292,8 @@
                             <StackPanel Margin="15,10,0,0" Grid.Row="1" Grid.Column="1">
                                 <TextBlock Style="{StaticResource ContactName}">Ashutosh Ajay Mundhada</TextBlock>
                                 <TextBlock Style="{StaticResource ContactPost}">General Secretary</TextBlock>
-                                <TextBlock x:ConnectionId='21'                        Style="{StaticResource ContactNo}">+91-7737485915</TextBlock>
-                                <TextBlock x:ConnectionId='22' Style="{StaticResource ContactEmail}"                            >gensec@pilani.bits-pilani.ac.in</TextBlock>
+                                <TextBlock x:ConnectionId='22'                        Style="{StaticResource ContactNo}">+91-7737485915</TextBlock>
+                                <TextBlock x:ConnectionId='23' Style="{StaticResource ContactEmail}"                            >gensec@pilani.bits-pilani.ac.in</TextBlock>
                             </StackPanel>
 
 
@@ -301,8 +303,8 @@
                             <StackPanel Margin="15,10,0,0" Grid.Row="2" Grid.Column="1">
                                 <TextBlock Style="{StaticResource ContactName}">Sahib Singh Dhanjal</TextBlock>
                                 <TextBlock Style="{StaticResource ContactPost}">For website and  technical queries</TextBlock>
-                                <TextBlock x:ConnectionId='19'                     Style="{StaticResource ContactNo}">+91-9772227370</TextBlock>
-                                <TextBlock x:ConnectionId='20' Style="{StaticResource ContactEmail}"                         >dvm@bits-apogee.org</TextBlock>
+                                <TextBlock x:ConnectionId='20'                     Style="{StaticResource ContactNo}">+91-9772227370</TextBlock>
+                                <TextBlock x:ConnectionId='21' Style="{StaticResource ContactEmail}"                         >dvm@bits-apogee.org</TextBlock>
                             </StackPanel>
 
 
@@ -312,8 +314,8 @@
                             <StackPanel Margin="15,10,0,0" Width="Auto" Grid.Row="3" Grid.Column="1">
                                 <TextBlock Style="{StaticResource ContactName}">Vidushi Dwivedi</TextBlock>
                                 <TextBlock Height="Auto"  Style="{StaticResource ContactPost}">For projects,events and registration</TextBlock>
-                                <TextBlock x:ConnectionId='17'                          Style="{StaticResource ContactNo}">+91-8854877550</TextBlock>
-                                <TextBlock x:ConnectionId='18' Style="{StaticResource ContactEmail}"                              >controls@bits-apogee.org</TextBlock>
+                                <TextBlock x:ConnectionId='18'                          Style="{StaticResource ContactNo}">+91-8854877550</TextBlock>
+                                <TextBlock x:ConnectionId='19' Style="{StaticResource ContactEmail}"                              >controls@bits-apogee.org</TextBlock>
                             </StackPanel>
 
 
@@ -324,8 +326,8 @@
                             <StackPanel Margin="15,10,0,0" Grid.Column="1" Grid.Row="4">
                                 <TextBlock Style="{StaticResource ContactName}" >Archit Gadhok</TextBlock>
                                 <TextBlock  Style="{StaticResource ContactPost}" >For paper presentations and guest lectures</TextBlock>
-                                <TextBlock x:ConnectionId='15'                     Style="{StaticResource ContactNo}">+91-9772221902</TextBlock>
-                                <TextBlock x:ConnectionId='16' Style="{StaticResource ContactEmail}"                         >pep@bits-apogee.org guestlectures@bits-apogee.org
+                                <TextBlock x:ConnectionId='16'                     Style="{StaticResource ContactNo}">+91-9772221902</TextBlock>
+                                <TextBlock x:ConnectionId='17' Style="{StaticResource ContactEmail}"                         >pep@bits-apogee.org guestlectures@bits-apogee.org
                                 </TextBlock>
                             </StackPanel>
 
@@ -336,8 +338,8 @@
                             <StackPanel Margin="15,10,0,0" Grid.Row="5" Grid.Column="1">
                                 <TextBlock Style="{StaticResource ContactName}">Akshay Singh Bisht</TextBlock>
                                 <TextBlock Style="{StaticResource ContactPost}">For reception and accommodation</TextBlock>
-                                <TextBlock x:ConnectionId='13'                     Style="{StaticResource ContactNo}">+91-9636946278</TextBlock>
-                                <TextBlock x:ConnectionId='14' Style="{StaticResource ContactEmail}"                         >reccnacc@bits-apogee.org
+                                <TextBlock x:ConnectionId='14'                     Style="{StaticResource ContactNo}">+91-9636946278</TextBlock>
+                                <TextBlock x:ConnectionId='15' Style="{StaticResource ContactEmail}"                         >reccnacc@bits-apogee.org
                                 </TextBlock>
                             </StackPanel>
 
@@ -348,8 +350,8 @@
                             <StackPanel Margin="15,10,0,0" Grid.Row="6" Grid.Column="1">
                                 <TextBlock Style="{StaticResource ContactName}">Apoorva Pakhle</TextBlock>
                                 <TextBlock Style="{StaticResource ContactPost}">For Publicity and Online Partnership</TextBlock>
-                                <TextBlock x:ConnectionId='11'                      Style="{StaticResource ContactNo}">+91-9660575881</TextBlock>
-                                <TextBlock x:ConnectionId='12' Style="{StaticResource ContactEmail}"                         >adp@bits-apogee.org
+                                <TextBlock x:ConnectionId='12'                      Style="{StaticResource ContactNo}">+91-9660575881</TextBlock>
+                                <TextBlock x:ConnectionId='13' Style="{StaticResource ContactEmail}"                         >adp@bits-apogee.org
                                 </TextBlock>
                             </StackPanel>
 
@@ -360,8 +362,8 @@
                             <StackPanel Margin="15,10,0,0" Grid.Column="1" Grid.Row="7">
                                 <TextBlock Style="{StaticResource ContactName}">Mayank Juneja</TextBlock>
                                 <TextBlock Style="{StaticResource ContactPost}">For invites and correspondence</TextBlock>
-                                <TextBlock x:ConnectionId='9'                     Style="{StaticResource ContactNo}">+91-9772064316</TextBlock>
-                                <TextBlock x:ConnectionId='10' Style="{StaticResource ContactEmail}"                         >pcr@bits-apogee.org
+                                <TextBlock x:ConnectionId='10'                     Style="{StaticResource ContactNo}">+91-9772064316</TextBlock>
+                                <TextBlock x:ConnectionId='11' Style="{StaticResource ContactEmail}"                         >pcr@bits-apogee.org
                                 </TextBlock>
                             </StackPanel>
 
@@ -371,8 +373,8 @@
                             <StackPanel Margin="15,10,0,0" Grid.Column="1" Grid.Row="8">
                                 <TextBlock Style="{StaticResource ContactName}">Sumantra Sharma</TextBlock>
                                 <TextBlock Style="{StaticResource ContactPost}">For sponsorship and marketing</TextBlock>
-                                <TextBlock x:ConnectionId='7'                       Style="{StaticResource ContactNo}">+91-9772227757</TextBlock>
-                                <TextBlock x:ConnectionId='8' Style="{StaticResource ContactEmail}"                           >sponsorship@bits-apogee.org
+                                <TextBlock x:ConnectionId='8'                       Style="{StaticResource ContactNo}">+91-9772227757</TextBlock>
+                                <TextBlock x:ConnectionId='9' Style="{StaticResource ContactEmail}"                           >sponsorship@bits-apogee.org
                                 </TextBlock>
                             </StackPanel>
 

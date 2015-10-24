@@ -1,49 +1,73 @@
 {
     "Groups": [
-        {
-            "UniqueId": "KernelEvents",
-            "Title": "Kernel Events",
+      {
+        "UniqueId": "KernelEvents",
+        "Title": "Kernel Events",
+        "Items": [
+          {
+            "UniqueId": "uniqueid11",
+
+            "Title": "Nameof",
+            "Subtitle": "vvvvvv",
+            "ImagePath": "Assets/DarkGray.png",
+            "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum",
+            "SubItems": [
+              {
+                "UniqueId": "",
+
+                "Title": "",
+                "Subtitle": "",
+                "ImagePath": "",
+                "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse "
+              }
+
+            ]
+
+          },
+          {
+            "UniqueId": "KernelEv-nameof2",
+
+            "Title": "Nameof2",
+            "Subtitle": "Item Subtitle: 3",
+            "ImagePath": "Assets/MediumGray.png",
+            "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisque est parturient ullamcorper aliquet fusce suspendisse nunc hac eleifend amet blandit facilisi condimentum commodo sc",
+            "SubItems": [
+              {
+                "UniqueId": "",
+
+                "Title": "",
+                "Subtitle": "",
+                "ImagePath": "",
+                "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse "
+              }
+
+            ]
+          }
+        ]
+      },
+       {
+            "UniqueId": "ProfShows",
+            "Title": "Prof Shows",
             "Items": [
                 {
-                    "UniqueId": "KernelEv-NameOf",
-                    "Id": "i1",
-                    "Title": "Nameof",
-                    "Subtitle": "vvvvvv",
-                    "ImagePath": "Assets/DarkGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum",
+                    "UniqueId": "prof-1",
+                    
+                    "Title": "Papon",
+                    "Subtitle": "28th October",
+                    "ImagePath": "Assets/papon.png",
+                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisque est parturient ullamcorper aliquet fusce suspendisse nunc hac eleifend amet blandit facilisi condimentum commodo scelerisque faucibus aenean ullamcorper ante mauris dignissimt",
                     "SubItems": [
                         {
                             "UniqueId": "",
-                            "Id": "",
-                            "Title": "K1",
+                            "Title": "",
                             "Subtitle": "",
                             "ImagePath": "",
-                            "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse "
+                            "Content": ""
                         }
 
                     ]
-
-                },
-                {
-                    "UniqueId": "KernelEv-nameof2",
-                    "Id": "i2",
-                    "Title": "Nameof2",
-                    "Subtitle": "Item Subtitle: 3",
-                    "ImagePath": "Assets/MediumGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisque est parturient ullamcorper aliquet fusce suspendisse nunc hac eleifend amet blandit facilisi condimentum commodo sc",
-                    "SubItems": [
-                        {
-                            "UniqueId": "",
-                            "Id": "",
-                            "Title": "K2",
-                            "Subtitle": "",
-                            "ImagePath": "",
-                            "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse "
-                        }
-
-                    ]
-
                 }
+
             ]
         },
         {
@@ -52,7 +76,7 @@
             "Items": [
                 {
                     "UniqueId": "Events-Cat-CatName1",
-                    "Id": "i3",
+                    
                     "Title": "Event category",
                     "Subtitle": "Item Subtitle: 1",
                     "ImagePath": "Assets/MediumGray.png",
@@ -60,7 +84,7 @@
                     "SubItems": [
                         {
                             "UniqueId": "sub10",
-                            "Id": "i4",
+                            
                             "Title": "sub1",
                             "Subtitle": "n",
                             "ImagePath": "Assets/DarkGray.png",
@@ -68,7 +92,7 @@
                         },
                         {
                             "UniqueId": "sub2",
-                            "Id": "i5",
+                           
                             "Title": "sub2",
                             "Subtitle": "n",
                             "ImagePath": "Assets/DarkGray.png",
@@ -76,7 +100,7 @@
                         },
                         {
                             "UniqueId": "sub6",
-                            "Id": "i6",
+                            
                             "Title": "sub",
                             "Subtitle": "n",
                             "ImagePath": "Assets/DarkGray.png",
@@ -84,7 +108,7 @@
                         },
                         {
                             "UniqueId": "sub7",
-                            "Id": "i7",
+                            
                             "Title": "sub",
                             "Subtitle": "n",
                             "ImagePath": "Assets/DarkGray.png",
@@ -92,7 +116,7 @@
                         },
                         {
                             "UniqueId": "sub3",
-                            "Id": "i8",
+                            
                             "Title": "sub",
                             "Subtitle": "n",
                             "ImagePath": "Assets/DarkGray.png",
@@ -103,7 +127,7 @@
                 },
                 {
                     "UniqueId": "Events-Cat-CatName2",
-                    "Id": "i9",
+                    
                     "Title": "Event category",
                     "Subtitle": "Item Subtitle: 1",
                     "ImagePath": "Assets/MediumGray.png",
@@ -111,7 +135,7 @@
                     "SubItems": [
                         {
                             "UniqueId": "sub4",
-                            "Id": "i10",
+                           
                             "Title": "sub11",
                             "Subtitle": "n",
                             "ImagePath": "Assets/DarkGray.png",
@@ -122,7 +146,7 @@
                 },
                 {
                     "UniqueId": "Events-Cat-CatName3",
-                    "Id": "i11",
+                    
                     "Title": "Event category",
                     "Subtitle": "Item Subtitle: 1",
                     "ImagePath": "Assets/MediumGray.png",
@@ -130,126 +154,11 @@
                     "SubItems": [
                         {
                             "UniqueId": "sub5",
-                            "Id": "i12",
+                            
                             "Title": "sub",
                             "Subtitle": "n",
                             "ImagePath": "Assets/DarkGray.png",
                             "Content": "dum"
-                        }
-
-                    ]
-                }
-            ]
-        },
-        {
-            "UniqueId": "Lectures",
-            "Title": "Lectures",
-            "Items": [
-                {
-                    "UniqueId": "Lec-",
-                    "Id": "i13",
-                    "Title": "lecture 1",
-                    "Subtitle": "Item Subtitle: 1",
-                    "ImagePath": "Assets/MediumGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisque est parturient ullamcorper aliquet fusce suspendisse nunc hac eleifend amet blandit facilisi condimentum commodo scelerisque faucibus aenean ullamcorper ante mauris dignissimt",
-                    "SubItems": [
-                        {
-                            "UniqueId": "",
-                            "Id": "i14",
-                            "Title": "L1",
-                            "Subtitle": "",
-                            "ImagePath": "",
-                            "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse "
-                        }
-
-                    ]
-                }
-
-            ]
-        },
-        {
-            "UniqueId": "Workshopsmmmm",
-            "Title": "Workshops",
-            "Items": [
-                {
-                    "UniqueId": "Worshop-",
-                    "Id": "i15",
-                    "Title": "Item Title: 1",
-                    "Subtitle": "Item Subtitle: 1",
-                    "ImagePath": "Assets/MediumGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisque est parturient ullamcorper aliquet fusce suspendisse nunc hac eleifend amet blandit facilisi condimentum commodo scelerisque faucibus aenean ullamcorper ante mauris dignissim consectetuer nullam lorem vestibulum habitant conubia elementum pellentesque morbi facilisis arcu sollicitudin diam cubilia aptent vestibulum auctor eget dapibus pellentesque inceptos leo egestas interdum nulla consectetuer suspendisse adipiscing pellentesque proin lobortis sollicitudin augue elit mus congue fermentum parturient fringilla euismod feugiat\n\nCurabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis t",
-                    "SubItems": [
-                        {
-                            "UniqueId": "",
-                            "Id": "",
-                            "Title": "W",
-                            "Subtitle": "",
-                            "ImagePath": "",
-                            "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse "
-                        }
-
-                    ]
-                }
-
-            ]
-        },
-        {
-            "UniqueId": "Participation",
-            "Title": "Participation",
-            "Items": [
-                {
-                    "UniqueId": "Parti-Overview",
-                    "Id": "i17",
-                    "Title": "Overview",
-                    "Subtitle": "",
-                    "ImagePath": "Assets/MediumGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisquectetuer suspendisse adipiscing ptetuer suspendisse adipiscing pellentesque proin lobortis sollicitudin augue elit mus congue fermentum parturient fringilla euismod feugiat",
-                    "SubItems": [
-                        {
-                            "UniqueId": "",
-                            "Id": "",
-                            "Title": "",
-                            "Subtitle": "",
-                            "ImagePath": "",
-                            "Content": ""
-                        }
-
-                    ]
-                },
-                {
-                    "UniqueId": "Parti-ToReachPilani",
-                    "Id": "i18",
-                    "Title": "to reach pilani ",
-                    "Subtitle": "",
-                    "ImagePath": "Assets/MediumGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisquectetuer suspendisse adipiscing ptetuer suspendisse adipiscing pellentesque proin lobortis sollicitudin augue elit mus congue fermentum parturient fringilla euismod feugiat",
-                    "SubItems": [
-                        {
-                            "UniqueId": "",
-                            "Id": "",
-                            "Title": "",
-                            "Subtitle": "",
-                            "ImagePath": "",
-                            "Content": ""
-                        }
-
-                    ]
-                },
-                {
-                    "UniqueId": "Parti-Accomodation",
-                    "Id": "i19",
-                    "Title": "Accomodation",
-                    "Subtitle": "",
-                    "ImagePath": "Assets/MediumGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisquectetuer suspendisse adipiscing ptetuer suspendisse adipiscing pellentesque proin lobortis sollicitudin augue elit mus congue fermentum parturient fringilla euismod feugiat",
-                    "SubItems": [
-                        {
-                            "UniqueId": "",
-                            "Id": "",
-                            "Title": "",
-                            "Subtitle": "",
-                            "ImagePath": "",
-                            "Content": ""
                         }
 
                     ]
@@ -261,24 +170,21 @@
             "Title": "Schedule",
             "Items": [
                 {
-                    "UniqueId": "mar25",
-                    "Id": "is1",
-                    "Title": "mar25",
+                    "UniqueId": "28thOct",
+                    "Title": "28thOct",
                     "Subtitle": "",
-                    "ImagePath": "Assets/MediumGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisquectetuer suspendisse adipiscing ptetuer suspendisse adipiscing pellentesque proin lobortis sollicitudin augue elit mus congue fermentum parturient fringilla euismod feugiat",
+                    "ImagePath": "",
+                    "Content": "",
                     "SubItems": [
                         {
-                            "UniqueId": "qqq",
-                            "Id": "KernelEv-NameOf",
-                            "Title": "Adgfd",
+                            "UniqueId": "unique id of event",
+                            "Title": "Title of event",
                             "Subtitle": "Time",
-                            "ImagePath": "",
-                            "Content": "Saraswati Temple"
+                            "ImagePath": "Date",
+                            "Content": "Venue"
                         },
                          {
                             "UniqueId": "sub1",
-                            "Id": "sub10",
                             "Title": "Adgfdm",
                             "Subtitle": "Time:",
                             "ImagePath": "",
@@ -287,16 +193,14 @@
                     ]
                 },
                 {
-                    "UniqueId": "mar26",
-                    "Id": "is4",
-                    "Title": "mar26",
+                    "UniqueId": "29thOct",
+                    "Title": "29thOct",
                     "Subtitle": "",
-                    "ImagePath": "Assets/MediumGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisquectetuer suspendisse adipiscing ptetuer suspendisse adipiscing pellentesque proin lobortis sollicitudin augue elit mus congue fermentum parturient fringilla euismod feugiat",
+                    "ImagePath": "",
+                    "Content": "",
                     "SubItems": [
                         {
-                            "UniqueId": "qwe",
-                            "Id": "KernelEv-nameof2",
+                            "UniqueId": "uniqueid11",
                             "Title": "333",
                             "Subtitle": "333",
                             "ImagePath": "",
@@ -306,16 +210,14 @@
                     ]
                 },
                 {
-                    "UniqueId": "mar27",
-                    "Id": "is6",
-                    "Title": "mar27",
+                    "UniqueId": "30thOct",
+                    "Title": "30thOct",
                     "Subtitle": "",
-                    "ImagePath": "Assets/MediumGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisquectetuer suspendisse adipiscing ptetuer suspendisse adipiscing pellentesque proin lobortis sollicitudin augue elit mus congue fermentum parturient fringilla euismod feugiat",
+                    "ImagePath": "",
+                    "Content": "",
                     "SubItems": [
                         {
-                            "UniqueId": "qwer",
-                            "Id": "sub2",
+                            "UniqueId": "sub10",
                             "Title": "11",
                             "Subtitle": "333",
                             "ImagePath": "",
@@ -325,16 +227,15 @@
                     ]
                 },
                 {
-                    "UniqueId": "mar28",
-                    "Id": "is8",
-                    "Title": "mar28",
+                    "UniqueId": "31stOct",
+                    "Title": "31stOct",
                     "Subtitle": "",
-                    "ImagePath": "Assets/MediumGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisquectetuer suspendisse adipiscing ptetuer suspendisse adipiscing pellentesque proin lobortis sollicitudin augue elit mus congue fermentum parturient fringilla euismod feugiat",
+                    "ImagePath": "",
+                    "Content": "",
                     "SubItems": [
                         {
                             "UniqueId": "qwerty",
-                            "Id": "sub4",
+                            
                             "Title": "3",
                             "Subtitle": "3",
                             "ImagePath": "",
@@ -344,16 +245,15 @@
                     ]
                 },
                  {
-                    "UniqueId": "mar29",
-                    "Id": "is10",
-                    "Title": "mar29",
+                    "UniqueId": "1stNov",
+                    "Title": "1stNov",
                     "Subtitle": "",
-                    "ImagePath": "Assets/MediumGray.png",
-                    "Content": "Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisquectetuer suspendisse adipiscing ptetuer suspendisse adipiscing pellentesque proin lobortis sollicitudin augue elit mus congue fermentum parturient fringilla euismod feugiat",
+                    "ImagePath": "",
+                    "Content": "",
                     "SubItems": [
                         {
                             "UniqueId": "qwertyu",
-                            "Id": "sub5",
+                         
                             "Title": "11",
                             "Subtitle": "22",
                             "ImagePath": "",

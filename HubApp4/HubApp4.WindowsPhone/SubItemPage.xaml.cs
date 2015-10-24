@@ -12,6 +12,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Graphics.Display;
 using Windows.Storage;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -31,7 +32,7 @@ namespace HubApp4
     {
         private readonly NavigationHelper navigationHelper;
         private readonly ObservableDictionary defaultViewModel = new ObservableDictionary();
-        public SampleDataSubItem subitem1;
+        public SampleDataSubItem subitem;
 
         public SubItemPage()
         {
@@ -75,9 +76,10 @@ namespace HubApp4
         {
             // TODO: Create an appropriate data model for your problem domain to replace the sample data
             //var subId = (string)e.NavigationParameter;
-            var subitem = await SampleDataSource.GetSubItemAsync((string)e.NavigationParameter);
+            subitem = await SampleDataSource.GetSubItemAsync((string)e.NavigationParameter);
             this.DefaultViewModel["SubItem"] = subitem;
-            subitem1 = await SampleDataSource.GetSubItemAsync2(subitem.UniqueId);
+            await IsFavourite(subitem.UniqueId);
+            
 
             // else
             //   test.Text = "Returned Nothing";
@@ -143,12 +145,11 @@ namespace HubApp4
         private async Task AddEntryIntoJsonAsync()
         {
             string content = String.Empty;
-            List<FavClass> ListCars = new List<FavClass>();
+            List<string> ListCars = new List<string>();
             StorageFolder local = ApplicationData.Current.LocalFolder;
 
             // Create a new file named DataFile.txt.
-            var file = await local.CreateFileAsync("DataFile.json",
-            CreationCollisionOption.OpenIfExists);
+            var file = await local.CreateFileAsync("DataFile.json",CreationCollisionOption.OpenIfExists);
             // }
             if (local != null)
             {
@@ -163,13 +164,17 @@ namespace HubApp4
                     //Now add one more Entry.
                     ListCars = FavClass.ConvertToFavEvent(content);
                 }
+                MessageDialog msgbox4 = new MessageDialog(subitem.UniqueId+  subitem.Title+ subitem.Subtitle+ subitem.ImagePath+ subitem.Content);
+                await msgbox4.ShowAsync();
                 //if (item != null)
-                ListCars.Add(new FavClass() { UniqueId = subitem1.UniqueId, Id = subitem1.Id, Title = subitem1.Title, Subtitle = subitem1.Subtitle, ImagePath = subitem1.ImagePath, Content = subitem1.Content });
+                ListCars.Add(subitem.UniqueId);
+
+
                 //else
                 //  ListCars.Add(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
                 try
                 {
-                    DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<FavClass>));
+                    DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<string>));
                     using (var stream = await local.OpenStreamForWriteAsync(
                                   "DataFile.json",
                                   CreationCollisionOption.ReplaceExisting))
@@ -184,14 +189,64 @@ namespace HubApp4
 
             }
         }
+        private async Task IsFavourite(string id)
+        {
+            string content = String.Empty;
+            List<string> ListCars = new List<string>();
+            int flag = 0;
+            StorageFolder local = ApplicationData.Current.LocalFolder;
+            // Create a new file named DataFile.txt.
+            var file = await local.CreateFileAsync("DataFile.json",CreationCollisionOption.OpenIfExists);
+
+            if (local != null)
+            {
+                // var dataFolder = await local.GetFolderAsync("DataFolder");
+                var myStream = await local.OpenStreamForReadAsync("DataFile.json");
+
+                using (StreamReader reader = new StreamReader(myStream))
+                {
+                    content = await reader.ReadToEndAsync();
+                }
+                
+                if (content != "")
+                {
+                    //Now add one more Entry.
+                    ListCars = FavClass.ConvertToFavEvent(content);
+
+                    foreach (var favEvent in ListCars)
+                    {
+                        if (String.Compare(favEvent, id) == 0)
+                        {
+                            flag = 1;
+                            break;
+                            //ListCars.Remove(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
+                        }
+                    }
+                    
+                }
+            }
+            if (flag == 0)
+            {
+                MarkFav.Visibility = Visibility.Visible;
+                MarkUnfav.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                MarkFav.Visibility = Visibility.Collapsed;
+                MarkUnfav.Visibility = Visibility.Visible;
+
+            }
+            
+        }
+
+       
         private async Task DeleteEntryIntoJsonAsync()
         {
             string content = String.Empty;
-            List<FavClass> ListCars = new List<FavClass>();
+            List<string> ListCars = new List<string>();
             StorageFolder local = ApplicationData.Current.LocalFolder;
             // Create a new file named DataFile.txt.
-            var file = await local.CreateFileAsync("DataFile.json",
-            CreationCollisionOption.OpenIfExists);
+            var file = await local.CreateFileAsync("DataFile.json",CreationCollisionOption.OpenIfExists);
 
             if (local != null)
             {
@@ -201,18 +256,24 @@ namespace HubApp4
                 {
                     content = await reader.ReadToEndAsync();
                 }
+                MessageDialog msgbox3 = new MessageDialog(content);
+                await msgbox3.ShowAsync();
                 if (content != "")
                 {
                     //Now add one more Entry.
                     ListCars = FavClass.ConvertToFavEvent(content);
-
+                   
                     foreach (var favEvent in ListCars)
                     {
-                        if (String.Compare(favEvent.UniqueId, subitem1.UniqueId) == 0)
+                        if (String.Compare(favEvent, subitem.UniqueId) == 0)
                         {
-                            ListCars.Remove((FavClass)favEvent);
+                            MessageDialog msgbox4 = new MessageDialog(subitem.UniqueId);
+                            await msgbox4.ShowAsync();
+                            ListCars.Remove(favEvent);
+                            //ListCars.Remove(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
                         }
                     }
+                    ListCars.TrimExcess();
 
 
                     //if (item != null)

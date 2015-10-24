@@ -35,15 +35,15 @@ namespace HubApp4
         public string ImagePath { get; set; }
         public string Content { get; set; }
 
-        public static List<FavClass> ConvertToFavEvent(string json)
+        public static List<string> ConvertToFavEvent(string json)
         {
-            List<FavClass> fvc = new List<FavClass>();
+            List<string> fvc = new List<string>();
             try
             {
-                DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<FavClass>));
+                DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<string>));
                 using (MemoryStream ms = new MemoryStream(Encoding.Unicode.GetBytes(json)))
                 {
-                    fvc = serializer.ReadObject(ms) as List<FavClass>;
+                    fvc = serializer.ReadObject(ms) as List<string>;
                 }
             }
             catch (Exception ex)

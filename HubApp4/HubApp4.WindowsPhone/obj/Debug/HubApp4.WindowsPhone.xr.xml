@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Roots >
+<Roots xmlns="clr-namespace:Microsoft.Xaml.Tools.XamlCompiler.RootLog;assembly=Microsoft.Windows.UI.Xaml.81.Build.Tasks">
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="DefaultViewModel" />
     <RootPropertyPathName Name="Item" />
@@ -12,6 +12,7 @@
     <RootPropertyPathName Name="Groups" />
     <RootPropertyPathName Name="Items" />
     <RootPropertyPathName Name="Group" />
+    <RootPropertyPathName Name="eventName" />
     <RootPropertyPathName Name="Description" />
     <RootPropertyPathName Name="SubItem" />
   </Roots.PropertyPathNames>
@@ -95,6 +96,8 @@
       <RootProperty Name="FontStyle" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="LineHeight" />
       <RootProperty Name="SelectionHighlightColor" />
       <RootEvent Name="Tapped" />
     </RootType>
@@ -167,6 +170,7 @@
       <RootEvent Name="ItemClick" />
       <RootEvent Name="Loaded" />
     </RootType>
+    <RootType FullName="HubApp4.eventnow" />
     <RootType FullName="HubApp4.Favourite" />
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="Background" />
@@ -194,6 +198,18 @@
       <RootProperty Name="ContentTemplate" />
     </RootType>
     <RootType FullName="HubApp4.HubPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootEvent Name="Tapped" />
+    </RootType>
+    <RootType FullName="HubApp4.know_your_id" />
     <RootType FullName="Windows.UI.Xaml.Controls.Maps.MapControl">
       <RootProperty Name="MapServiceToken" />
       <RootProperty Name="Margin" />
@@ -212,7 +228,15 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="HubApp4.Parti" />
+    <RootType FullName="HubApp4.results" />
     <RootType FullName="HubApp4.Schedule" />
+    <RootType FullName="Windows.UI.Xaml.Controls.AutoSuggestBox">
+      <RootProperty Name="DisplayMemberPath" />
+      <RootProperty Name="PlaceholderText" />
+      <RootEvent Name="TextChanged" />
+      <RootEvent Name="SuggestionChosen" />
+    </RootType>
+    <RootType FullName="HubApp4.SearchPage" />
     <RootType FullName="HubApp4.SectionPage" />
     <RootType FullName="HubApp4.ItemPage" />
     <RootType FullName="HubApp4.SubItemPage" />

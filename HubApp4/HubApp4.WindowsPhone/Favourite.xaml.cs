@@ -155,7 +155,7 @@ namespace HubApp4
                         evobj.Add(itemId);
                         //content += String.Format("ID: {0}, Make: {1}, Model: {2} ... ", favEvent.Id, favEvent.Title, favEvent.Model);
                     }
-
+                    
                     FavListView.ItemsSource = evobj;
                 }
                 /* if (myCars == null)

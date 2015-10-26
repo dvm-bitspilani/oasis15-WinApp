@@ -1,7 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="e:\documents\documents\githubvisualstudio\new4\oasis15-winapp\hubapp4\hubapp4.windows\obj\debug\intermediatexaml\hubapp4.windows.exe" HashGuid="3bf954e0-3759-ef53-d5bb-f829ac7f9ed6" />
-    <ReferenceAssembly PathName="c:\users\user\downloads\oasis-15 winapp_1\packages\parse.1.6.1\lib\netcore45\parse.dll" HashGuid="339ec1f6-595a-280d-f5a7-9893107edd75" />
-    <ReferenceAssembly PathName="c:\users\user\downloads\oasis-15 winapp_1\packages\parse.1.6.1\lib\netcore45\parse.winrt.dll" HashGuid="8be1d44c-a9af-48f7-ba0d-5c307ed64799" />
+    <LocalAssembly PathName="e:\documents\documents\githubvisualstudio\new4\oasis15-winapp\hubapp4\hubapp4.windows\obj\debug\intermediatexaml\hubapp4.windows.exe" HashGuid="96651440-0180-52f8-805c-cce1bef2c30a" />
+    <ReferenceAssembly PathName="e:\documents\documents\githubvisualstudio\new4\oasis15-winapp\packages\parse.1.6.1\lib\netcore45\parse.dll" HashGuid="339ec1f6-595a-280d-f5a7-9893107edd75" />
+    <ReferenceAssembly PathName="e:\documents\documents\githubvisualstudio\new4\oasis15-winapp\packages\parse.1.6.1\lib\netcore45\parse.winrt.dll" HashGuid="8be1d44c-a9af-48f7-ba0d-5c307ed64799" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

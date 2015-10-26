@@ -416,7 +416,6 @@ E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Wi
 E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
 E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\ProjectArchitectures.txt
-E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubApp4.WindowsPhone.csprojResolveAssemblyReference.cache
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubApp4.WindowsPhone.csprojResolveAssemblyReference.cache
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.WindowsPhone\obj\Debug\App.g.i.cs
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.WindowsPhone\obj\Debug\App.g.cs
@@ -490,3 +489,24 @@ C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.WindowsPhone\bin\Debug
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.WindowsPhone\bin\Debug\Parse.xml
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.WindowsPhone\bin\Debug\Parse.WinRT.xml
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubApp4.WindowsPhone.csproj.GenerateResource.Cache
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\SearchPage.xbf
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SearchPage.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SearchPage.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SearchPage.xaml
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SearchPage.xbf
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\results..xbf
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results..g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results..g.cs
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results..xaml
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results..xbf
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\know your id.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\know your id.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\know your id.xaml
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\know your id.xbf
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\know your id.xbf
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\eventnow.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\eventnow.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\eventnow.xaml
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\eventnow.xbf
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\eventnow.xbf
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubApp4.WindowsPhone.csprojResolveAssemblyReference.cache

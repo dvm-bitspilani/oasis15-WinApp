@@ -422,5 +422,15 @@ namespace HubApp4
         {
             Frame.Navigate(typeof(Favourite));
         }
+
+        private void results_click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(results));
+        }
+
+        private void eventsnow_OnClick(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(eventnow));
+        }
     }
 }

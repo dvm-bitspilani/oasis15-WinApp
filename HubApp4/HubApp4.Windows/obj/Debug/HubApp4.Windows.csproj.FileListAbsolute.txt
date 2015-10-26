@@ -411,3 +411,4 @@ C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.Windows\bin\Debug\Pars
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.Windows\bin\Debug\Parse.xml
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.Windows\bin\Debug\Parse.WinRT.xml
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.Windows\obj\Debug\HubApp4.Windows.csproj.GenerateResource.Cache
+E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\obj\Debug\HubApp4.Windows.csprojResolveAssemblyReference.cache

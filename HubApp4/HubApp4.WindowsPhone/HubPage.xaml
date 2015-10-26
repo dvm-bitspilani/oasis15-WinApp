@@ -41,7 +41,8 @@
         <DataTemplate x:Key="HubSectionHeaderTemplate2">
             <StackPanel Orientation="Horizontal">
                 <TextBlock Margin="0,0,0,-9.5" Text="{Binding}" Style="{ThemeResource HeaderTextBlockStyle}" Width="280" Foreground="Gray" />
-                <Button  BorderBrush="{x:Null}" Click="Search_Click" Tag="{Binding UniqueId}" MinWidth="50">
+               
+                    <Button  BorderBrush="{x:Null}" Click="Search_Click" Tag="{Binding UniqueId}" MinWidth="50">
                     <Image Source="Assets/search_icon.png" Width="30" Height="30" Margin="0,0,0,-25"/>
                 </Button>
             </StackPanel>
@@ -102,7 +103,9 @@
             <CommandBar.SecondaryCommands>
                 <AppBarButton Label="rate and review" Click="RateReviewButton_Click"/>
                 <AppBarToggleButton Label="about the fest" Click="AboutTheFest_OnClick" />
+                <AppBarToggleButton Label="eventsnow" Click="eventsnow_OnClick" />
                 <AppBarToggleButton Label="developers" Click="develop_click"/>
+                <AppBarToggleButton Label="results" Click="results_click"/>
             </CommandBar.SecondaryCommands>
             <AppBarButton Icon="People" Label="participation" Click="PartiButton_Click"/>
             <!-- <AppBarButton Label="Sponsors" Click="SponsorsButton_Click">
@@ -115,6 +118,7 @@
             <AppBarButton Icon="Map" Label="map" Click="MapButton_Click"/>
             <AppBarButton Icon="Calendar" Label="schedule" Click="ScheduleButton_Click"/>
             <AppBarButton Icon="Calendar" Label="Fav" Click="favButton_Click"/>
+            
         </CommandBar>
     </Page.BottomAppBar>
 
@@ -157,6 +161,7 @@
                 <DataTemplate>
                     <ScrollViewer>
                         <GridView
+                        
                         Margin="0,9.5,0,0"
                         ItemsSource="{Binding Items}"
                         AutomationProperties.AutomationId="ItemGridView"
@@ -215,7 +220,7 @@
             </HubSection>
             
             <HubSection x:Uid="HubSection2" Header="events" Width="Auto"
-                         DataContext="{Binding Groups[1]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate2}">
+                         DataContext="{Binding Groups[2]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate2}">
                 <DataTemplate>
                     <GridView
                         Margin="0,9.5,0,0"

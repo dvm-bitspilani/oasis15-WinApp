@@ -131,6 +131,9 @@
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\Assets\scheduleicon.png">
       <PackagePath>Assets\scheduleicon.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\Assets\search_icon.png">
+      <PackagePath>Assets\search_icon.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\Assets\shivani.png">
       <PackagePath>Assets\shivani.png</PackagePath>
     </AppxPackagedFile>
@@ -480,11 +483,17 @@
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\EventItemPage.xbf">
       <PackagePath>EventItemPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\eventnow.xbf">
+      <PackagePath>eventnow.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\Favourite.xbf">
       <PackagePath>Favourite.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\HubPage.xbf">
       <PackagePath>HubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\know your id.xbf">
+      <PackagePath>know your id.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\Map.xbf">
       <PackagePath>Map.xbf</PackagePath>
@@ -492,8 +501,14 @@
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\Parti.xbf">
       <PackagePath>Parti.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\results..xbf">
+      <PackagePath>results..xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\Schedule.xbf">
       <PackagePath>Schedule.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\SearchPage.xbf">
+      <PackagePath>SearchPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\bin\Debug\SectionPage.xbf">
       <PackagePath>SectionPage.xbf</PackagePath>

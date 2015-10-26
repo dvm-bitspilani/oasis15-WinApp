@@ -126,6 +126,7 @@ Assets\rateandreview.png
 Assets\rec.jpg
 Assets\rec.png
 Assets\scheduleicon.png
+Assets\search_icon.png
 Assets\shivani.png
 Assets\SmallLogo.scale-100.png
 Assets\SmallLogo.scale-240.png
@@ -145,13 +146,17 @@ AboutTheFest.xbf
 App.xbf
 developers.xbf
 EventItemPage.xbf
+eventnow.xbf
 Favourite.xbf
 HubApp4.WindowsPhone.xr.xml
 HubPage.xbf
 ItemPage.xbf
+know your id.xbf
 Map.xbf
 Parti.xbf
+results..xbf
 Schedule.xbf
+SearchPage.xbf
 SectionPage.xbf
 SubItemPage.xbf
 StoreManifest.xml

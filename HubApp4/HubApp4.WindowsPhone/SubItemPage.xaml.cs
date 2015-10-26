@@ -2,6 +2,7 @@
 using HubApp4.Data;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -164,11 +165,63 @@ namespace HubApp4
                     //Now add one more Entry.
                     ListCars = FavClass.ConvertToFavEvent(content);
                 }
-                MessageDialog msgbox4 = new MessageDialog(subitem.UniqueId+  subitem.Title+ subitem.Subtitle+ subitem.ImagePath+ subitem.Content);
-                await msgbox4.ShowAsync();
+                CultureInfo provider = new CultureInfo("es-ES");
                 //if (item != null)
                 ListCars.Add(subitem.UniqueId);
-
+                var subitemDet = await SampleDataSource.GetGroupAsync("Schedule");
+                schedulednotif n=new schedulednotif();
+                int noOfItems=subitemDet.Items.Count;
+                string date="25/10/2015";
+                for (int i = 0; i < noOfItems; i++)
+                {
+                    int noOfsubitems = subitemDet.Items[i].SubItems.Count;
+                    MessageDialog msgbox4 = new MessageDialog(noOfsubitems.ToString());
+                    await msgbox4.ShowAsync();
+                    if (i==0)
+                    {
+                         date = "26/10/2015";
+                    }
+                    else if(i==1)
+                    {
+                         date = "26/10/2015";
+                    }
+                    else if (i==2)
+                    {
+                         date = "30/10/2015";
+                    }
+                    else if (i==3)
+                    {
+                         date = "31/10/2015";
+                    }
+                    else if (i==4)
+                    {
+                         date = "01/11/2015";
+                    }
+                    for (int j = 0; j < noOfsubitems; j++)
+                        {
+                        if( subitemDet.Items[i].SubItems[j].UniqueId.CompareTo(subitem.UniqueId)==0)
+                        {
+                            string date1 = date +" "+ subitemDet.Items[i].SubItems[j].ImagePath;
+                            MessageDialog msgbox5 = new MessageDialog(date1);
+                            await msgbox5.ShowAsync();
+                            //DateTime dt = Convert.ToDateTime(date + subitemDet.Items[0].SubItems[0].ImagePath);
+                            DateTime dt= DateTime.ParseExact(date1, "g",provider);
+                            
+                            DateTime ddt = DateTime.Now;
+                            var diffInSeconds = (dt - ddt).TotalSeconds;
+                            MessageDialog msgbox6 = new MessageDialog(diffInSeconds.ToString());
+                            await msgbox6.ShowAsync();
+                            diffInSeconds = diffInSeconds - 900;
+                            if((diffInSeconds+10)>0)
+                            n.schedulenotif(diffInSeconds, subitemDet.Items[i].SubItems[j].Title);
+                            MessageDialog msgbox7 = new MessageDialog("conv");
+                            await msgbox7.ShowAsync();
+                        }
+                        }
+                }
+                
+                
+                
 
                 //else
                 //  ListCars.Add(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
@@ -247,7 +300,7 @@ namespace HubApp4
             StorageFolder local = ApplicationData.Current.LocalFolder;
             // Create a new file named DataFile.txt.
             var file = await local.CreateFileAsync("DataFile.json",CreationCollisionOption.OpenIfExists);
-
+            CultureInfo provider = new CultureInfo("es-ES");
             if (local != null)
             {
                 // var dataFolder = await local.GetFolderAsync("DataFolder");
@@ -277,7 +330,58 @@ namespace HubApp4
                         }
                     }
                     ListCars.TrimExcess();
+                    var subitemDet = await SampleDataSource.GetGroupAsync("Schedule");
+                    schedulednotif n = new schedulednotif();
+                    n.schedulenotifrem(subitem.Title);
+                    //int noOfItems = subitemDet.Items.Count;
+                    //string date = "25/10/2015";
+                    //for (int i = 0; i < noOfItems; i++)
+                    //{
+                    //    int noOfsubitems = subitemDet.Items[i].SubItems.Count;
+                    //    MessageDialog msgbox4 = new MessageDialog(noOfsubitems.ToString());
+                    //    await msgbox4.ShowAsync();
+                    //    if (i == 0)
+                    //    {
+                    //        date = "26/10/2015";
+                    //    }
+                    //    else if (i == 1)
+                    //    {
+                    //        date = "26/10/2015";
+                    //    }
+                    //    else if (i == 2)
+                    //    {
+                    //        date = "30/10/2015";
+                    //    }
+                    //    else if (i == 3)
+                    //    {
+                    //        date = "31/10/2015";
+                    //    }
+                    //    else if (i == 4)
+                    //    {
+                    //        date = "01/11/2015";
+                    //    }
+                    //    for (int j = 0; j < noOfsubitems; j++)
+                    //    {
+                    //        if (subitemDet.Items[i].SubItems[j].UniqueId.CompareTo(subitem.UniqueId) == 0)
+                    //        {
+                    //            string date1 = date + " " + subitemDet.Items[i].SubItems[j].ImagePath;
+                    //            MessageDialog msgbox5 = new MessageDialog(date1);
+                    //            await msgbox5.ShowAsync();
+                    //            //DateTime dt = Convert.ToDateTime(date + subitemDet.Items[0].SubItems[0].ImagePath);
+                    //            DateTime dt = DateTime.ParseExact(date1, "g", provider);
 
+                    //            DateTime ddt = DateTime.Now;
+                    //            var diffInSeconds = (dt - ddt).TotalSeconds;
+                    //            MessageDialog msgbox6 = new MessageDialog(diffInSeconds.ToString());
+                    //            await msgbox6.ShowAsync();
+                    //            diffInSeconds = diffInSeconds - 900;
+                    //            if ((diffInSeconds + 10) > 0)
+                                   
+                    //            MessageDialog msgbox7 = new MessageDialog("conv");
+                    //            await msgbox7.ShowAsync();
+                    //        }
+                    //    }
+                    //}
 
                     //if (item != null)
                     //ListCars.Add(new FavClass() { UniqueId = item1.UniqueId, Id = item1.Id, Title = item1.Title, Subtitle = item1.Subtitle, ImagePath = item1.ImagePath, Content = item1.Content });
@@ -285,7 +389,7 @@ namespace HubApp4
                     //  ListCars.Add(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
                     try
                     {
-                        DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<FavClass>));
+                        DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<string>));
                         using (var stream = await local.OpenStreamForWriteAsync(
                                       "DataFile.json",
                                       CreationCollisionOption.ReplaceExisting))

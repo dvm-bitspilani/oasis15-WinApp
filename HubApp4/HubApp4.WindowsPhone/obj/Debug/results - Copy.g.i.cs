@@ -12,7 +12,7 @@
 
 namespace HubApp4
 {
-    partial class results : global::Windows.UI.Xaml.Controls.Page
+    partial class resultsCopy: global::Windows.UI.Xaml.Controls.Page
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 4.0.0.0")]
         private global::Windows.UI.Xaml.Media.SolidColorBrush foreg; 
@@ -34,7 +34,7 @@ namespace HubApp4
 
             _contentLoaded = true;
             global::Windows.UI.Xaml.Application.LoadComponent(this, new global::System.Uri("ms-appx:///results - Copy.xaml"), global::Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation.Application);
- 
+
             foreg = (global::Windows.UI.Xaml.Media.SolidColorBrush)this.FindName("foreg");
             foreg2 = (global::Windows.UI.Xaml.Media.SolidColorBrush)this.FindName("foreg2");
             LayoutRoot = (global::Windows.UI.Xaml.Controls.Grid)this.FindName("LayoutRoot");

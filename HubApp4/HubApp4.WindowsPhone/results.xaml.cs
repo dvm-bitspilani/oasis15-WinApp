@@ -60,6 +60,8 @@ namespace HubApp4
             get { return this.defaultViewModel; }
         }
 
+        public object FavListView { get; private set; }
+
         /// <summary>
         /// Populates the page with content passed during navigation.  Any saved state is also
         /// provided when recreating a page from a prior session.
@@ -152,14 +154,14 @@ namespace HubApp4
 
         }
 
-        private  void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
             try
             {
                 var subitemId = ((SampleDataItem)e.ClickedItem).UniqueId;
-                Frame.Navigate(typeof(resultpage),subitemId);
+                Frame.Navigate(typeof(resultpage), subitemId);
 
-               
+
 
 
             }
@@ -167,4 +169,3 @@ namespace HubApp4
         }
     }
 }
-#endregion

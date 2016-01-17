@@ -736,3 +736,84 @@ E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-W
 E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\obj\Debug\resultpage.xaml
 E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\obj\Debug\resultpage.xbf
 E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubApp4.WindowsPhone.csprojResolveAssemblyReference.cache
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubApp4.WindowsPhone.csprojResolveAssemblyReference.cache
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\App.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\App.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\AboutTheFest.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\AboutTheFest.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\developers.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\developers.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\EventItemPage.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\EventItemPage.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\eventnow.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\eventnow.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Favourite.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Favourite.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubPage.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubPage.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\know your id.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\know your id.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Map.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Map.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Parti.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Parti.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Pics.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Pics.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\resultpage.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\resultpage.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results - Copy.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results - Copy.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Schedule.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Schedule.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SearchPage.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SearchPage.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SectionPage.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SectionPage.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\ItemPage.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\ItemPage.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SubItemPage.g.i.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SubItemPage.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Parti.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Pics.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\resultpage.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results - Copy.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Parti.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Pics.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\resultpage.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results - Copy.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\results.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubApp4.WindowsPhone.exe
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubApp4.WindowsPhone.pdb
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\App.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\AboutTheFest.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\developers.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\EventItemPage.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\eventnow.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Favourite.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubPage.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\know your id.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Map.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Schedule.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SearchPage.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SectionPage.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\ItemPage.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SubItemPage.xaml
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\App.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\AboutTheFest.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\developers.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\EventItemPage.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\eventnow.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Favourite.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\HubPage.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\know your id.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Map.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\Schedule.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SearchPage.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SectionPage.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\ItemPage.xbf
+E:\Documents\Documents\GitHubVisualStudio\new5\oasis15-WinApp\HubApp4\HubApp4.WindowsPhone\obj\Debug\SubItemPage.xbf

@@ -1,0 +1,94 @@
+﻿<Page
+    x:Class="HubApp4.results"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HubApp4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+   
+   
+    Background="WhiteSmoke">
+     <!--d:DataContext="{Binding Groups[1].Items[0], Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"-->
+    <Page.Resources>
+        <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
+        <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>
+        <DataTemplate x:Key="StandardDoubleLineItemTemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                
+                <StackPanel Grid.Column="1" Margin="14.5,0,0,0">
+                    <TextBlock Foreground="{StaticResource foreg}" Text="{Binding eventName}" Style="{ThemeResource ListViewItemTextBlockStyle}"/>
+                    
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <ContinuumNavigationTransitionInfo/>
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+    <ScrollViewer>
+        <Grid x:Name="LayoutRoot">
+            <Grid.ChildrenTransitions>
+                <TransitionCollection>
+                    <EntranceThemeTransition/>
+                </TransitionCollection>
+            </Grid.ChildrenTransitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Title Panel -->
+            <StackPanel Grid.Row="0" Margin="19,0,0,0">
+                <TextBlock x:Uid="Header" Text="APOGEE 2015"  Style="{ThemeResource TitleTextBlockStyle}" Foreground="{StaticResource foreg}" Margin="0,12,0,0" />
+                <TextBlock   Text="Results" Style="{ThemeResource HeaderTextBlockStyle}" Margin="0,0,0,26.5" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" Foreground="{StaticResource foreg2}"/>
+            </StackPanel>
+
+            <!-- 
+            TODO: Content should be placed within the following grid 
+                  to show details for the current item
+        -->
+
+            <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0" >
+
+                <ScrollViewer>
+                    <ListView x:ConnectionId='1' 
+                        x:Name="FavListView"
+                        Margin="0,0,0,0"
+                                                
+                        AutomationProperties.AutomationId="ItemGridView"
+                        AutomationProperties.Name="Items In Group"
+                        ItemTemplate="{StaticResource StandardDoubleLineItemTemplate}"
+                        SelectionMode="None"
+                        IsItemClickEnabled="False"
+                                                      
+                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                        <!--<GridView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <ItemsWrapGrid />
+                            </ItemsPanelTemplate>
+                        </GridView.ItemsPanel>-->
+                    </ListView>
+                </ScrollViewer>
+
+
+
+
+
+            </Grid>
+
+        </Grid>
+    </ScrollViewer>
+</Page>
+

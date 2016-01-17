@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-140"
+"ResourceDimensions"		"scale-140"
+
+[Files]
+"E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\obj\Release\filemap.scale-140.pri"			"resources.pri"
+"E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\obj\Release\PackageLayout\Assets\background\SplashScreen.scale-140.png"			"Assets\background\SplashScreen.scale-140.png"

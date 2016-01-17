@@ -1,0 +1,9 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-100"
+"ResourceDimensions"		"scale-100"
+
+[Files]
+"E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\obj\Release\split.scale-100.pri"			"resources.pri"
+"E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\obj\Release\PackageLayout\Assets\Square44x44Logo.scale-100.png"			"Assets\Square44x44Logo.scale-100.png"
+"E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\obj\Release\PackageLayout\Assets\SmallLogo.scale-100.png"			"Assets\SmallLogo.scale-100.png"
+"E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\obj\Release\PackageLayout\Assets\background\SplashScreen.scale-100.png"			"Assets\background\SplashScreen.scale-100.png"

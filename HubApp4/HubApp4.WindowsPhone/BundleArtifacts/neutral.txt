@@ -1,0 +1,4 @@
+MainPackage=E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\bin\Release\HubApp4.WindowsPhone_1.2.0.0_AnyCPU.appx
+SymbolPackage=E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\AppPackages\HubApp4.WindowsPhone_1.2.0.0_Test\HubApp4.WindowsPhone_1.2.0.0_AnyCPU.appxsym
+ResourcePack=E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\bin\Release\HubApp4.WindowsPhone_1.2.0.0_scale-100.appx
+ResourcePack=E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.WindowsPhone\bin\Release\HubApp4.WindowsPhone_1.2.0.0_scale-140.appx

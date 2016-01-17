@@ -6,10 +6,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="WhiteSmoke">
+    Background="Black">
 
     <Grid x:Name="LayoutRoot">
-
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/background/home2.png" Stretch="UniformToFill" AlignmentY="Bottom" AlignmentX="Center"/>
+        </Grid.Background>
         <Grid.ChildrenTransitions>
             <TransitionCollection>
                 <EntranceThemeTransition/>
@@ -23,8 +25,9 @@
 
         <!-- Title Panel -->
         <StackPanel Grid.Row="0" Margin="19,0,0,0">
-            <TextBlock Text="MY APPLICATION" Foreground="Black" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
-            <TextBlock Text="page title" Foreground="Gray" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+
+            <TextBlock Text="Search Events"   FontFamily="Segoe UI" FontSize="40" Style="{ThemeResource HeaderTextBlockStyle}" Foreground="White"
+                       Margin="0,0,0,26.5" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
         </StackPanel>
 
         <!--TODO: Content should be placed within the following grid-->

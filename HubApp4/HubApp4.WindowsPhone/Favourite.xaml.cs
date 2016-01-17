@@ -133,6 +133,8 @@ namespace HubApp4
             string content = String.Empty;
 
             List<string> myCars;
+            List<string> evTitle = new List<string>();
+
             var jsonSerializer = new DataContractJsonSerializer(typeof(List<string>));
             StorageFolder local = ApplicationData.Current.LocalFolder;
             var file = await local.CreateFileAsync("DataFile.json",
@@ -148,15 +150,25 @@ namespace HubApp4
                 myCars = (List<string>)jsonSerializer.ReadObject(myStream);
                 if (myCars != null)
                 {
-                    List<SampleDataSubItem> evobj = new List<SampleDataSubItem>();
+                    // List<SampleDataSubItem> evobj = new List<SampleDataSubItem>();
                     foreach (var favEvent in myCars)
                     {
-                        var itemId = await SampleDataSource.GetSubItemAsync(favEvent);
-                        evobj.Add(itemId);
+                        var item = await SampleDataSource.IsItem(favEvent);
+                        if (item == 0)
+                        {
+                            var subitemId = await SampleDataSource.GetSubItemAsync(favEvent);
+                            evTitle.Add(subitemId.Title);
+                        }
+                        else
+                        {
+                            var itemId = await SampleDataSource.GetItemAsync(favEvent);
+                            evTitle.Add(itemId.Title);
+                        }
+
                         //content += String.Format("ID: {0}, Make: {1}, Model: {2} ... ", favEvent.Id, favEvent.Title, favEvent.Model);
                     }
 
-                    FavListView.ItemsSource = evobj;
+                    FavListView.ItemsSource = evTitle;
                 }
                 /* if (myCars == null)
                  {
@@ -170,32 +182,42 @@ namespace HubApp4
 
         private async void ListView_Loaded(object sender, RoutedEventArgs e)
         {
-            await deserializeJsonAsync();
-
-
-        }
-        private void Mappin_Click(object sender, RoutedEventArgs e)
-        {
-            Button btn = sender as Button;
-            string mappinid = (string)btn.Tag;
-            Frame.Navigate(typeof(Map), mappinid);
+            try {
+                await deserializeJsonAsync();
+            }
+            catch { }
 
         }
+
+
         private async void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            string subitemId = ((SampleDataSubItem)e.ClickedItem).UniqueId;
-            // ListViewItem btn = sender as ListViewItem;
-            // string subitemId = (string)btn.Tag;
-            var item = await SampleDataSource.IsItem((string)subitemId);
-            if (item == 0)
-            {
-                Frame.Navigate(typeof(SubItemPage), subitemId);
+            /*  string subitemId = ((SampleDataSubItem)e.ClickedItem).UniqueId;
+              // ListViewItem btn = sender as ListViewItem;
+              // string subitemId = (string)btn.Tag;
+              var item = await SampleDataSource.IsItem((string)subitemId);
+              if (item == 0)
+              {
+                  Frame.Navigate(typeof(SubItemPage), subitemId);
 
+              }
+              else
+              {
+                  Frame.Navigate(typeof(ItemPage), subitemId);
+              }*/
+            try {
+                var item1 = await SampleDataSource.GetItemAsync3((string)e.ClickedItem);
+                if (item1 == null)
+                {
+                    var subitem1 = await SampleDataSource.GetSubItemAsync3((string)e.ClickedItem);
+                    Frame.Navigate(typeof(SubItemPage), subitem1.UniqueId);
+                }
+                else
+                {
+                    Frame.Navigate(typeof(ItemPage), item1.UniqueId);
+                }
             }
-            else
-            {
-                Frame.Navigate(typeof(ItemPage), subitemId);
-            }
+            catch { }
         }
     }
 }

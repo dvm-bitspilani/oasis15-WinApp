@@ -9,476 +9,476 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>69d15f85-f90c-4046-851f-8567912b8642</PackageIdentityName>
-    <IntermediateOutputPath>E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.exe">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.exe">
       <PackagePath>HubApp4.Windows.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\packages\Parse.1.6.1\lib\netcore45\Parse.dll">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\packages\Parse.1.6.1\lib\netcore45\Parse.dll">
       <PackagePath>Parse.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\packages\Parse.1.6.1\lib\netcore45\Parse.WinRT.dll">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\packages\Parse.1.6.1\lib\netcore45\Parse.WinRT.dll">
       <PackagePath>Parse.WinRT.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\106x106.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\106x106.png">
       <PackagePath>Assets\106x106.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\120x120.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\120x120.png">
       <PackagePath>Assets\120x120.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\1920 splash new.scale-240.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\1920 splash new.scale-240.png">
       <PackagePath>Assets\1920 splash new.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\360x360.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\360x360.png">
       <PackagePath>Assets\360x360.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\434x210.scale-140.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\434x210.scale-140.png">
       <PackagePath>Assets\434x210.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\58x58.scale-240.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\58x58.scale-240.png">
       <PackagePath>Assets\58x58.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\about.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\about.png">
       <PackagePath>Assets\about.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\acco.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\acco.png">
       <PackagePath>Assets\acco.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\adp.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\adp.png">
       <PackagePath>Assets\adp.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\ap15.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\ap15.png">
       <PackagePath>Assets\ap15.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\colorComp 1_1_00000.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\colorComp 1_1_00000.png">
       <PackagePath>Assets\colorComp 1_1_00000.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\Comp 2 %280%3b00%3b00%3b00%29.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\Comp 2 %280%3b00%3b00%3b00%29.png">
       <PackagePath>Assets\Comp 2 %280%3b00%3b00%3b00%29.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\controls.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\controls.png">
       <PackagePath>Assets\controls.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\DarkGray.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\DarkGray.png">
       <PackagePath>Assets\DarkGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\dvm.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\dvm.png">
       <PackagePath>Assets\dvm.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\anubhav.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\anubhav.png">
       <PackagePath>Assets\anubhav.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\shivani.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\shivani.png">
       <PackagePath>Assets\shivani.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\gensec.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\gensec.png">
       <PackagePath>Assets\gensec.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\how to reach pilani.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\how to reach pilani.png">
       <PackagePath>Assets\how to reach pilani.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\LightGray.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\map.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\map.png">
       <PackagePath>Assets\map.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\mapi4.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\mapi4.png">
       <PackagePath>Assets\mapi4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\mapi6.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\mapi6.png">
       <PackagePath>Assets\mapi6.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\mapi7.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\mapi7.png">
       <PackagePath>Assets\mapi7.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\MediumGray.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\MediumGray.png">
       <PackagePath>Assets\MediumGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\oasis-logo.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\oasis-logo.png">
       <PackagePath>Assets\oasis-logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\pcr.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\pcr.png">
       <PackagePath>Assets\pcr.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\pep.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\pep.png">
       <PackagePath>Assets\pep.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\prez.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\prez.png">
       <PackagePath>Assets\prez.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\rateandreview.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\rateandreview.png">
       <PackagePath>Assets\rateandreview.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\rec.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\rec.png">
       <PackagePath>Assets\rec.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\scheduleicon.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\scheduleicon.png">
       <PackagePath>Assets\scheduleicon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\sponsors.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\sponsors.png">
       <PackagePath>Assets\sponsors.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\sponsors1.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\sponsors1.png">
       <PackagePath>Assets\sponsors1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\url.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\url.png">
       <PackagePath>Assets\url.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\WideLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\WideLogo.scale-100.png">
       <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\WideLogo.scale-140.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\WideLogo.scale-140.png">
       <PackagePath>Assets\WideLogo.scale-140.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\wikipedia-icon.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\wikipedia-icon.png">
       <PackagePath>Assets\wikipedia-icon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Shared\Assets\DarkGray1.png">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Shared\Assets\DarkGray1.png">
       <PackagePath>Assets\DarkGray1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\170x170 Comp 2_00000.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\170x170 Comp 2_00000.jpg">
       <PackagePath>Assets\170x170 Comp 2_00000.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\adp.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\adp.jpg">
       <PackagePath>Assets\adp.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\color Comp 1_00000.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\color Comp 1_00000.jpg">
       <PackagePath>Assets\color Comp 1_00000.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\controls.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\controls.jpg">
       <PackagePath>Assets\controls.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\dvm.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\dvm.jpg">
       <PackagePath>Assets\dvm.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Ahvaan.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Ahvaan.jpg">
       <PackagePath>Assets\events\Ahvaan.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Airborne.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Airborne.jpg">
       <PackagePath>Assets\events\Airborne.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Angels and Demons.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Angels and Demons.jpg">
       <PackagePath>Assets\events\Angels and Demons.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\APOGEE Innovation Challenge.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\APOGEE Innovation Challenge.jpg">
       <PackagePath>Assets\events\APOGEE Innovation Challenge.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Astronomy Workshop.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Astronomy Workshop.jpg">
       <PackagePath>Assets\events\Astronomy Workshop.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Battle of Waterloo.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Battle of Waterloo.jpg">
       <PackagePath>Assets\events\Battle of Waterloo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Bibliomania.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Bibliomania.jpg">
       <PackagePath>Assets\events\Bibliomania.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Bits Fantasy.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Bits Fantasy.jpg">
       <PackagePath>Assets\events\Bits Fantasy.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\BITSopoly.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\BITSopoly.jpg">
       <PackagePath>Assets\events\BITSopoly.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Brain OF BITS %28BOB%29.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Brain OF BITS %28BOB%29.jpg">
       <PackagePath>Assets\events\Brain OF BITS %28BOB%29.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Brain Wave.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Brain Wave.jpg">
       <PackagePath>Assets\events\Brain Wave.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Business Master_Ace the Case.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Business Master_Ace the Case.jpg">
       <PackagePath>Assets\events\Business Master_Ace the Case.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\C-Doku.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\C-Doku.jpg">
       <PackagePath>Assets\events\C-Doku.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Checkmate.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Checkmate.jpg">
       <PackagePath>Assets\events\Checkmate.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Chem-E-Car.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Chem-E-Car.jpg">
       <PackagePath>Assets\events\Chem-E-Car.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Coder.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Coder.jpg">
       <PackagePath>Assets\events\Coder.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\CodeStorm.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\CodeStorm.jpg">
       <PackagePath>Assets\events\CodeStorm.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Daily Redesigned.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Daily Redesigned.jpg">
       <PackagePath>Assets\events\Daily Redesigned.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Dexters Laboratory.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Dexters Laboratory.jpg">
       <PackagePath>Assets\events\Dexters Laboratory.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Dhiti old.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Dhiti old.jpg">
       <PackagePath>Assets\events\Dhiti old.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Dhiti.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Dhiti.jpg">
       <PackagePath>Assets\events\Dhiti.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Dopers Quiz.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Dopers Quiz.jpg">
       <PackagePath>Assets\events\Dopers Quiz.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Dual Mode Vehicle Challenge.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Dual Mode Vehicle Challenge.jpg">
       <PackagePath>Assets\events\Dual Mode Vehicle Challenge.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\ESPOIR%28A Health B-Plan Competition%29.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\ESPOIR%28A Health B-Plan Competition%29.jpg">
       <PackagePath>Assets\events\ESPOIR%28A Health B-Plan Competition%29.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Ethical Quotient %28E.Q.%29.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Ethical Quotient %28E.Q.%29.jpg">
       <PackagePath>Assets\events\Ethical Quotient %28E.Q.%29.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\FTGP %28Full Throttle Grand Prix%29.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\FTGP %28Full Throttle Grand Prix%29.jpg">
       <PackagePath>Assets\events\FTGP %28Full Throttle Grand Prix%29.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Gambling Mathematics.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Gambling Mathematics.jpg">
       <PackagePath>Assets\events\Gambling Mathematics.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Gameathon %28Game Making Contest%29.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Gameathon %28Game Making Contest%29.jpg">
       <PackagePath>Assets\events\Gameathon %28Game Making Contest%29.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\GEOTECKNIQUE.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\GEOTECKNIQUE.jpg">
       <PackagePath>Assets\events\GEOTECKNIQUE.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Google Hackathon.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Google Hackathon.jpg">
       <PackagePath>Assets\events\Google Hackathon.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Green Challenge.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Green Challenge.jpg">
       <PackagePath>Assets\events\Green Challenge.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Hackathon.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Hackathon.jpg">
       <PackagePath>Assets\events\Hackathon.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Hackatronics.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Hackatronics.jpg">
       <PackagePath>Assets\events\Hackatronics.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\I-Strike.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\I-Strike.jpg">
       <PackagePath>Assets\events\I-Strike.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\India quiz.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\India quiz.jpg">
       <PackagePath>Assets\events\India quiz.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Ingenieur.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Ingenieur.jpg">
       <PackagePath>Assets\events\Ingenieur.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Ink-quisitive.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Ink-quisitive.jpg">
       <PackagePath>Assets\events\Ink-quisitive.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\International Coding League.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\International Coding League.jpg">
       <PackagePath>Assets\events\International Coding League.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\iReport.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\iReport.jpg">
       <PackagePath>Assets\events\iReport.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Jeopardy.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Jeopardy.jpg">
       <PackagePath>Assets\events\Jeopardy.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Junkyard Wars.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Junkyard Wars.jpg">
       <PackagePath>Assets\events\Junkyard Wars.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\KRAZYBRIDGE.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\KRAZYBRIDGE.jpg">
       <PackagePath>Assets\events\KRAZYBRIDGE.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Lacuna.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Lacuna.jpg">
       <PackagePath>Assets\events\Lacuna.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Marooned.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Marooned.jpg">
       <PackagePath>Assets\events\Marooned.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Media Mania.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Media Mania.jpg">
       <PackagePath>Assets\events\Media Mania.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Media quiz.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Media quiz.jpg">
       <PackagePath>Assets\events\Media quiz.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Mindsweeper.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Mindsweeper.jpg">
       <PackagePath>Assets\events\Mindsweeper.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Overhead Transmission %28OHT%29.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Overhead Transmission %28OHT%29.jpg">
       <PackagePath>Assets\events\Overhead Transmission %28OHT%29.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\PhotoFunia.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\PhotoFunia.jpg">
       <PackagePath>Assets\events\PhotoFunia.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Physics of the impossible.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Physics of the impossible.jpg">
       <PackagePath>Assets\events\Physics of the impossible.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\PiCaption.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\PiCaption.jpg">
       <PackagePath>Assets\events\PiCaption.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\plAI.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\plAI.jpg">
       <PackagePath>Assets\events\plAI.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Poetic Warfare.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Poetic Warfare.jpg">
       <PackagePath>Assets\events\Poetic Warfare.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Portfolio.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Portfolio.jpg">
       <PackagePath>Assets\events\Portfolio.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Puts and Punters.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Puts and Punters.jpg">
       <PackagePath>Assets\events\Puts and Punters.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Qrious.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Qrious.jpg">
       <PackagePath>Assets\events\Qrious.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Raze and Rise.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Raze and Rise.jpg">
       <PackagePath>Assets\events\Raze and Rise.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Relay Dumb Charades.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Relay Dumb Charades.jpg">
       <PackagePath>Assets\events\Relay Dumb Charades.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Reverse Engineering.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Reverse Engineering.jpg">
       <PackagePath>Assets\events\Reverse Engineering.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Robotetris.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Robotetris.jpg">
       <PackagePath>Assets\events\Robotetris.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Robots At War %28RAW%29.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Robots At War %28RAW%29.jpg">
       <PackagePath>Assets\events\Robots At War %28RAW%29.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Roll On.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Roll On.jpg">
       <PackagePath>Assets\events\Roll On.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Science and Technology Quiz.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Science and Technology Quiz.jpg">
       <PackagePath>Assets\events\Science and Technology Quiz.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\SHRISHTI.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\SHRISHTI.jpg">
       <PackagePath>Assets\events\SHRISHTI.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Sky Watching Session.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Sky Watching Session.jpg">
       <PackagePath>Assets\events\Sky Watching Session.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Smash the Bug.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Smash the Bug.jpg">
       <PackagePath>Assets\events\Smash the Bug.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Speed Scrabble.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Speed Scrabble.jpg">
       <PackagePath>Assets\events\Speed Scrabble.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Spelling Bee.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Spelling Bee.jpg">
       <PackagePath>Assets\events\Spelling Bee.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Stock Market Simulation.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Stock Market Simulation.jpg">
       <PackagePath>Assets\events\Stock Market Simulation.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Taboo.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Taboo.jpg">
       <PackagePath>Assets\events\Taboo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Telescope Making Workshop.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Telescope Making Workshop.jpg">
       <PackagePath>Assets\events\Telescope Making Workshop.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\The Usual Suspects.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\The Usual Suspects.jpg">
       <PackagePath>Assets\events\The Usual Suspects.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Track O Mania.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Track O Mania.jpg">
       <PackagePath>Assets\events\Track O Mania.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Treasure Hunt.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Treasure Hunt.jpg">
       <PackagePath>Assets\events\Treasure Hunt.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Triathlon - the complete package.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Triathlon - the complete package.jpg">
       <PackagePath>Assets\events\Triathlon - the complete package.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Up in the Air.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Up in the Air.jpg">
       <PackagePath>Assets\events\Up in the Air.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Whodunnit.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Whodunnit.jpg">
       <PackagePath>Assets\events\Whodunnit.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Word-a-Maze.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Word-a-Maze.jpg">
       <PackagePath>Assets\events\Word-a-Maze.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\events\Wordstock.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\events\Wordstock.jpg">
       <PackagePath>Assets\events\Wordstock.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\pcr.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\pcr.jpg">
       <PackagePath>Assets\pcr.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\pep.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\pep.jpg">
       <PackagePath>Assets\pep.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\Assets\rec.jpg">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\Assets\rec.jpg">
       <PackagePath>Assets\rec.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Shared\DataModel\SampleData.json">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Shared\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Shared\DataModel\SampleData1.json">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Shared\DataModel\SampleData1.json">
       <PackagePath>DataModel\SampleData1.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.xr.xml">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.xr.xml">
       <PackagePath>HubApp4.Windows.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\AboutTheFest.xbf">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\AboutTheFest.xbf">
       <PackagePath>AboutTheFest.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\GroupedItemsPage1.xbf">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\GroupedItemsPage1.xbf">
       <PackagePath>GroupedItemsPage1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\Schedule1.xbf">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\Schedule1.xbf">
       <PackagePath>Schedule1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\SubItemPage.xbf">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\SubItemPage.xbf">
       <PackagePath>SubItemPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\EventsCat.xbf">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\EventsCat.xbf">
       <PackagePath>EventsCat.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\HubPage.xbf">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\HubPage.xbf">
       <PackagePath>HubPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\Schedule.xbf">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\Schedule.xbf">
       <PackagePath>Schedule.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\SectionPage.xbf">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\SectionPage.xbf">
       <PackagePath>SectionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\ItemPage.xbf">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\ItemPage.xbf">
       <PackagePath>ItemPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Documents\Documents\GitHubVisualStudio\new4\oasis15-WinApp\HubApp4\HubApp4.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

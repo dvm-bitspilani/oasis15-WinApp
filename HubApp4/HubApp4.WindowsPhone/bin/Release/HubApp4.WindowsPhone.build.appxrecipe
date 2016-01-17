@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANUBHAV-PC</Machine>
+    <WindowsUser>USER</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f0509719-721d-4f4b-b135-9002f0003c78</PackageIdentityName>
+    <IntermediateOutputPath>E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\HubApp4.WindowsPhone.exe">
+      <PackagePath>HubApp4.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\packages\Parse.1.6.1\lib\wpa81\Parse.dll">
+      <PackagePath>Parse.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\packages\Parse.1.6.1\lib\wpa81\Parse.WinRT.dll">
+      <PackagePath>Parse.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\106.png">
+      <PackagePath>Assets\106.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\106x106.png">
+      <PackagePath>Assets\106x106.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\120x120.scale-240.png">
+      <PackagePath>Assets\120x120.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\170x170.png">
+      <PackagePath>Assets\170x170.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\360x360.scale-240.png">
+      <PackagePath>Assets\360x360.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\44x44.png">
+      <PackagePath>Assets\44x44.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\6.png">
+      <PackagePath>Assets\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\appl.png">
+      <PackagePath>Assets\appl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\art.png">
+      <PackagePath>Assets\art.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\Background_grad.png">
+      <PackagePath>Assets\background\Background_grad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\home1.png">
+      <PackagePath>Assets\background\home1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\home2.png">
+      <PackagePath>Assets\background\home2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\home3.png">
+      <PackagePath>Assets\background\home3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\home4.png">
+      <PackagePath>Assets\background\home4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\home5.png">
+      <PackagePath>Assets\background\home5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\navigationdrawer.png">
+      <PackagePath>Assets\background\navigationdrawer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\SplashScreen.scale-100.png">
+      <PackagePath>Assets\background\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\SplashScreen.scale-140.png">
+      <PackagePath>Assets\background\SplashScreen.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\SplashScreen.scale-240.png">
+      <PackagePath>Assets\background\SplashScreen.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\Untitled-4.png">
+      <PackagePath>Assets\background\Untitled-4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\Win.png">
+      <PackagePath>Assets\background\Win.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\background\winbg.png">
+      <PackagePath>Assets\background\winbg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\choreo.png">
+      <PackagePath>Assets\choreo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\dance.png">
+      <PackagePath>Assets\dance.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\desertduel.png">
+      <PackagePath>Assets\desertduel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\drama.png">
+      <PackagePath>Assets\drama.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\dualistiniquiry.png">
+      <PackagePath>Assets\dualistiniquiry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\fashp.png">
+      <PackagePath>Assets\fashp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\hardrocksofa.png">
+      <PackagePath>Assets\hardrocksofa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\about.png">
+      <PackagePath>Assets\icons\about.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\about1.png">
+      <PackagePath>Assets\icons\about1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\blog.png">
+      <PackagePath>Assets\icons\blog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\blog1.png">
+      <PackagePath>Assets\icons\blog1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\Call.png">
+      <PackagePath>Assets\icons\Call.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\developers.png">
+      <PackagePath>Assets\icons\developers.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\developers1.png">
+      <PackagePath>Assets\icons\developers1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\E-Mail.png">
+      <PackagePath>Assets\icons\E-Mail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\eventsnow.png">
+      <PackagePath>Assets\icons\eventsnow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\fb.png">
+      <PackagePath>Assets\icons\fb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\Map.png">
+      <PackagePath>Assets\icons\Map.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\parti1.png">
+      <PackagePath>Assets\icons\parti1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\pics.png">
+      <PackagePath>Assets\icons\pics.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\picsoftheday.png">
+      <PackagePath>Assets\icons\picsoftheday.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\profshow.png">
+      <PackagePath>Assets\icons\profshow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\rate.png">
+      <PackagePath>Assets\icons\rate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\results.png">
+      <PackagePath>Assets\icons\results.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\search.png">
+      <PackagePath>Assets\icons\search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\sponsors1.png">
+      <PackagePath>Assets\icons\sponsors1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\twitter.png">
+      <PackagePath>Assets\icons\twitter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\youtube.png">
+      <PackagePath>Assets\icons\youtube.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\jess.png">
+      <PackagePath>Assets\jess.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\mapi6.png">
+      <PackagePath>Assets\mapi6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\mapi7.png">
+      <PackagePath>Assets\mapi7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\mappin.png">
+      <PackagePath>Assets\mappin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\mappin_new.png">
+      <PackagePath>Assets\mappin_new.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\metamorphosis.png">
+      <PackagePath>Assets\metamorphosis.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\mime.png">
+      <PackagePath>Assets\mime.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\misc.png">
+      <PackagePath>Assets\misc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\music.png">
+      <PackagePath>Assets\music.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\nirmotzeri.png">
+      <PackagePath>Assets\nirmotzeri.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\oasisdebate.png">
+      <PackagePath>Assets\oasisdebate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\online.png">
+      <PackagePath>Assets\online.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\oratory.png">
+      <PackagePath>Assets\oratory.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\papon.png">
+      <PackagePath>Assets\papon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\pitchperfect.png">
+      <PackagePath>Assets\pitchperfect.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\ppl\akshansh.png">
+      <PackagePath>Assets\ppl\akshansh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\ppl\krishnaakhil.png">
+      <PackagePath>Assets\ppl\krishnaakhil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\ppl\krishnachaitanya.png">
+      <PackagePath>Assets\ppl\krishnachaitanya.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\ppl\maheep.png">
+      <PackagePath>Assets\ppl\maheep.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\ppl\ojas.png">
+      <PackagePath>Assets\ppl\ojas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\ppl\saketh.png">
+      <PackagePath>Assets\ppl\saketh.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\ppl\shivani.png">
+      <PackagePath>Assets\ppl\shivani.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\ppl\siddhant.png">
+      <PackagePath>Assets\ppl\siddhant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\quizzing.png">
+      <PackagePath>Assets\quizzing.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\rapwars.png">
+      <PackagePath>Assets\rapwars.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\rateandreview.png">
+      <PackagePath>Assets\rateandreview.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\razzmatazz.png">
+      <PackagePath>Assets\razzmatazz.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\result.png">
+      <PackagePath>Assets\icons\result.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\rocktaves.png">
+      <PackagePath>Assets\rocktaves.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\scheduleicon.png">
+      <PackagePath>Assets\scheduleicon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\search_icon.png">
+      <PackagePath>Assets\search_icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\shaan.png">
+      <PackagePath>Assets\shaan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\skiller.png">
+      <PackagePath>Assets\skiller.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\skrat.png">
+      <PackagePath>Assets\skrat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\sonyanakti.png">
+      <PackagePath>Assets\sonyanakti.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\sponsors.png">
+      <PackagePath>Assets\sponsors.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\sponsors1.png">
+      <PackagePath>Assets\sponsors1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\Square44x44Logo.scale-240.png">
+      <PackagePath>Assets\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\stageplay.png">
+      <PackagePath>Assets\stageplay.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\streetdance.png">
+      <PackagePath>Assets\streetdance.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\streetplay.png">
+      <PackagePath>Assets\streetplay.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\tarang.png">
+      <PackagePath>Assets\tarang.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\thelocaltrain.png">
+      <PackagePath>Assets\thelocaltrain.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\icons\workshop.png">
+      <PackagePath>Assets\icons\workshop.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\Untitled-2.png">
+      <PackagePath>Assets\Untitled-2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\Untitlemmd-2.scale-240.png">
+      <PackagePath>Assets\Untitlemmd-2.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\vishwamohanbhatt.png">
+      <PackagePath>Assets\vishwamohanbhatt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\Assets\zenith.png">
+      <PackagePath>Assets\zenith.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Shared\Assets\DarkGray1.png">
+      <PackagePath>Assets\DarkGray1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Shared\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.Shared\DataModel\SampleData1.json">
+      <PackagePath>DataModel\SampleData1.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\HubApp4.WindowsPhone.xr.xml">
+      <PackagePath>HubApp4.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\AboutTheFest.xbf">
+      <PackagePath>AboutTheFest.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\developers.xbf">
+      <PackagePath>developers.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\EventItemPage.xbf">
+      <PackagePath>EventItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\eventnow.xbf">
+      <PackagePath>eventnow.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\Favourite.xbf">
+      <PackagePath>Favourite.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\know your id.xbf">
+      <PackagePath>know your id.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\Map.xbf">
+      <PackagePath>Map.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\Parti.xbf">
+      <PackagePath>Parti.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\Pics.xbf">
+      <PackagePath>Pics.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\resultpage.xbf">
+      <PackagePath>resultpage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\results.xbf">
+      <PackagePath>results.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\Schedule.xbf">
+      <PackagePath>Schedule.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\SearchPage.xbf">
+      <PackagePath>SearchPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\SubItemPage.xbf">
+      <PackagePath>SubItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Documents\Downloads\Oasis app\oasis15-WinApp %281%29\oasis15-WinApp %281%29\oasis15-WinApp %281%29\HubApp4\HubApp4.WindowsPhone\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

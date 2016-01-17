@@ -138,7 +138,7 @@ namespace HubApp4
                 Address = "shivanimittal2895@gmail.com"
             };
             EmailMessage mail = new EmailMessage();
-            mail.Subject = "APOGEE 2015";
+            mail.Subject = "OASIS 2015";
             mail.Body = "";
             mail.To.Add(sendTo);
             await EmailManager.ShowComposeNewEmailAsync(mail);
@@ -159,7 +159,7 @@ namespace HubApp4
                 Address = "gupta.anubhav@live.in"
             };
             EmailMessage mail = new EmailMessage();
-            mail.Subject = "APOGEE 2015";
+            mail.Subject = "OASIS 2015";
             mail.Body = "";
             mail.To.Add(sendTo);
             await EmailManager.ShowComposeNewEmailAsync(mail);

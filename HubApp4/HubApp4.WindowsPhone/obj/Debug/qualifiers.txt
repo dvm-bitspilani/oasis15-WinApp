@@ -1,5 +1,4 @@
-Scale=100
 Scale=140
+Scale=100
 Scale=240
-Theme=LIGHT
-Theme=DARK
+Language=EN-US

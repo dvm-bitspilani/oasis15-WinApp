@@ -131,47 +131,53 @@ namespace HubApp4
 
         private void SearchBox_TextChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args)
         {
-            if (args.Reason == AutoSuggestionBoxTextChangeReason.UserInput)
+            try
             {
-                List<string> filterList = new List<string>();
-                //titleList.Contains("%{0}%",sender.Text);
-                // filterList = titleList.FindAll("%{0}%", sender.Text);
-                //filterList = titleList.FindAll(delegate(string s) { if (s.Contains(sender.Text) == true) { return s; } else return null; });
-                // filterList = titleList.FindAll(s=>s.Contains(sender.Text));
-                foreach (string s in titleList)
+                if (args.Reason == AutoSuggestionBoxTextChangeReason.UserInput)
                 {
-                    if (System.Text.RegularExpressions.Regex.IsMatch(s, sender.Text, System.Text.RegularExpressions.RegexOptions.IgnoreCase))
+                    List<string> filterList = new List<string>();
+                    //titleList.Contains("%{0}%",sender.Text);
+                    // filterList = titleList.FindAll("%{0}%", sender.Text);
+                    //filterList = titleList.FindAll(delegate(string s) { if (s.Contains(sender.Text) == true) { return s; } else return null; });
+                    // filterList = titleList.FindAll(s=>s.Contains(sender.Text));
+                    foreach (string s in titleList)
                     {
-                        filterList.Add(s);
+                        if (System.Text.RegularExpressions.Regex.IsMatch(s, sender.Text, System.Text.RegularExpressions.RegexOptions.IgnoreCase))
+                        {
+                            filterList.Add(s);
+                        }
                     }
+                    if (filterList != null)
+                    {
+                        sender.ItemsSource = filterList;
+                    }
+                    /*    else
+                    {
+                        MessageDialog msgbox = new MessageDialog("No such event is there.");
+                        await msgbox.ShowAsync();
+                    }*/
+
                 }
-                if (filterList != null)
-                {
-                    sender.ItemsSource = filterList;
-                }
-                /*    else
-                {
-                    MessageDialog msgbox = new MessageDialog("No such event is there.");
-                    await msgbox.ShowAsync();
-                }*/
 
             }
-
+            catch { }
         }
 
         private async void SearchBox_SuggestionChosen(AutoSuggestBox sender, AutoSuggestBoxSuggestionChosenEventArgs args)
         {
-
-            var item1 = await SampleDataSource.GetItemAsync3((string)args.SelectedItem);
-            if (item1 == null)
-            {
-                var subitem1 = await SampleDataSource.GetSubItemAsync3((string)args.SelectedItem);
-                Frame.Navigate(typeof(SubItemPage), subitem1.UniqueId);
+            try {
+                var item1 = await SampleDataSource.GetItemAsync3((string)args.SelectedItem);
+                if (item1 == null)
+                {
+                    var subitem1 = await SampleDataSource.GetSubItemAsync3((string)args.SelectedItem);
+                    Frame.Navigate(typeof(SubItemPage), subitem1.UniqueId);
+                }
+                else
+                {
+                    Frame.Navigate(typeof(ItemPage), item1.UniqueId);
+                }
             }
-            else
-            {
-                Frame.Navigate(typeof(ItemPage), item1.UniqueId);
-            }
+            catch { }
 
         }
     }

@@ -1,6 +1,7 @@
 ﻿using HubApp4.Common;
 using HubApp4.Data;
 
+
 using System;
 using System.Net;
 using Windows.ApplicationModel;
@@ -24,6 +25,10 @@ using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 using Windows.ApplicationModel.Calls;
 using Windows.ApplicationModel.Email;
+using Windows.UI.Popups;
+using System.Globalization;
+using System.Threading.Tasks;
+using Windows.ApplicationModel.Store;
 
 
 // The Hub Application template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
@@ -51,6 +56,7 @@ namespace HubApp4
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
             this.navigationHelper.SaveState += this.NavigationHelper_SaveState;
+            reviewfunction();
         }
 
         /// <summary>
@@ -85,9 +91,13 @@ namespace HubApp4
         private async void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
             // TODO: Create an appropriate data model for your problem domain to replace the sample data
-
-            var sampleDataGroups = await SampleDataSource.GetGroupsAsync();
-            this.DefaultViewModel["Groups"] = sampleDataGroups;
+            try {
+                
+                var sampleDataGroups = await SampleDataSource.GetGroupsAsync();
+                this.DefaultViewModel["Groups"] = sampleDataGroups;
+                
+            }
+            catch { }
         }
 
         /// <summary>
@@ -123,11 +133,69 @@ namespace HubApp4
         {
             // Navigate to the appropriate destination page, configuring the new page
             // by passing required information as a navigation parameter
-            var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
-            if (!Frame.Navigate(typeof(ItemPage), itemId))
+            try
             {
-                throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));
+                var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
+                if (!Frame.Navigate(typeof(ItemPage), itemId))
+                {
+                    throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));
+                }
             }
+            catch { }
+        }
+        public async void reviewfunction()
+        {
+
+            //For windows phone 8.1 app or universal app use the following line of code
+            var settings = Windows.Storage.ApplicationData.Current.LocalSettings;
+
+
+            //set the app name
+            string Appname = "Oasis 2015 - BITS Pilani";
+
+            if (!settings.Values.ContainsKey("review"))
+            {
+                settings.Values.Add("review", 1);
+                settings.Values.Add("rcheck", 0);
+            }
+            else
+            {
+                int no = Convert.ToInt32(settings.Values["review"]);
+                int check = Convert.ToInt32(settings.Values["rcheck"]);
+                no++;
+                if ((no == 4 || no == 6 || no % 10 == 0) && check == 0)
+                {
+                    settings.Values["review"] = no;
+                    MessageDialog mydial = new MessageDialog("Thank you for using this application.\nWould you like to give some time to rate and review this application ");
+                    mydial.Title = Appname;
+                    mydial.Commands.Add(new UICommand(
+                        "Yes",
+                        new UICommandInvokedHandler(this.CommandInvokedHandler_yesclick)));
+                    mydial.Commands.Add(new UICommand(
+                       "No",
+                       new UICommandInvokedHandler(this.CommandInvokedHandler_noclick)));
+                    await mydial.ShowAsync();
+
+                }
+                else
+                {
+                    settings.Values["review"] = no;
+                }
+            }
+        }
+
+        private void CommandInvokedHandler_noclick(IUICommand command)
+        {
+
+        }
+
+        private async void CommandInvokedHandler_yesclick(IUICommand command)
+        {
+            var settings = Windows.Storage.ApplicationData.Current.LocalSettings;
+            settings.Values["rcheck"] = 1;
+            var appId = Windows.ApplicationModel.Store.CurrentApp.AppId;
+            //add your app id here
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("ms-windows-store:reviewapp?appid=" + appId));
         }
 
         #region NavigationHelper registration
@@ -147,6 +215,8 @@ namespace HubApp4
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             this.navigationHelper.OnNavigatedTo(e);
+            //StatusBar statusBar = Windows.UI.ViewManagement.StatusBar.GetForCurrentView();
+            //statusBar.BackgroundColor =//Colors.Black;
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
@@ -160,53 +230,33 @@ namespace HubApp4
 
         private void EventView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
-            if (!Frame.Navigate(typeof(EventItemPage), itemId))
+            try
             {
-                throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));
+                var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
+                Frame.Navigate(typeof(EventItemPage), itemId);
+                
+
+            }
+            catch { }
             }
 
-        }
 
-        private void SponsorsButton_Click(object sender, RoutedEventArgs e)
-        {
-            string uriToLaunch = @"http://bits-apogee.org/fallback/";
-            DefaultLaunch(uriToLaunch);
 
-        }
 
-        private void Search_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(SearchPage));
-        }
+
         async void DefaultLaunch(string uriToLaunch)
         {
             // Launch the URI
-
-            var uri = new Uri(uriToLaunch);
-            var success = await Windows.System.Launcher.LaunchUriAsync(uri);
+            try
+            {
+                var uri = new Uri(uriToLaunch);
+                var success = await Windows.System.Launcher.LaunchUriAsync(uri);
+            }
+            catch { }
         }
 
-        private void AboutTheFest_OnClick(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(AboutTheFest));
-        }
-
-        private void Prez_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-
-            string number = "+917891799999";
-            string name = "V.V.Sai Praneeth";
-            PhoneCallManager.ShowPhoneCallUI(number, name);
-        }
-
-
-        private void RateReviewButton_Click(object sender, RoutedEventArgs e)
-        {
-            // await Windows.System.Launcher.LaunchUriAsync( new Uri("ms-windows-store:reviewapp?appid=[]" + CurrentApp.AppId));
-
-
-        }
+       
+ 
 
         private void MapButton_Click(object sender, RoutedEventArgs e)
         {
@@ -217,183 +267,103 @@ namespace HubApp4
         {
             Frame.Navigate(typeof(Schedule));
         }
-
-        private void PartiButton_Click(object sender, RoutedEventArgs e)
+        private void EventsNow_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Parti));
+            Frame.Navigate(typeof(eventnow));
+        }
+        private void favButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Favourite));
+        }
+        private void KnowId_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(know_your_id));
+        }
+        private void Results_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(results));
         }
 
-        private void GenSec_Tapped(object sender, TappedRoutedEventArgs e)
+
+       
+        private void Pcr_Tapped(object sender, TappedRoutedEventArgs e)
         {
 
-            string number = "+917737485915";
-            string name = "Ashutosh Ajay Mundhada";
+            string number = "+917240105156";
+            string name = "Maheep Tripathi";
+            PhoneCallManager.ShowPhoneCallUI(number, name);
+        }
+        private void Dvm_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+
+            string number = "+919810885196";
+            string name = "Siddhant Tuli";
             PhoneCallManager.ShowPhoneCallUI(number, name);
         }
 
         private void Sponz_Tapped(object sender, TappedRoutedEventArgs e)
         {
 
-            string number = "+919772227757";
-            string name = "Sumantra Sharma";
-            PhoneCallManager.ShowPhoneCallUI(number, name);
-        }
-
-        private void Pcr_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            string number = "+919772064316";
-            string name = "Mayank Juneja";
-            PhoneCallManager.ShowPhoneCallUI(number, name);
-        }
-
-        private void Rec_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            string number = "+919636946278";
-            string name = "Akshay Singh Bisht";
-            PhoneCallManager.ShowPhoneCallUI(number, name);
-        }
-
-        private void Adp_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            string number = "+919660575881";
-            string name = "Apoorva Pakhle";
-            PhoneCallManager.ShowPhoneCallUI(number, name);
-        }
-
-        private void Pep_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            string number = "+919772221902";
-            string name = "Archit Gadhok";
+            string number = "+919772231910";
+            string name = "Ojas Malpani";
             PhoneCallManager.ShowPhoneCallUI(number, name);
         }
 
         private void Controls_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            string number = "+918854877550";
-            string name = "Vidushi Dwivedi";
+            string number = "+918441000746";
+            string name = "Krishna Akhil";
             PhoneCallManager.ShowPhoneCallUI(number, name);
         }
 
-        private async void GenSecEmail_Tapped(object sender, TappedRoutedEventArgs e)
+        private void Rec_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            EmailRecipient sendTo = new EmailRecipient()
-            {
-                Name = "Ashutosh Ajay Mundhada",
-                Address = "gensec@pilani.bits-pilani.ac.in"
-            };
-            EmailMessage mail = new EmailMessage();
-            mail.Subject = "APOGEE 2015";
-            mail.Body = "";
-            mail.To.Add(sendTo);
-            await EmailManager.ShowComposeNewEmailAsync(mail);
-        }
-
-        private void Dvm_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            string number = "+919772227370";
-            string name = "Sahib Singh Dhanjal";
+            string number = "+919772048822";
+            string name = "Saketh Boddu";
             PhoneCallManager.ShowPhoneCallUI(number, name);
         }
 
-        private async void PrezEmail_Tapped(object sender, TappedRoutedEventArgs e)
+        private void Adp_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            EmailRecipient sendTo = new EmailRecipient()
-            {
-                Name = "V.V.Sai Praneeth",
-                Address = "president@pilani.bits-pilani.ac.in"
-            };
-            EmailMessage mail = new EmailMessage();
-            mail.Subject = "APOGEE 2015";
-            mail.Body = "";
-            mail.To.Add(sendTo);
-            await EmailManager.ShowComposeNewEmailAsync(mail);
+            string number = "+919660570469";
+            string name = "Krishna Chaitanya";
+            PhoneCallManager.ShowPhoneCallUI(number, name);
         }
+
+        private void Stage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            string number = "+918741064850";
+            string name = "Akshansh Deva";
+            PhoneCallManager.ShowPhoneCallUI(number, name);
+        }
+
+        
 
         private async void DvmEmail_Tapped(object sender, TappedRoutedEventArgs e)
         {
             EmailRecipient sendTo = new EmailRecipient()
             {
-                Name = "Sahib Singh Dhanjal",
-                Address = "dvm@bits-apogee.org"
+                Name = "Siddhant Tuli",
+                Address = "webmaster@bits-oasis.org"
             };
             EmailMessage mail = new EmailMessage();
-            mail.Subject = "APOGEE 2015";
+            mail.Subject = "OASIS 2015";
             mail.Body = "";
             mail.To.Add(sendTo);
             await EmailManager.ShowComposeNewEmailAsync(mail);
         }
 
-        private async void ControlsEmail_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            EmailRecipient sendTo = new EmailRecipient()
-            {
-                Name = "Vidushi Dwivedi",
-                Address = "controls@bits-apogee.org"
-            };
-            EmailMessage mail = new EmailMessage();
-            mail.Subject = "APOGEE 2015";
-            mail.Body = "";
-            mail.To.Add(sendTo);
-            await EmailManager.ShowComposeNewEmailAsync(mail);
-        }
-
-        private async void PepEmail_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            EmailRecipient sendTo = new EmailRecipient()
-            {
-                Name = "Archit Gadhok",
-                Address = "pep@bits-apogee.org"
-            };
-            EmailRecipient sendTo1 = new EmailRecipient()
-            {
-                Name = "Archit Gadhok(Guest Lectures)",
-                Address = "guestlectures@bits-apogee.org"
-            };
-            EmailMessage mail = new EmailMessage();
-            mail.Subject = "APOGEE 2015";
-            mail.Body = "";
-            mail.To.Add(sendTo);
-            mail.Bcc.Add(sendTo1);
-            await EmailManager.ShowComposeNewEmailAsync(mail);
-        }
-
-        private async void RecEmail_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            EmailRecipient sendTo = new EmailRecipient()
-            {
-                Name = "Akshay Singh Bisht",
-                Address = "reccnacc@bits-apogee.org"
-            };
-            EmailMessage mail = new EmailMessage();
-            mail.Subject = "APOGEE 2015";
-            mail.Body = "";
-            mail.To.Add(sendTo);
-            await EmailManager.ShowComposeNewEmailAsync(mail);
-        }
-
-        private async void AdpEmail_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            EmailRecipient sendTo = new EmailRecipient()
-            {
-                Name = "Apoorva Pakhle",
-                Address = "adp@bits-apogee.org"
-            };
-            EmailMessage mail = new EmailMessage();
-            mail.Subject = "APOGEE 2015";
-            mail.Body = "";
-            mail.To.Add(sendTo);
-            await EmailManager.ShowComposeNewEmailAsync(mail);
-        }
+       
 
         private async void PcrEmail_Tapped(object sender, TappedRoutedEventArgs e)
         {
             EmailRecipient sendTo = new EmailRecipient()
             {
-                Name = "Mayank Juneja",
-                Address = "pcr@bits-apogee.org"
+                Name = "Maheep Tripathi",
+                Address = "pcr@bits-oasis.org"
             };
             EmailMessage mail = new EmailMessage();
-            mail.Subject = "APOGEE 2015";
+            mail.Subject = "OASIS 2015";
             mail.Body = "";
             mail.To.Add(sendTo);
             await EmailManager.ShowComposeNewEmailAsync(mail);
@@ -403,24 +373,143 @@ namespace HubApp4
         {
             EmailRecipient sendTo = new EmailRecipient()
             {
-                Name = "Sumantra Sharma",
-                Address = "sponsorship@bits-apogee.org"
+                Name = "Ojas Malpani",
+                Address = "sponsorship@bits-oasis.org"
             };
             EmailMessage mail = new EmailMessage();
-            mail.Subject = "APOGEE 2015";
+            mail.Subject = "OASIS 2015";
             mail.Body = "";
             mail.To.Add(sendTo);
             await EmailManager.ShowComposeNewEmailAsync(mail);
         }
 
-        private void develop_click(object sender, RoutedEventArgs e)
+        private async void ControlsEmail_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            EmailRecipient sendTo = new EmailRecipient()
+            {
+                Name = "Krishna Akhil",
+                Address = "controls@bits-oasis.org"
+            };
+            EmailMessage mail = new EmailMessage();
+            mail.Subject = "OASIS 2015";
+            mail.Body = "";
+            mail.To.Add(sendTo);
+            await EmailManager.ShowComposeNewEmailAsync(mail);
+        }
+
+        private async void StageEmail_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            EmailRecipient sendTo = new EmailRecipient()
+            {
+                Name = "Akshansh Deva",
+                Address = "stagecontrols@bits-oasis.org"
+            };
+           /* EmailRecipient sendTo1 = new EmailRecipient()
+            {
+                Name = "Archit Gadhok(Guest Lectures)",
+                Address = "guestlectures@bits-apogee.org"
+            };*/
+            EmailMessage mail = new EmailMessage();
+            mail.Subject = "OASIS 2015";
+            mail.Body = "";
+            mail.To.Add(sendTo);
+           // mail.Bcc.Add(sendTo1);
+            await EmailManager.ShowComposeNewEmailAsync(mail);
+        }
+
+        private async void RecEmail_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            EmailRecipient sendTo = new EmailRecipient()
+            {
+                Name = "Saketh Boddu",
+                Address = "recnacc@bits-oasis.org"
+            };
+            EmailMessage mail = new EmailMessage();
+            mail.Subject = "OASIS 2015";
+            mail.Body = "";
+            mail.To.Add(sendTo);
+            await EmailManager.ShowComposeNewEmailAsync(mail);
+        }
+
+        private async void AdpEmail_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            EmailRecipient sendTo = new EmailRecipient()
+            {
+                Name = "Krishna Chaitanya",
+                Address = "adp@bits-oasis.org"
+            };
+            EmailMessage mail = new EmailMessage();
+            mail.Subject = "OASIS 2015";
+            mail.Body = "";
+            mail.To.Add(sendTo);
+            await EmailManager.ShowComposeNewEmailAsync(mail);
+        }
+
+        
+
+    
+        private void Image_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(SearchPage));
+        }
+        private void About_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(AboutTheFest));
+        }
+        private void Parti_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(know_your_id));
+        }
+        private void Sponsors_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            string uriToLaunch = @"http://bits-oasis.org/sponsors/";
+            DefaultLaunch(uriToLaunch);
+        }
+
+        private void Pics_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Pics));
+        }
+        private async void Rate_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            
+            await Windows.System.Launcher.LaunchUriAsync( new Uri("ms-windows-store:reviewapp?appid=" + CurrentApp.AppId));
+        }
+        private void Developers_Tapped(object sender, TappedRoutedEventArgs e)
         {
             Frame.Navigate(typeof(developers));
         }
 
-        private void favButton_Click(object sender, RoutedEventArgs e)
+        private void EngPress_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Favourite));
+            string uriToLaunch = @"http://bits-oasis.org/blogs/english/";
+            DefaultLaunch(uriToLaunch);
+        }
+        private void fb_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            string uriToLaunch = @"https://www.facebook.com/oasis.bitspilani";
+            DefaultLaunch(uriToLaunch);
+        }
+        private void Twitter_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            string uriToLaunch = @"https://twitter.com/bitsoasis";
+            DefaultLaunch(uriToLaunch);
+        }
+        private void Youtube_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            string uriToLaunch = @"https://www.youtube.com/user/OasisBITS";
+            DefaultLaunch(uriToLaunch);
+        }
+
+        private void Results_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(results));
+        }
+
+        private void workshop_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            string uriToLaunch = @"http://www.bits-oasis.org/workshops";
+            DefaultLaunch(uriToLaunch);
         }
     }
 }

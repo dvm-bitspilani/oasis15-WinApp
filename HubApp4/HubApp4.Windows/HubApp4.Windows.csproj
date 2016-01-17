@@ -139,6 +139,7 @@
     <None Include="Assets\events\Thumbs.db" />
     <None Include="HubApp4.Windows_TemporaryKey.pfx" />
     <None Include="packages.config" />
+    <None Include="RateMyAppGuide_v1 1.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\106x106.png" />

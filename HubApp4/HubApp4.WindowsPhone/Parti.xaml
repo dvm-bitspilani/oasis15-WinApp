@@ -15,10 +15,13 @@
         <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>
     </Page.Resources>
     <Grid >
-        <Pivot x:Name="myPivot" Title="PARTICIPATION" Foreground="{StaticResource foreg}">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/background/home3.png"/>
+        </Grid.Background>
+        <Pivot x:Name="myPivot" Title="PARTICIPATION" Foreground="White">
             <Pivot.HeaderTemplate>
                 <DataTemplate>
-                    <TextBlock Foreground="{StaticResource foreg2}" Text="{Binding}" Margin="0,5,0,0" FontSize="40"/>
+                    <TextBlock Foreground="White" Text="{Binding}" Margin="0,5,0,0" FontSize="40"/>
                 </DataTemplate>
             </Pivot.HeaderTemplate>
             <PivotItem Header="overview" >

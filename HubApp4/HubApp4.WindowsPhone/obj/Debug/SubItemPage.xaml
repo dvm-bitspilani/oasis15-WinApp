@@ -8,8 +8,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     DataContext="{Binding DefaultViewModel.SubItem, RelativeSource={RelativeSource Self}}"
-    d:DataContext="{Binding Groups[1].Items[0].SubItems[0], Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
-    Background="WhiteSmoke">
+    d:DataContext="{Binding Groups[2].Items[0].SubItems[0], Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
+    Background="Black">
     <Page.BottomAppBar>
         <CommandBar>
             <AppBarButton x:ConnectionId='1' x:Name="MarkFav" Icon="Favorite" Label="Favourite"                       Tag="{Binding UniqueId}"/>
@@ -31,6 +31,9 @@
     </Page.Transitions>
     <ScrollViewer>
         <Grid x:Name="LayoutRoot">
+            <Grid.Background>
+                <ImageBrush ImageSource="Assets/background/home3.png" Stretch="UniformToFill" AlignmentY="Bottom" AlignmentX="Center"/>
+            </Grid.Background>
             <Grid.ChildrenTransitions>
                 <TransitionCollection>
                     <EntranceThemeTransition/>
@@ -43,8 +46,9 @@
 
             <!-- Title Panel -->
             <StackPanel Grid.Row="0" Margin="19,0,0,0">
-                <TextBlock x:Uid="Header" Text="APOGEE 2015" Style="{ThemeResource TitleTextBlockStyle}" Foreground="{StaticResource foreg}" Margin="0,12,0,0" />
-                <TextBlock Text="{Binding Title}" Style="{ThemeResource HeaderTextBlockStyle}" Margin="0,0,0,26.5" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" Foreground="{StaticResource foreg2}"/>
+                <!--     <TextBlock x:Uid="Header" Text="OASIS 2015" Foreground="White" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,5" />-->
+                <TextBlock Text="{Binding Title}"  FontFamily="Segoe UI" FontSize="40" Style="{ThemeResource HeaderTextBlockStyle}" Foreground="White"
+                       Margin="0,0,0,26.5" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
             </StackPanel>
 
             <!-- 
@@ -53,9 +57,8 @@
         -->
             <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
                 <StackPanel>
-
-                    <Image Source="{Binding ImagePath}" Margin="0,0,0,20" Height="200" HorizontalAlignment="Center" VerticalAlignment="Top" Stretch="UniformToFill" ></Image>
-                    <TextBlock Text="{Binding Content}" TextWrapping="Wrap" FontSize="20" Foreground="{StaticResource foreg}"></TextBlock>
+                    
+                    <TextBlock Text="{Binding Content}" FontFamily="Sakkal Majalla"  TextWrapping="Wrap" FontSize="25" Foreground="White"></TextBlock>
                 </StackPanel>
 
 

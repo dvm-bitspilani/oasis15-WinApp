@@ -127,5 +127,10 @@ namespace HubApp4
             string uriToLaunch = @"https://www.facebook.com/bitsapogee";
             DefaultLaunch(uriToLaunch);
         }
+        private void EngPress_Click(object sender, RoutedEventArgs e)
+        {
+            string uriToLaunch = @"http://bits-oasis.org/blogs/english/";
+            DefaultLaunch(uriToLaunch);
+        }
     }
 }

@@ -8,16 +8,28 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     DataContext="{Binding DefaultViewModel.Item, RelativeSource={RelativeSource Self}}"
-    d:DataContext="{Binding Groups[1].Items[0], Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
-    Background="WhiteSmoke">
+    d:DataContext="{Binding Groups[2].Items[0], Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}" 
+      Background="Black">
+    
+   <!-- <Page.Background>
+        <ImageBrush ImageSource="Assets/background/home2.png"/>
+    </Page.Background>-->
     <Page.Resources>
         <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
         <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>
-        <DataTemplate x:Key="Standardlong200x180TileItemTemplate">
+        <!--<DataTemplate x:Key="Standardlong200x180TileItemTemplate">
             <Grid Margin="0,0,9.5,9.5" Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" 
                  >
-                <Image Source="{Binding ImagePath}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}" Height="138.5" Width="335"/>
-                <TextBlock  Text="{Binding Title}" VerticalAlignment="Bottom" Margin="9.5,0,0,6.5" Style="{ThemeResource BaseTextBlockStyle}"/>
+                <Image Source="{Binding ImagePath}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}" Height="138.5" Width="360"/>
+                <TextBlock  Text="{Binding Title}" Foreground="White" VerticalAlignment="Bottom" Margin="9.5,0,0,6.5" Style="{ThemeResource BaseTextBlockStyle}"/>
+            </Grid>
+        </DataTemplate>-->
+        <DataTemplate x:Key="StdTextTemplate">
+            <Grid>
+                <StackPanel>
+            <TextBlock Text="{Binding Title}" Margin="20,0,0,0" FontFamily="Sakkal Majalla" FontWeight="ExtraLight" FontSize="35" CharacterSpacing="5" />
+                <Line Width="360" Fill="Black" Stroke="Black" StrokeThickness="10" Height="4"/>
+                </StackPanel>
             </Grid>
         </DataTemplate>
     </Page.Resources>
@@ -31,7 +43,10 @@
         </TransitionCollection>
     </Page.Transitions>
     <ScrollViewer>
-        <Grid x:Name="LayoutRoot">
+        <Grid x:Name="LayoutRoot" >
+            <Grid.Background>
+                <ImageBrush ImageSource="Assets/background/home1.png"/>
+            </Grid.Background>
             <Grid.ChildrenTransitions>
                 <TransitionCollection>
                     <EntranceThemeTransition/>
@@ -44,8 +59,9 @@
 
             <!-- Title Panel -->
             <StackPanel Grid.Row="0" Margin="19,0,0,0">
-                <TextBlock x:Uid="Header" Text="APOGEE 2015"  Style="{ThemeResource TitleTextBlockStyle}" Foreground="{StaticResource foreg}" Margin="0,12,0,0" />
-                <TextBlock   Text="{Binding Title}" Style="{ThemeResource HeaderTextBlockStyle}" Margin="0,0,0,26.5" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" Foreground="{StaticResource foreg2}"/>
+                <!--  <TextBlock x:Uid="Header" Text=""  Style="{ThemeResource TitleTextBlockStyle}" Foreground="{StaticResource foreg}" Margin="0,12,0,0" />-->
+                <TextBlock   Text="{Binding Title}" Style="{ThemeResource HeaderTextBlockStyle}" Margin="15,10,0,26.5" FontSize="40"
+                             CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" Foreground="WhiteSmoke" />
             </StackPanel>
 
             <!-- 
@@ -61,7 +77,7 @@
                         ItemsSource="{Binding SubItems}"
                         AutomationProperties.AutomationId="ItemGridView"
                         AutomationProperties.Name="Items In Group"
-                        ItemTemplate="{StaticResource   Standardlong200x180TileItemTemplate}"
+                        ItemTemplate="{StaticResource StdTextTemplate}"
                         SelectionMode="None"
                         IsItemClickEnabled="True"
                         ItemClick="ItemView_ItemClick"

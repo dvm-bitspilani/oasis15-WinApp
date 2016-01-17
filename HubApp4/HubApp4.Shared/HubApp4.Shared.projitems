@@ -17,6 +17,9 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)DataModel\FavClass.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)DataModel\SampleDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)parseresult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)sampledatagroup1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)schedulednotif.cs" />
     <Content Include="$(MSBuildThisFileDirectory)DataModel\SampleData.json" />
     <Content Include="$(MSBuildThisFileDirectory)DataModel\SampleData1.json" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\LightGray.png" />

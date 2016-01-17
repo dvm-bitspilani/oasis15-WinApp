@@ -110,13 +110,17 @@ namespace HubApp4
         }
         private void ItemView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            var subitemId = ((SampleDataSubItem)e.ClickedItem).UniqueId;
-            Frame.Navigate(typeof(SubItemPage), subitemId);
+            try
+            {
+                var subitemId = ((SampleDataSubItem)e.ClickedItem).UniqueId;
+                Frame.Navigate(typeof(SubItemPage), subitemId);
 
-            // if (!)
-            //  {
-            //       throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));
-            //   }
+                // if (!)
+                //  {
+                //       throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));
+                //   }
+            }
+            catch { }
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)

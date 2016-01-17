@@ -411,3 +411,159 @@ C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.Windows\bin\Debug\Pars
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.Windows\bin\Debug\Parse.xml
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.Windows\bin\Debug\Parse.WinRT.xml
 C:\Users\user\Downloads\Oasis-15 WinApp_1\HubApp4\HubApp4.Windows\obj\Debug\HubApp4.Windows.csproj.GenerateResource.Cache
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubApp4.Windows.csprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\App.g.i.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\App.g.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\AboutTheFest.g.i.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\AboutTheFest.g.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\GroupedItemsPage1.g.i.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\GroupedItemsPage1.g.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule1.g.i.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule1.g.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SubItemPage.g.i.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SubItemPage.g.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\EventsCat.g.i.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\EventsCat.g.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubPage.g.i.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubPage.g.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule.g.i.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule.g.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SectionPage.g.i.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SectionPage.g.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\ItemPage.g.i.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\ItemPage.g.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\App.xaml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\AboutTheFest.xaml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\GroupedItemsPage1.xaml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule1.xaml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SubItemPage.xaml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\EventsCat.xaml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubPage.xaml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule.xaml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SectionPage.xaml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\ItemPage.xaml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\App.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\AboutTheFest.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\GroupedItemsPage1.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule1.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SubItemPage.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\EventsCat.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubPage.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SectionPage.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\ItemPage.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubApp4.Windows.exe
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubApp4.Windows.pdb
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\App.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\AboutTheFest.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\GroupedItemsPage1.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Schedule1.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\SubItemPage.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\EventsCat.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\HubPage.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Schedule.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\SectionPage.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\ItemPage.xbf
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.xr.xml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.exe
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.pdb
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\resources.pri
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\AppxManifest.xml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.build.appxrecipe
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Parse.dll
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Parse.WinRT.dll
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Parse.xml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Parse.WinRT.xml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubApp4.Windows.csproj.GenerateResource.Cache
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\priconfig.xml
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\layout.resfiles
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\resources.resfiles
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\pri.resfiles
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\qualifiers.txt
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\user\Downloads\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\ProjectArchitectures.txt
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\App.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\AboutTheFest.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\GroupedItemsPage1.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Schedule1.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\SubItemPage.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\EventsCat.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\HubPage.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Schedule.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\SectionPage.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\ItemPage.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.xr.xml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.exe
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.pdb
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\resources.pri
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\AppxManifest.xml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\HubApp4.Windows.build.appxrecipe
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Parse.dll
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Parse.WinRT.dll
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Parse.xml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\bin\Debug\Parse.WinRT.xml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\App.g.i.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\App.g.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\AboutTheFest.g.i.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\AboutTheFest.g.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\GroupedItemsPage1.g.i.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\GroupedItemsPage1.g.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule1.g.i.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule1.g.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SubItemPage.g.i.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SubItemPage.g.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\EventsCat.g.i.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\EventsCat.g.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubPage.g.i.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubPage.g.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule.g.i.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule.g.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SectionPage.g.i.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SectionPage.g.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\ItemPage.g.i.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\ItemPage.g.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\XamlTypeInfo.g.cs
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\App.xaml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\AboutTheFest.xaml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\GroupedItemsPage1.xaml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule1.xaml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SubItemPage.xaml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\EventsCat.xaml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubPage.xaml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule.xaml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SectionPage.xaml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\ItemPage.xaml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\App.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\AboutTheFest.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\GroupedItemsPage1.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule1.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SubItemPage.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\EventsCat.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubPage.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\Schedule.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\SectionPage.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\ItemPage.xbf
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\XamlSaveStateFile.xml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubApp4.Windows.exe
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubApp4.Windows.pdb
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubApp4.Windows.csproj.GenerateResource.Cache
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\priconfig.xml
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\priconfig.xml.intermediate
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\layout.resfiles
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\layout.resfiles.intermediate
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\resources.resfiles
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\resources.resfiles.intermediate
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\pri.resfiles
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\pri.resfiles.intermediate
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\qualifiers.txt
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\qualifiers.txt.intermediate
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\ProjectArchitectures.txt
+E:\Documents\Downloads\Oasis app\oasis15-WinApp (1)\oasis15-WinApp (1)\oasis15-WinApp (1)\HubApp4\HubApp4.Windows\obj\Debug\HubApp4.Windows.csprojResolveAssemblyReference.cache

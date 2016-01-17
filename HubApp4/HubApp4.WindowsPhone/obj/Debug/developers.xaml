@@ -6,29 +6,30 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="WhiteSmoke">
+    Background="Black">
     <Page.Resources>
         <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
         <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>
 
         <Style TargetType="TextBlock" x:Key="ContactName">
-            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Foreground" Value="WhiteSmoke" />
             <Setter Property="FontWeight" Value="SemiBold" />
-            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontSize" Value="25" />
+            <Setter Property="FontFamily" Value="Sakkal Majalla"/>
         </Style>
         <Style TargetType="TextBlock" x:Key="ContactPost">
-            <Setter Property="Foreground" Value="Black" />
-            <Setter Property="FontStyle" Value="Italic" />
+            <Setter Property="Foreground" Value="WhiteSmoke" />
+           
             <Setter Property="FontSize" Value="15" />
             <Setter Property="TextWrapping" Value="Wrap"></Setter>
         </Style>
         <Style TargetType="TextBlock" x:Key="ContactNo">
-            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Foreground" Value="WhiteSmoke" />
 
             <Setter Property="FontSize" Value="18" />
         </Style>
         <Style TargetType="TextBlock" x:Key="ContactEmail">
-            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Foreground" Value="WhiteSmoke" />
             <Setter Property="TextWrapping" Value="Wrap"/>
 
             <Setter Property="FontSize" Value="15" />
@@ -37,6 +38,9 @@
 
 
     <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/background/home1.png"/>
+        </Grid.Background>
 
         <Grid.ChildrenTransitions>
             <TransitionCollection>
@@ -51,44 +55,58 @@
 
         <!-- Title Panel -->
         <StackPanel Grid.Row="0" Margin="19,0,0,0">
-            <TextBlock Text="APOGEE 2015" Foreground="{StaticResource foreg}" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
-            <TextBlock Foreground="{StaticResource foreg2}" Text="developers" Margin="0,0,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+            <!--     <TextBlock x:Uid="Header" Text="OASIS 2015" Foreground="White" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,5" />-->
+            <TextBlock Text="Developers"  FontFamily="Segoe UI" FontSize="40" Style="{ThemeResource HeaderTextBlockStyle}" Foreground="White"
+                       Margin="15,10,0,26.5" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
         </StackPanel>
+
 
         <!--TODO: Content should be placed within the following grid-->
         <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
             <ScrollViewer>
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="110"></ColumnDefinition>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
                         <RowDefinition Height="Auto"></RowDefinition>
                         <RowDefinition Height="Auto"></RowDefinition>
 
                     </Grid.RowDefinitions>
 
 
-                    <Image Source="Assets/anubhav.png" Margin="0,0,0,0" Height="100" Width="100" Grid.Column="0" Grid.Row="0">
-                    </Image>
-                    <StackPanel Margin="15,0,0,0" Grid.Column="1"  >
+                    <!--<Image Source="Assets/anubhav.png" Margin="0,0,0,0" Height="100" Width="100" Grid.Column="0" Grid.Row="0">
+                    </Image>-->
+                    <StackPanel Margin="15,0,0,20" Grid.Column="0"  >
                         <TextBlock  Style="{StaticResource ContactName}">Anubhav Gupta</TextBlock>
-                        <TextBlock Style="{StaticResource ContactPost}">Senior Developer</TextBlock>
-                        <TextBlock x:ConnectionId='3' x:Name="Prez" Style="{StaticResource ContactNo}"                     >+91-8503999757</TextBlock>
+                        <TextBlock Style="{StaticResource ContactPost}"> Developer</TextBlock>
+                        
 
-                        <TextBlock x:ConnectionId='4' Style="{StaticResource ContactEmail}"                          >gupta.anubhav@live.in</TextBlock>
+                        <TextBlock x:ConnectionId='2' Style="{StaticResource ContactEmail}"                          >gupta.anubhav@live.in</TextBlock>
+                    </StackPanel>
+
+                    <StackPanel Margin="15,20,0,20" Grid.Row="2"  >
+                        <TextBlock  Style="{StaticResource ContactName}">Vishal Hans</TextBlock>
+                        <TextBlock Style="{StaticResource ContactPost}"> Graphics Designer</TextBlock>
+                        <TextBlock x:Name="Prrez" Style="{StaticResource ContactNo}"></TextBlock>
+
+                        <TextBlock Style="{StaticResource ContactEmail}" ></TextBlock>
                     </StackPanel>
 
 
 
-                    <Image Source="Assets/shivani.png" Margin="0,10,0,0" Height="100" Width="100" Grid.Row="1">
-                    </Image>
-                    <StackPanel Margin="15,10,0,0" Grid.Row="1" Grid.Column="1">
+
+                    <StackPanel Margin="15,10,0,0" Grid.Row="1" Grid.Column="0">
                         <TextBlock Style="{StaticResource ContactName}">Shivani Mittal</TextBlock>
-                        <TextBlock Style="{StaticResource ContactPost}">Junior Developer</TextBlock>
-                        <TextBlock x:ConnectionId='1'                        Style="{StaticResource ContactNo}">+91-8503987302</TextBlock>
-                        <TextBlock x:ConnectionId='2' Style="{StaticResource ContactEmail}"                            >shivanimittal2895@gmail.com</TextBlock>
+                        <TextBlock Style="{StaticResource ContactPost}">Developer</TextBlock>
+                        
+                        <TextBlock x:ConnectionId='1' Style="{StaticResource ContactEmail}"                            >shivanimittal2895@gmail.com</TextBlock>
+                    </StackPanel>
+                    <StackPanel Margin="15,10,0,0" Grid.Row="3">
+                    <TextBlock FontSize="16" FontWeight="Bold" >Department Of Visual Media, BITS Pilani</TextBlock>
                     </StackPanel>
                 </Grid>
             </ScrollViewer>

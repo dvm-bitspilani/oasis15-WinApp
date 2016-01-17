@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="37497SUBITS-Pilani.Oasis15" Publisher="CN=8DFBA442-2D8C-429D-8A75-C734576E4B88" Version="1.1.0.0" />
+  <Identity Name="37497SUBITS-Pilani.Oasis15" Publisher="CN=8DFBA442-2D8C-429D-8A75-C734576E4B88" Version="1.2.0.0" />
   <mp:PhoneIdentity PhoneProductId="f0509719-721d-4f4b-b135-9002f0003c78" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Oasis 2015 - BITS Pilani</DisplayName>
     <PublisherDisplayName>SU BITS-Pilani</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <Logo>Assets\120x120.png</Logo>
   </Properties>
   <Prerequisites>
     <OSMinVersion>6.3.1</OSMinVersion>
@@ -16,10 +16,13 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="HubApp4.WindowsPhone.App">
-      <m3:VisualElements DisplayName="Oasis 2015 - BITS Pilani" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="HubApp4.WindowsPhone" ForegroundText="light" BackgroundColor="transparent" ToastCapable="true">
-        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+      <m3:VisualElements DisplayName="Oasis 2015 - BITS Pilani" Square150x150Logo="Assets\360x360.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Oasis, the cultural festival of BITS Pilani, hereby declares mobile application for itself. This application will give details regarding updates and schedules of all events in OASIS 2015." ForegroundText="light" BackgroundColor="black" ToastCapable="true">
+        <m3:DefaultTile Square71x71Logo="Assets\Square71x71Logo.png">
         </m3:DefaultTile>
-        <m3:SplashScreen Image="Assets\SplashScreen.png" />
+        <m3:SplashScreen Image="Assets\Untitlemmd-2.png" BackgroundColor="black" />
+        <m3:InitialRotationPreference>
+          <m3:Rotation Preference="portrait" />
+        </m3:InitialRotationPreference>
       </m3:VisualElements>
     </Application>
   </Applications>

@@ -7,7 +7,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="WhiteSmoke">
+    Background="Black">
     <!--xmlns:data="using:HubApp4.FavData"
     DataContext="{Binding DefaultViewModel.Item, RelativeSource={RelativeSource Self}}"
     d:DataContext="{Binding Groups, Source={d:DesignData Source=../HubApp4.Shared/DataModel/Fav.json, Type=data:SampleFavSource}}"-->
@@ -15,28 +15,28 @@
     <Page.Resources>
         <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
         <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>
-        <DataTemplate x:Key="ListItemTemplatex">
-            <StackPanel  Orientation="Horizontal" Height="Auto" Width="350" >
-                <StackPanel Height="Auto" Margin="5,0,5,15" Width="290">
-                    <TextBlock TextWrapping="Wrap" Text="{Binding Title}" FontWeight="SemiBold" Style="{ThemeResource ListViewItemTextBlockStyle}" Foreground="{StaticResource foreg}"/>
-                    <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
-                        <TextBlock  Foreground="{StaticResource foreg2}" Margin="0,0,5,0" TextWrapping="Wrap" Text="Time:  " Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
-                        <TextBlock TextWrapping="Wrap" Text="{Binding Subtitle}" Foreground="{StaticResource foreg}" Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
-                        <TextBlock Foreground="{StaticResource foreg2}" Margin="0,0,5,0" TextWrapping="Wrap" Text="Venue:  " Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
-                        <TextBlock TextWrapping="Wrap" Text="{Binding Content}" Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}" Foreground="{StaticResource foreg}" />
-                    </StackPanel>
+        <!-- <DataTemplate x:Key="Standardlong200x180TileItemTemplate">
+            <Grid Margin="0,0,9.5,9.5" Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" 
+                 >
+                <Image Source="{Binding ImagePath}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}" Height="138.5" Width="335"/>
+                <TextBlock  Text="{Binding Title}" VerticalAlignment="Bottom" Margin="9.5,0,0,6.5" Style="{ThemeResource BaseTextBlockStyle}"/>
+            </Grid>
+       
+        </DataTemplate> -->
+        <DataTemplate x:Key="StdTextTemplate">
+            <Grid>
+                <StackPanel>
+                    <TextBlock Text="{Binding}" Margin="20,5,0,5" FontFamily="Sakkal Majalla" FontWeight="ExtraLight" FontSize="35" CharacterSpacing="5" />
+                    <Line Width="360" Fill="Black" Stroke="Black" StrokeThickness="10" Height="4"/>
                 </StackPanel>
-                <Button  Margin="0,-15,0,0"  BorderBrush="{x:Null}" Click="Mappin_Click" Tag="{Binding UniqueId}" MinWidth="50" >
-
-                    <Image Source="Assets/mappin.png" Height="30"  Width="30"/>
-                </Button>
-            </StackPanel>
+            </Grid>
         </DataTemplate>
     </Page.Resources>
 
     <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/background/home5.png"/>
+        </Grid.Background>
 
         <Grid.ChildrenTransitions>
             <TransitionCollection>
@@ -51,10 +51,10 @@
 
         <!-- Title Panel -->
         <StackPanel Grid.Row="0" Margin="19,0,0,0">
-            <TextBlock  Text="MY APPLICATION" Style="{ThemeResource TitleTextBlockStyle}" Foreground="Black" Margin="0,12,0,0"/>
-            <TextBlock Text="Favourites" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" Foreground="Gray" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+            <!--     <TextBlock x:Uid="Header" Text="OASIS 2015" Foreground="White" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,5" />-->
+            <TextBlock Text="Favourites"  FontFamily="Segoe UI" FontSize="40" Style="{ThemeResource HeaderTextBlockStyle}" Foreground="White"
+                        Margin="15,10,0,26.5" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
         </StackPanel>
-
         <!--TODO: Content should be placed within the following grid-->
 
         <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0" >
@@ -65,12 +65,11 @@
                         Margin="0,0,0,0"
                         AutomationProperties.AutomationId="ItemGridView"
                         AutomationProperties.Name="Items In Group"
-                        ItemTemplate="{StaticResource ListItemTemplatex}"
+                        ItemTemplate="{StaticResource StdTextTemplate}"
                        IsItemClickEnabled="True"
                         SelectionMode="None"
                         ItemClick="ListView_ItemClick"
-                       
-                    
+                      
                        Loaded="ListView_Loaded"
                         ContinuumNavigationTransitionInfo.ExitElementContainer="True"
                        >

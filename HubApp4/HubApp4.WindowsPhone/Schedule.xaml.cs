@@ -81,12 +81,15 @@ namespace HubApp4
         }
         private void Mappin_Click(object sender, RoutedEventArgs e)
         {
-            Button btn = sender as Button;
-            string mappinid = (string)btn.Tag;
-            //object mappinid = (e.OriginalSource as Button).Tag;
+            try {
+                Button btn = sender as Button;
+                string mappinid = (string)btn.Tag;
+                //object mappinid = (e.OriginalSource as Button).Tag;
 
-           // var mappinid = ((SampleDataSubItem)e.ClickedItem).UniqueId;
-            Frame.Navigate(typeof(Map), mappinid);
+                // var mappinid = ((SampleDataSubItem)e.ClickedItem).UniqueId;
+                Frame.Navigate(typeof(Map), mappinid);
+            }
+            catch { }
 
 
         }
@@ -100,22 +103,25 @@ namespace HubApp4
 
         private async void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            string subitemId = ((SampleDataSubItem)e.ClickedItem).UniqueId;
-            var item = await SampleDataSource.IsItem((string)subitemId);
-            if (item==0)
-            {
-                Frame.Navigate(typeof(SubItemPage), subitemId);
+            try {
+                string subitemId = ((SampleDataSubItem)e.ClickedItem).UniqueId;
+                var item = await SampleDataSource.IsItem((string)subitemId);
+                if (item == 0)
+                {
+                    Frame.Navigate(typeof(SubItemPage), subitemId);
+
+                }
+
+                else
+                {
+
+                    Frame.Navigate(typeof(ItemPage), subitemId);
+                }
+
 
             }
-
-            else
-            {
-               
-                Frame.Navigate(typeof(ItemPage), subitemId);
+            catch { }
             }
-
-
-        }
 
     }
 }

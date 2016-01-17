@@ -1,0 +1,89 @@
+﻿<Page
+    x:Class="HubApp4.results"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HubApp4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+   DataContext="{Binding DefaultViewModel.Group, RelativeSource={RelativeSource Self}}"
+   
+    Background="Black">
+    <!--d:DataContext="{Binding Groups[1].Items[0], Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"-->
+    <Page.Resources>
+        <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
+        <SolidColorBrush x:Name="foreg2" Color="Gray"></SolidColorBrush>
+        <DataTemplate x:Key="StdTextTemplate">
+            <Grid>
+                <StackPanel>
+                    <TextBlock Text="{Binding Title}" Margin="20,0,0,0" FontFamily="Sakkal Majalla" FontWeight="ExtraLight" FontSize="35" CharacterSpacing="5" />
+                    <Line Width="360" Fill="Black" Stroke="Black" StrokeThickness="10" Height="4"/>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <ContinuumNavigationTransitionInfo/>
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+    <ScrollViewer>
+        <Grid x:Name="LayoutRoot">
+            <Grid.Background>
+                <ImageBrush ImageSource="Assets/background/home1.png"/>
+            </Grid.Background>
+            <Grid.ChildrenTransitions>
+                <TransitionCollection>
+                    <EntranceThemeTransition/>
+                </TransitionCollection>
+            </Grid.ChildrenTransitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Title Panel -->
+            <StackPanel Grid.Row="0" Margin="19,0,0,0">
+                <!--  <TextBlock x:Uid="Header" Text=""  Style="{ThemeResource TitleTextBlockStyle}" Foreground="{StaticResource foreg}" Margin="0,12,0,0" />-->
+                <TextBlock   Text="Results" Style="{ThemeResource HeaderTextBlockStyle}" Margin="15,10,0,26.5" FontSize="40"
+                             CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" Foreground="WhiteSmoke" />
+            </StackPanel>
+            <!-- 
+            TODO: Content should be placed within the following grid 
+                  to show details for the current item
+        -->
+
+            <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0" >
+
+                <ScrollViewer>
+                    <GridView
+                        Margin="0,0,0,0"
+                        ItemsSource="{Binding Items}"
+                        AutomationProperties.AutomationId="ItemGridView"
+                        AutomationProperties.Name="Items In Group"
+                        ItemTemplate="{StaticResource StdTextTemplate}"
+                        SelectionMode="None"
+                        IsItemClickEnabled="True"
+                        ItemClick="ListView_ItemClick"
+                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                        <GridView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <ItemsWrapGrid />
+                            </ItemsPanelTemplate>
+                        </GridView.ItemsPanel>
+                    </GridView>
+                </ScrollViewer>
+
+
+
+
+
+            </Grid>
+
+        </Grid>
+    </ScrollViewer>
+</Page>

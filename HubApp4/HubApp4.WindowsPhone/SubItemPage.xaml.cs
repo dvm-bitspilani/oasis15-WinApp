@@ -2,6 +2,7 @@
 using HubApp4.Data;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -78,8 +79,9 @@ namespace HubApp4
             //var subId = (string)e.NavigationParameter;
             subitem = await SampleDataSource.GetSubItemAsync((string)e.NavigationParameter);
             this.DefaultViewModel["SubItem"] = subitem;
+           
             await IsFavourite(subitem.UniqueId);
-            
+
 
             // else
             //   test.Text = "Returned Nothing";
@@ -131,175 +133,294 @@ namespace HubApp4
             // AppBarButton btn = sender as AppBarButton;
             // string uid = (string)btn.Tag;
             // Frame.Navigate(typeof(Favourite),uid);
-            await AddEntryIntoJsonAsync();
-            MarkFav.Visibility = Visibility.Collapsed;
-            MarkUnfav.Visibility = Visibility.Visible;
-
+            try
+            { await AddEntryIntoJsonAsync();
+                MarkFav.Visibility = Visibility.Collapsed;
+                MarkUnfav.Visibility = Visibility.Visible;
+            }
+            catch { }
         }
         private async void MarkUnfav_Click(object sender, RoutedEventArgs e)
         {
-            await DeleteEntryIntoJsonAsync();
-            MarkFav.Visibility = Visibility.Visible;
-            MarkUnfav.Visibility = Visibility.Collapsed;
-        }
-        private async Task AddEntryIntoJsonAsync()
-        {
-            string content = String.Empty;
-            List<string> ListCars = new List<string>();
-            StorageFolder local = ApplicationData.Current.LocalFolder;
-
-            // Create a new file named DataFile.txt.
-            var file = await local.CreateFileAsync("DataFile.json",CreationCollisionOption.OpenIfExists);
-            // }
-            if (local != null)
-            {
-                // var dataFolder = await local.GetFolderAsync("DataFolder");
-                var myStream = await local.OpenStreamForReadAsync("DataFile.json");
-                using (StreamReader reader = new StreamReader(myStream))
-                {
-                    content = await reader.ReadToEndAsync();
-                }
-                if (content != "")
-                {
-                    //Now add one more Entry.
-                    ListCars = FavClass.ConvertToFavEvent(content);
-                }
-                MessageDialog msgbox4 = new MessageDialog(subitem.UniqueId+  subitem.Title+ subitem.Subtitle+ subitem.ImagePath+ subitem.Content);
-                await msgbox4.ShowAsync();
-                //if (item != null)
-                ListCars.Add(subitem.UniqueId);
-
-
-                //else
-                //  ListCars.Add(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
-                try
-                {
-                    DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<string>));
-                    using (var stream = await local.OpenStreamForWriteAsync(
-                                  "DataFile.json",
-                                  CreationCollisionOption.ReplaceExisting))
-                    {
-                        serializer.WriteObject(stream, ListCars);
-                    }
-                }
-                catch (Exception ex)
-                {
-                    throw;
-                }
-
-            }
-        }
-        private async Task IsFavourite(string id)
-        {
-            string content = String.Empty;
-            List<string> ListCars = new List<string>();
-            int flag = 0;
-            StorageFolder local = ApplicationData.Current.LocalFolder;
-            // Create a new file named DataFile.txt.
-            var file = await local.CreateFileAsync("DataFile.json",CreationCollisionOption.OpenIfExists);
-
-            if (local != null)
-            {
-                // var dataFolder = await local.GetFolderAsync("DataFolder");
-                var myStream = await local.OpenStreamForReadAsync("DataFile.json");
-
-                using (StreamReader reader = new StreamReader(myStream))
-                {
-                    content = await reader.ReadToEndAsync();
-                }
-                
-                if (content != "")
-                {
-                    //Now add one more Entry.
-                    ListCars = FavClass.ConvertToFavEvent(content);
-
-                    foreach (var favEvent in ListCars)
-                    {
-                        if (String.Compare(favEvent, id) == 0)
-                        {
-                            flag = 1;
-                            break;
-                            //ListCars.Remove(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
-                        }
-                    }
-                    
-                }
-            }
-            if (flag == 0)
-            {
+            try {
+                await DeleteEntryIntoJsonAsync();
                 MarkFav.Visibility = Visibility.Visible;
                 MarkUnfav.Visibility = Visibility.Collapsed;
             }
-            else
-            {
-                MarkFav.Visibility = Visibility.Collapsed;
-                MarkUnfav.Visibility = Visibility.Visible;
-
-            }
-            
+            catch { }
         }
-
-       
-        private async Task DeleteEntryIntoJsonAsync()
+        private async Task AddEntryIntoJsonAsync()
         {
-            string content = String.Empty;
-            List<string> ListCars = new List<string>();
-            StorageFolder local = ApplicationData.Current.LocalFolder;
-            // Create a new file named DataFile.txt.
-            var file = await local.CreateFileAsync("DataFile.json",CreationCollisionOption.OpenIfExists);
-
-            if (local != null)
+            try
             {
-                // var dataFolder = await local.GetFolderAsync("DataFolder");
-                var myStream = await local.OpenStreamForReadAsync("DataFile.json");
-                using (StreamReader reader = new StreamReader(myStream))
+                string content = String.Empty;
+                List<string> ListCars = new List<string>();
+                StorageFolder local = ApplicationData.Current.LocalFolder;
+
+                // Create a new file named DataFile.txt.
+                var file = await local.CreateFileAsync("DataFile.json", CreationCollisionOption.OpenIfExists);
+                // }
+                if (local != null)
                 {
-                    content = await reader.ReadToEndAsync();
-                }
-                MessageDialog msgbox3 = new MessageDialog(content);
-                await msgbox3.ShowAsync();
-                if (content != "")
-                {
-                    //Now add one more Entry.
-                    ListCars = FavClass.ConvertToFavEvent(content);
-                   
-                    foreach (var favEvent in ListCars)
+                    // var dataFolder = await local.GetFolderAsync("DataFolder");
+                    var myStream = await local.OpenStreamForReadAsync("DataFile.json");
+                    using (StreamReader reader = new StreamReader(myStream))
                     {
-                        if (String.Compare(favEvent, subitem.UniqueId) == 0)
+                        content = await reader.ReadToEndAsync();
+                    }
+                    if (content != "")
+                    {
+                        //Now add one more Entry.
+                        ListCars = FavClass.ConvertToFavEvent(content);
+                    }
+                    CultureInfo provider = new CultureInfo("es-ES");
+                    //if (item != null)
+                    ListCars.Add(subitem.UniqueId);
+                    var subitemDet = await SampleDataSource.GetGroupAsync("Schedule");
+                    schedulednotif n = new schedulednotif();
+                    int noOfItems = subitemDet.Items.Count;
+                    string date = "25/10/2015";
+                    for (int i = 0; i < noOfItems; i++)
+                    {
+                        int noOfsubitems = subitemDet.Items[i].SubItems.Count;
+                        //MessageDialog msgbox4 = new MessageDialog(noOfsubitems.ToString());
+                        //await msgbox4.ShowAsync();
+                        if (i == 0)
                         {
-                            MessageDialog msgbox4 = new MessageDialog(subitem.UniqueId);
-                            await msgbox4.ShowAsync();
-                            //ListCars.Remove(favEvent);
-                            int i = ListCars.FindIndex(f => f == subitem.UniqueId);
-                            ListCars.RemoveAt(i);
-                            break;
-                            //ListCars.Remove(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
+                            date = "28/10/2015";
+                        }
+                        else if (i == 1)
+                        {
+                            date = "29/10/2015";
+                        }
+                        else if (i == 2)
+                        {
+                            date = "30/10/2015";
+                        }
+                        else if (i == 3)
+                        {
+                            date = "31/10/2015";
+                        }
+                        else if (i == 4)
+                        {
+                            date = "01/11/2015";
+                        }
+                        string z111;
+                        for (int j = 0; j < noOfsubitems; j++)
+                        {
+                            if (subitemDet.Items[i].SubItems[j].UniqueId.CompareTo(subitem.UniqueId) == 0)
+                            {
+                                if (subitemDet.Items[i].SubItems[j].Subtitle.Length != 5)
+                                {
+                                    z111 = "0" + subitemDet.Items[i].SubItems[j].Subtitle;
+
+                                }
+                                else
+                                    z111 = subitemDet.Items[i].SubItems[j].Subtitle;
+                                string date1 = date + " " + subitemDet.Items[i].SubItems[j].Subtitle;
+                                //MessageDialog msgbox5 = new MessageDialog(date1);
+                                //await msgbox5.ShowAsync();
+                                //DateTime dt = Convert.ToDateTime(date + subitemDet.Items[0].SubItems[0].Subtitle);
+                                DateTime dt = DateTime.ParseExact(date1, "g", provider);
+
+                                DateTime ddt = DateTime.Now;
+                                var diffInSeconds = (dt - ddt).TotalSeconds;
+
+                                diffInSeconds = diffInSeconds - 900;
+                                if ((diffInSeconds + 10) > 0)
+                                    n.schedulenotif(diffInSeconds, subitemDet.Items[i].SubItems[j].Title);
+
+                            }
                         }
                     }
-                    ListCars.TrimExcess();
 
 
-                    //if (item != null)
-                    //ListCars.Add(new FavClass() { UniqueId = item1.UniqueId, Id = item1.Id, Title = item1.Title, Subtitle = item1.Subtitle, ImagePath = item1.ImagePath, Content = item1.Content });
+
+
                     //else
-                    //  ListCars.Add(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, ImagePath = subitem.ImagePath, Content = subitem.Content });
-                    try
-                    {
-                        DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<FavClass>));
+                    //  ListCars.Add(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, Subtitle = subitem.Subtitle, Content = subitem.Content });
+                    
+                        DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<string>));
                         using (var stream = await local.OpenStreamForWriteAsync(
                                       "DataFile.json",
                                       CreationCollisionOption.ReplaceExisting))
                         {
                             serializer.WriteObject(stream, ListCars);
                         }
-                    }
-                    catch (Exception ex)
+                   
+
+                }
+            }
+            catch
+            { }
+        }
+        private async Task IsFavourite(string id)
+        {
+            try
+            {
+                string content = String.Empty;
+                List<string> ListCars = new List<string>();
+                int flag = 0;
+                StorageFolder local = ApplicationData.Current.LocalFolder;
+                // Create a new file named DataFile.txt.
+                var file = await local.CreateFileAsync("DataFile.json", CreationCollisionOption.OpenIfExists);
+
+                if (local != null)
+                {
+                    // var dataFolder = await local.GetFolderAsync("DataFolder");
+                    var myStream = await local.OpenStreamForReadAsync("DataFile.json");
+
+                    using (StreamReader reader = new StreamReader(myStream))
                     {
-                        throw;
+                        content = await reader.ReadToEndAsync();
                     }
+
+                    if (content != "")
+                    {
+                        //Now add one more Entry.
+                        ListCars = FavClass.ConvertToFavEvent(content);
+
+                        foreach (var favEvent in ListCars)
+                        {
+                            if (String.Compare(favEvent, id) == 0)
+                            {
+                                flag = 1;
+                                break;
+                                //ListCars.Remove(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, Subtitle = subitem.Subtitle, Content = subitem.Content });
+                            }
+                        }
+
+                    }
+                }
+                if (flag == 0)
+                {
+                    MarkFav.Visibility = Visibility.Visible;
+                    MarkUnfav.Visibility = Visibility.Collapsed;
+                }
+                else
+                {
+                    MarkFav.Visibility = Visibility.Collapsed;
+                    MarkUnfav.Visibility = Visibility.Visible;
+
                 }
 
             }
+            catch
+            { }
+        }
+
+
+        private async Task DeleteEntryIntoJsonAsync()
+        {
+            try
+            {
+
+                string content = String.Empty;
+                List<string> ListCars = new List<string>();
+                StorageFolder local = ApplicationData.Current.LocalFolder;
+                // Create a new file named DataFile.txt.
+                var file = await local.CreateFileAsync("DataFile.json", CreationCollisionOption.OpenIfExists);
+                CultureInfo provider = new CultureInfo("es-ES");
+                if (local != null)
+                {
+                    // var dataFolder = await local.GetFolderAsync("DataFolder");
+                    var myStream = await local.OpenStreamForReadAsync("DataFile.json");
+                    using (StreamReader reader = new StreamReader(myStream))
+                    {
+                        content = await reader.ReadToEndAsync();
+                    }
+
+                    if (content != "")
+                    {
+                        //Now add one more Entry.
+                        ListCars = FavClass.ConvertToFavEvent(content);
+
+                        foreach (var favEvent in ListCars)
+                        {
+                            if (String.Compare(favEvent, subitem.UniqueId) == 0)
+                            {
+
+                                //ListCars.Remove(favEvent);
+                                int i = ListCars.FindIndex(f => f == subitem.UniqueId);
+                                ListCars.RemoveAt(i);
+                                break;
+                                //ListCars.Remove(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, Subtitle = subitem.Subtitle, Content = subitem.Content });
+                            }
+                        }
+                        ListCars.TrimExcess();
+                        var subitemDet = await SampleDataSource.GetGroupAsync("Schedule");
+                        schedulednotif n = new schedulednotif();
+                        n.schedulenotifrem(subitem.Title);
+                        //int noOfItems = subitemDet.Items.Count;
+                        //string date = "25/10/2015";
+                        //for (int i = 0; i < noOfItems; i++)
+                        //{
+                        //    int noOfsubitems = subitemDet.Items[i].SubItems.Count;
+                        //    MessageDialog msgbox4 = new MessageDialog(noOfsubitems.ToString());
+                        //    await msgbox4.ShowAsync();
+                        //    if (i == 0)
+                        //    {
+                        //        date = "26/10/2015";
+                        //    }
+                        //    else if (i == 1)
+                        //    {
+                        //        date = "26/10/2015";
+                        //    }
+                        //    else if (i == 2)
+                        //    {
+                        //        date = "30/10/2015";
+                        //    }
+                        //    else if (i == 3)
+                        //    {
+                        //        date = "31/10/2015";
+                        //    }
+                        //    else if (i == 4)
+                        //    {
+                        //        date = "01/11/2015";
+                        //    }
+                        //    for (int j = 0; j < noOfsubitems; j++)
+                        //    {
+                        //        if (subitemDet.Items[i].SubItems[j].UniqueId.CompareTo(subitem.UniqueId) == 0)
+                        //        {
+                        //            string date1 = date + " " + subitemDet.Items[i].SubItems[j].Subtitle;
+                        //            MessageDialog msgbox5 = new MessageDialog(date1);
+                        //            await msgbox5.ShowAsync();
+                        //            //DateTime dt = Convert.ToDateTime(date + subitemDet.Items[0].SubItems[0].Subtitle);
+                        //            DateTime dt = DateTime.ParseExact(date1, "g", provider);
+
+                        //            DateTime ddt = DateTime.Now;
+                        //            var diffInSeconds = (dt - ddt).TotalSeconds;
+                        //            MessageDialog msgbox6 = new MessageDialog(diffInSeconds.ToString());
+                        //            await msgbox6.ShowAsync();
+                        //            diffInSeconds = diffInSeconds - 900;
+                        //            if ((diffInSeconds + 10) > 0)
+
+                        //            MessageDialog msgbox7 = new MessageDialog("conv");
+                        //            await msgbox7.ShowAsync();
+                        //        }
+                        //    }
+                        //}
+
+                        //if (item != null)
+                        //ListCars.Add(new FavClass() { UniqueId = item1.UniqueId, Id = item1.Id, Title = item1.Title, Subtitle = item1.Subtitle, Subtitle = item1.Subtitle, Content = item1.Content });
+                        //else
+                        //  ListCars.Add(new FavClass() { UniqueId = subitem.UniqueId, Id = subitem.Id, Title = subitem.Title, Subtitle = subitem.Subtitle, Subtitle = subitem.Subtitle, Content = subitem.Content });
+                       
+                            DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<string>));
+                            using (var stream = await local.OpenStreamForWriteAsync(
+                                          "DataFile.json",
+                                          CreationCollisionOption.ReplaceExisting))
+                            {
+                                serializer.WriteObject(stream, ListCars);
+                            }
+                        
+                        
+                    }
+
+                }
+            }
+            catch
+            { }
         }
 
     }

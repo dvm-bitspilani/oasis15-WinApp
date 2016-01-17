@@ -183,20 +183,7 @@ namespace HubApp4.Data
              else            
             return null;
         }
-        public static async Task<SampleDataSubItem> GetSubItemAsync2(string uniqueid)
-        {
-            await _sampleDataSource.GetSampleDataAsync();
-            // Simple linear search is acceptable for small data sets
-
-            var matches = _sampleDataSource.Groups.SelectMany(group => group.Items);
-            var match2 = matches.SelectMany(item => item.SubItems).Where((subitem) => subitem.UniqueId.Equals(uniqueid));
-            if (match2.Count() >= 1)
-            {
-                return match2.First();
-            }
-
-            return null;
-        }
+        
         public static async Task<SampleDataSubItem> GetSubItemAsync3(string title)
         {
             await _sampleDataSource.GetSampleDataAsync();
@@ -218,16 +205,16 @@ namespace HubApp4.Data
             if (this._groups.Count != 0)
                 return;
 
-            Uri dataUri = new Uri("ms-appx:///DataModel/SampleData.json");
+          //  Uri dataUri = new Uri("ms-appx:///DataModel/SampleData.json");
 
-            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(dataUri);
-            string jsonText = await FileIO.ReadTextAsync(file);
+          //  StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(dataUri);
+          //string jsonText = await FileIO.ReadTextAsync(file);
             try
             {
 
 
-              //  Windows.Web.Http.HttpClient client = new Windows.Web.Http.HttpClient();
-               // var jsonText = await client.GetStringAsync(new Uri("http://bits-bosm.org/SampleData.json"));
+                Windows.Web.Http.HttpClient client = new Windows.Web.Http.HttpClient();
+                var jsonText = await client.GetStringAsync(new Uri("http://bits-oasis.org/2015/windows_json/"));
                 JsonObject jsonObject = JsonObject.Parse(jsonText);
                 JsonArray jsonArray = jsonObject["Groups"].GetArray();
 
@@ -270,18 +257,13 @@ namespace HubApp4.Data
                     this.Groups.Add(group);
                 }
             } 
-            catch(Exception ex)
+            catch
             {
-                //if(ex.Message== "Exception from HRESULT: 0x80072EE7")
-                //{
-                //    MessageDialog msgbox3 = new MessageDialog("Check Your Network Connection. Web Access is required to get data.");
-                //    await msgbox3.ShowAsync();
-                //}
-                //else
-                //{
-                    MessageDialog msgbox3 = new MessageDialog("There was a problem in getting data from the server. Error Message: "+ex.Message);
-                   // await msgbox3.ShowAsync();
-                //}
+               
+                    MessageDialog msgbox3 = new MessageDialog("Check Your Network Connection. Web Access is required to get data.");
+                    await msgbox3.ShowAsync();
+                
+               
             }
             }
     }

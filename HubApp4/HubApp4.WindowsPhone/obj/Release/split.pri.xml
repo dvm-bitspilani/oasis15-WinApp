@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="37497SUBITS-Pilani.Oasis15" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US</Language>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="AboutTheFest.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/AboutTheFest.xbf">
+				<Candidate type="Path">
+					<Value>AboutTheFest.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="developers.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/developers.xbf">
+				<Candidate type="Path">
+					<Value>developers.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventItemPage.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/EventItemPage.xbf">
+				<Candidate type="Path">
+					<Value>EventItemPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="eventnow.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/eventnow.xbf">
+				<Candidate type="Path">
+					<Value>eventnow.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Favourite.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Favourite.xbf">
+				<Candidate type="Path">
+					<Value>Favourite.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubApp4.WindowsPhone.xr.xml" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/HubApp4.WindowsPhone.xr.xml">
+				<Candidate type="Path">
+					<Value>HubApp4.WindowsPhone.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubPage.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/HubPage.xbf">
+				<Candidate type="Path">
+					<Value>HubPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ItemPage.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/ItemPage.xbf">
+				<Candidate type="Path">
+					<Value>ItemPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="know your id.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/know%20your%20id.xbf">
+				<Candidate type="Path">
+					<Value>know your id.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Map.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Map.xbf">
+				<Candidate type="Path">
+					<Value>Map.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Parti.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Parti.xbf">
+				<Candidate type="Path">
+					<Value>Parti.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Pics.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Pics.xbf">
+				<Candidate type="Path">
+					<Value>Pics.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="resultpage.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/resultpage.xbf">
+				<Candidate type="Path">
+					<Value>resultpage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="results.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/results.xbf">
+				<Candidate type="Path">
+					<Value>results.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Schedule.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Schedule.xbf">
+				<Candidate type="Path">
+					<Value>Schedule.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SearchPage.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/SearchPage.xbf">
+				<Candidate type="Path">
+					<Value>SearchPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SectionPage.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/SectionPage.xbf">
+				<Candidate type="Path">
+					<Value>SectionPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="StoreManifest.xml" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/StoreManifest.xml">
+				<Candidate type="Path">
+					<Value>StoreManifest.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SubItemPage.xbf" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/SubItemPage.xbf">
+				<Candidate type="Path">
+					<Value>SubItemPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="106.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/106.png">
+					<Candidate type="Path">
+						<Value>Assets\106.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="106x106.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/106x106.png">
+					<Candidate type="Path">
+						<Value>Assets\106x106.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="120x120.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/120x120.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\120x120.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="170x170.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/170x170.png">
+					<Candidate type="Path">
+						<Value>Assets\170x170.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="360x360.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/360x360.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\360x360.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="44x44.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/44x44.png">
+					<Candidate type="Path">
+						<Value>Assets\44x44.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="6.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/6.png">
+					<Candidate type="Path">
+						<Value>Assets\6.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="appl.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/appl.png">
+					<Candidate type="Path">
+						<Value>Assets\appl.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="art.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/art.png">
+					<Candidate type="Path">
+						<Value>Assets\art.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="choreo.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/choreo.png">
+					<Candidate type="Path">
+						<Value>Assets\choreo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dance.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/dance.png">
+					<Candidate type="Path">
+						<Value>Assets\dance.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DarkGray.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/DarkGray.png">
+					<Candidate type="Path">
+						<Value>Assets\DarkGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DarkGray1.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/DarkGray1.png">
+					<Candidate type="Path">
+						<Value>Assets\DarkGray1.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="desertduel.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/desertduel.png">
+					<Candidate type="Path">
+						<Value>Assets\desertduel.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="drama.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/drama.png">
+					<Candidate type="Path">
+						<Value>Assets\drama.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dualistiniquiry.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/dualistiniquiry.png">
+					<Candidate type="Path">
+						<Value>Assets\dualistiniquiry.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fashp.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/fashp.png">
+					<Candidate type="Path">
+						<Value>Assets\fashp.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="hardrocksofa.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/hardrocksofa.png">
+					<Candidate type="Path">
+						<Value>Assets\hardrocksofa.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="jess.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/jess.png">
+					<Candidate type="Path">
+						<Value>Assets\jess.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LightGray.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/LightGray.png">
+					<Candidate type="Path">
+						<Value>Assets\LightGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mapi6.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/mapi6.png">
+					<Candidate type="Path">
+						<Value>Assets\mapi6.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mapi7.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/mapi7.png">
+					<Candidate type="Path">
+						<Value>Assets\mapi7.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mappin.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/mappin.png">
+					<Candidate type="Path">
+						<Value>Assets\mappin.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mappin_new.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/mappin_new.png">
+					<Candidate type="Path">
+						<Value>Assets\mappin_new.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MediumGray.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/MediumGray.png">
+					<Candidate type="Path">
+						<Value>Assets\MediumGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="metamorphosis.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/metamorphosis.png">
+					<Candidate type="Path">
+						<Value>Assets\metamorphosis.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mime.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/mime.png">
+					<Candidate type="Path">
+						<Value>Assets\mime.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="misc.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/misc.png">
+					<Candidate type="Path">
+						<Value>Assets\misc.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="music.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/music.png">
+					<Candidate type="Path">
+						<Value>Assets\music.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="nirmotzeri.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/nirmotzeri.png">
+					<Candidate type="Path">
+						<Value>Assets\nirmotzeri.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="oasisdebate.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/oasisdebate.png">
+					<Candidate type="Path">
+						<Value>Assets\oasisdebate.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="online.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/online.png">
+					<Candidate type="Path">
+						<Value>Assets\online.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="oratory.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/oratory.png">
+					<Candidate type="Path">
+						<Value>Assets\oratory.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="papon.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/papon.png">
+					<Candidate type="Path">
+						<Value>Assets\papon.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="pitchperfect.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/pitchperfect.png">
+					<Candidate type="Path">
+						<Value>Assets\pitchperfect.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="quizzing.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/quizzing.png">
+					<Candidate type="Path">
+						<Value>Assets\quizzing.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="rapwars.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/rapwars.png">
+					<Candidate type="Path">
+						<Value>Assets\rapwars.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="rateandreview.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/rateandreview.png">
+					<Candidate type="Path">
+						<Value>Assets\rateandreview.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="razzmatazz.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/razzmatazz.png">
+					<Candidate type="Path">
+						<Value>Assets\razzmatazz.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="rocktaves.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/rocktaves.png">
+					<Candidate type="Path">
+						<Value>Assets\rocktaves.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="scheduleicon.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/scheduleicon.png">
+					<Candidate type="Path">
+						<Value>Assets\scheduleicon.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="search_icon.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/search_icon.png">
+					<Candidate type="Path">
+						<Value>Assets\search_icon.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="shaan.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/shaan.png">
+					<Candidate type="Path">
+						<Value>Assets\shaan.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="skiller.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/skiller.png">
+					<Candidate type="Path">
+						<Value>Assets\skiller.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="skrat.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/skrat.png">
+					<Candidate type="Path">
+						<Value>Assets\skrat.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/SmallLogo.png"/>
+				<NamedResource name="sonyanakti.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/sonyanakti.png">
+					<Candidate type="Path">
+						<Value>Assets\sonyanakti.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="sponsors.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/sponsors.png">
+					<Candidate type="Path">
+						<Value>Assets\sponsors.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="sponsors1.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/sponsors1.png">
+					<Candidate type="Path">
+						<Value>Assets\sponsors1.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="stageplay.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/stageplay.png">
+					<Candidate type="Path">
+						<Value>Assets\stageplay.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="streetdance.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/streetdance.png">
+					<Candidate type="Path">
+						<Value>Assets\streetdance.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="streetplay.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/streetplay.png">
+					<Candidate type="Path">
+						<Value>Assets\streetplay.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="tarang.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/tarang.png">
+					<Candidate type="Path">
+						<Value>Assets\tarang.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="thelocaltrain.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/thelocaltrain.png">
+					<Candidate type="Path">
+						<Value>Assets\thelocaltrain.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Untitled-2.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/Untitled-2.png">
+					<Candidate type="Path">
+						<Value>Assets\Untitled-2.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Untitlemmd-2.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/Untitlemmd-2.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Untitlemmd-2.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="vishwamohanbhatt.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/vishwamohanbhatt.png">
+					<Candidate type="Path">
+						<Value>Assets\vishwamohanbhatt.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="zenith.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/zenith.png">
+					<Candidate type="Path">
+						<Value>Assets\zenith.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="background">
+					<NamedResource name="Background_grad.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/background/Background_grad.png">
+						<Candidate type="Path">
+							<Value>Assets\background\Background_grad.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="home1.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/background/home1.png">
+						<Candidate type="Path">
+							<Value>Assets\background\home1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="home2.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/background/home2.png">
+						<Candidate type="Path">
+							<Value>Assets\background\home2.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="home3.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/background/home3.png">
+						<Candidate type="Path">
+							<Value>Assets\background\home3.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="home4.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/background/home4.png">
+						<Candidate type="Path">
+							<Value>Assets\background\home4.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="home5.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/background/home5.png">
+						<Candidate type="Path">
+							<Value>Assets\background\home5.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="navigationdrawer.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/background/navigationdrawer.png">
+						<Candidate type="Path">
+							<Value>Assets\background\navigationdrawer.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SplashScreen.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/background/SplashScreen.png">
+						<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+							<Value>Assets\background\SplashScreen.scale-240.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Untitled-4.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/background/Untitled-4.png">
+						<Candidate type="Path">
+							<Value>Assets\background\Untitled-4.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Win.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/background/Win.png">
+						<Candidate type="Path">
+							<Value>Assets\background\Win.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="winbg.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/background/winbg.png">
+						<Candidate type="Path">
+							<Value>Assets\background\winbg.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="icons">
+					<NamedResource name="about.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/about.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\about.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="about1.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/about1.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\about1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="blog.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/blog.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\blog.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="blog1.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/blog1.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\blog1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Call.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/Call.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\Call.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="developers.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/developers.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\developers.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="developers1.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/developers1.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\developers1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="E-Mail.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/E-Mail.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\E-Mail.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="eventsnow.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/eventsnow.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\eventsnow.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="fb.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/fb.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\fb.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Map.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/Map.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\Map.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="parti1.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/parti1.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\parti1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="pics.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/pics.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\pics.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="picsoftheday.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/picsoftheday.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\picsoftheday.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="profshow.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/profshow.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\profshow.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="rate.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/rate.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\rate.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="result.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/result.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\result.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="results.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/results.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\results.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="search.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/search.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\search.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="sponsors1.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/sponsors1.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\sponsors1.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="twitter.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/twitter.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\twitter.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="workshop.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/workshop.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\workshop.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="youtube.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/icons/youtube.png">
+						<Candidate type="Path">
+							<Value>Assets\icons\youtube.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="ppl">
+					<NamedResource name="akshansh.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/ppl/akshansh.png">
+						<Candidate type="Path">
+							<Value>Assets\ppl\akshansh.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="krishnaakhil.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/ppl/krishnaakhil.png">
+						<Candidate type="Path">
+							<Value>Assets\ppl\krishnaakhil.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="krishnachaitanya.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/ppl/krishnachaitanya.png">
+						<Candidate type="Path">
+							<Value>Assets\ppl\krishnachaitanya.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="maheep.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/ppl/maheep.png">
+						<Candidate type="Path">
+							<Value>Assets\ppl\maheep.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ojas.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/ppl/ojas.png">
+						<Candidate type="Path">
+							<Value>Assets\ppl\ojas.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="saketh.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/ppl/saketh.png">
+						<Candidate type="Path">
+							<Value>Assets\ppl\saketh.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="shivani.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/ppl/shivani.png">
+						<Candidate type="Path">
+							<Value>Assets\ppl\shivani.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="siddhant.png" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/Assets/ppl/siddhant.png">
+						<Candidate type="Path">
+							<Value>Assets\ppl\siddhant.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DataModel">
+				<NamedResource name="SampleData.json" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/DataModel/SampleData.json">
+					<Candidate type="Path">
+						<Value>DataModel\SampleData.json</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SampleData1.json" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Files/DataModel/SampleData1.json">
+					<Candidate type="Path">
+						<Value>DataModel\SampleData1.json</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="Group1Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group1Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Subtitle: 1</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group1Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group1Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Title: 1</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group2Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group2Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Subtitle: 2</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group2Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group2Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Title: 2</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group3Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group3Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Subtitle: 3</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group3Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group3Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Title: 3</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group4Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group4Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Subtitle: 4</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group4Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group4Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Title: 4</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group5Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group5Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Subtitle: 5</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group5Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group5Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Title: 5</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group6Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group6Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Subtitle: 6</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Group6Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Group6Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Title: 6</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GroupDescription" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/GroupDescription">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Group Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor scelerisque lorem in vehicula. Aliquam tincidunt, lacus ut sagittis tristique, turpis massa volutpat augue, eu rutrum ligula ante a ante</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection1" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/HubSection1">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>SECTION 1</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection2" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/HubSection2">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>SECTION 2</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection3" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/HubSection3">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>SECTION 3</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection4" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/HubSection4">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>SECTION 4</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection5" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/HubSection5">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>SECTION 5</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item1Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item1Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Subtitle: 1</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item1Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item1Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Title: 1</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item2Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item2Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Subtitle: 2</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item2Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item2Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Title: 2</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item3Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item3Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Subtitle: 3</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item3Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item3Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Title: 3</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item4Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item4Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Subtitle: 4</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item4Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item4Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Title: 4</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item5Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item5Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Subtitle: 5</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item5Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item5Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Title: 5</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item6Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item6Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Subtitle: 6</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item6Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item6Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Title: 6</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item7Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item7Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Subtitle: 7</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item7Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item7Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Title: 7</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item8Subtitle" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item8Subtitle">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Subtitle: 8</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item8Title" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Item8Title">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Title: 8</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ItemContent" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/ItemContent">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing etiam consequat vivamus dictumst aliquam duis convallis scelerisque est parturient ullamcorper aliquet fusce suspendisse nunc hac eleifend amet blandit facilisi condimentum commodo scelerisque faucibus aenean ullamcorper ante mauris dignissim consectetuer nullam lorem vestibulum habitant conubia elementum pellentesque morbi facilisis arcu sollicitudin diam cubilia aptent vestibulum auctor eget dapibus pellentesque inceptos leo egestas interdum nulla consectetuer suspendisse adipiscing pellentesque proin lobortis sollicitudin augue elit mus congue fermentum parturient fringilla euismod feugiat</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ItemContentFormat" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/ItemContentFormat">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Content: {0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ItemDescription" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/ItemDescription">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item Description: Pellentesque porta, mauris quis interdum vehicula, urna sapien ultrices velit, nec venenatis dui odio in augue. Cras posuere, enim a cursus convallis, neque turpis malesuada erat, ut adipiscing neque tortor ac erat.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NavigationFailedExceptionMessage" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/NavigationFailedExceptionMessage">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Navigation failed.</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="DescriptionHeader">
+				<NamedResource name="Text" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/DescriptionHeader/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Description text:</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Header">
+				<NamedResource name="Text" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Header/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>application name</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Hub">
+				<NamedResource name="Header" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Hub/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>application name</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ItemSubTitle">
+				<NamedResource name="Text" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/ItemSubTitle/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Item Sub Title</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ItemTitle">
+				<NamedResource name="Text" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/ItemTitle/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Item Title</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="LongText">
+				<NamedResource name="Text" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/LongText/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section1DescriptionText">
+				<NamedResource name="Text" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Section1DescriptionText/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section1Header">
+				<NamedResource name="Header" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Section1Header/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Section 1</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section1Subtitle">
+				<NamedResource name="Text" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Section1Subtitle/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Lorem ipsum dolor sit nonumy sed consectetuer ising elit, sed diam</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section2Header">
+				<NamedResource name="Header" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Section2Header/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Section 2</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section2UnderTitle">
+				<NamedResource name="Text" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Section2UnderTitle/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Quisque in porta lorem dolor amet sed consectetuer ising elit, sed diam non my nibh uis mod wisi quip.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section3Header">
+				<NamedResource name="Header" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Section3Header/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Section 3</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section3Subtitle">
+				<NamedResource name="Text" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Section3Subtitle/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Section subtitle</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Section4Header">
+				<NamedResource name="Header" uri="ms-resource://37497SUBITS-Pilani.Oasis15/Resources/Section4Header/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Section 4</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

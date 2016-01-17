@@ -7,9 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:data="using:HubApp4.Data"
     DataContext="{Binding DefaultViewModel.Group, RelativeSource={RelativeSource Self}}"
-    d:DataContext="{Binding Groups[5], Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
-    mc:Ignorable="d"
-    Background="WhiteSmoke">
+    d:DataContext="{Binding Groups[3], Source={d:DesignData Source=../HubApp4.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
+    mc:Ignorable="d" 
+    Background="Black">
 
     <Page.Resources>
         <SolidColorBrush x:Name="foreg" Color="Black"></SolidColorBrush>
@@ -17,32 +17,35 @@
         <DataTemplate x:Key="ListItemTemplatex">
             <StackPanel Orientation="Horizontal" Height="Auto" Width="350">
                 <StackPanel Height="Auto" Margin="5,0,5,15" Width="290">
-                    <TextBlock TextWrapping="Wrap" Text="{Binding Title}" FontWeight="SemiBold" Style="{ThemeResource ListViewItemTextBlockStyle}" Foreground="{StaticResource foreg}"/>
+                    <TextBlock TextWrapping="Wrap" Text="{Binding Title}" FontWeight="SemiBold" FontFamily="Sakkal Majalla" Style="{ThemeResource ListViewItemTextBlockStyle}" Foreground="WhiteSmoke"/>
                     <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
-                        <TextBlock  Foreground="{StaticResource foreg2}" Margin="0,0,5,0" TextWrapping="Wrap" Text="Time:  " Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
-                        <TextBlock TextWrapping="Wrap" Text="{Binding Subtitle}" Foreground="{StaticResource foreg}" Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
+                        <TextBlock  Foreground="WhiteSmoke" Margin="0,0,5,0" TextWrapping="Wrap"  Text="Time:  " Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
+                        <TextBlock TextWrapping="Wrap" Text="{Binding Subtitle}" Foreground="WhiteSmoke" Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
-                        <TextBlock Foreground="{StaticResource foreg2}" Margin="0,0,5,0" TextWrapping="Wrap" Text="Venue:  " Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
-                        <TextBlock TextWrapping="Wrap" Text="{Binding Content}" Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}" Foreground="{StaticResource foreg}" />
+                        <TextBlock Foreground="WhiteSmoke" Margin="0,0,5,0" TextWrapping="Wrap" Text="Venue:  " Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
+                        <TextBlock TextWrapping="Wrap" Text="{Binding Content}" Height="18" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}" Foreground="WhiteSmoke" />
                     </StackPanel>
                 </StackPanel>
                 <Button  Margin="0,-15,0,0"  BorderBrush="{x:Null}" Click="Mappin_Click" Tag="{Binding UniqueId}" MinWidth="50" >
 
-                    <Image Source="Assets/mappin.png" Height="30"  Width="30"/>
+                    <Image Source="Assets/icons/Map.png" Height="30"  Width="30"/>
                 </Button>
             </StackPanel>
         </DataTemplate>
     </Page.Resources>
     <Grid>
-        <Pivot x:Name="myPivot" Title="SCHEDULE" Margin="0,0,10,1" Foreground="{StaticResource foreg}">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/background/home2.png" Stretch="UniformToFill" AlignmentY="Bottom" AlignmentX="Center"/>
+        </Grid.Background>
+        <Pivot x:Name="myPivot" Title="SCHEDULE" Margin="0,0,10,1" Foreground="White">
             <Pivot.HeaderTemplate>
                 <DataTemplate>
-                    <TextBlock  Foreground="Gray" SelectionHighlightColor="Gray" Margin="0,10,0,-10" Text="{Binding}" FontSize="40"/>
+                    <TextBlock  Foreground="White" SelectionHighlightColor="White" Margin="0,10,0,-10" Text="{Binding}" FontSize="40"/>
                 </DataTemplate>
             </Pivot.HeaderTemplate>
 
-            <PivotItem Header="25th" >
+            <PivotItem Header="Oct28" >
 
                 <!-- <TextBlock Text="{Binding Items[0].Content}" FontSize="15" TextWrapping="Wrap"/> -->
                 <ScrollViewer>
@@ -62,7 +65,7 @@
                 </ScrollViewer>
 
             </PivotItem>
-            <PivotItem Header="26th" >
+            <PivotItem Header="Oct29" >
                 <ScrollViewer>
                     <Grid>
                         <ListView 
@@ -78,7 +81,7 @@
                     </Grid>
                 </ScrollViewer>
             </PivotItem>
-            <PivotItem Header="27th">
+            <PivotItem Header="Oct30">
                 <ScrollViewer>
                     <Grid>
                         <ListView 
@@ -94,7 +97,7 @@
                     </Grid>
                 </ScrollViewer>
             </PivotItem>
-            <PivotItem Header="28th">
+            <PivotItem Header="Oct31">
                 <ScrollViewer>
                     <Grid>
                         <ListView 
@@ -110,7 +113,7 @@
                     </Grid>
                 </ScrollViewer>
             </PivotItem>
-            <PivotItem Header="29th">
+            <PivotItem Header="Nov1">
                 <ScrollViewer>
                     <Grid>
                         <ListView 

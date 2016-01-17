@@ -40,15 +40,19 @@ namespace HubApp4
             List<string> fvc = new List<string>();
             try
             {
+                
+
                 DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(List<string>));
                 using (MemoryStream ms = new MemoryStream(Encoding.Unicode.GetBytes(json)))
                 {
                     fvc = serializer.ReadObject(ms) as List<string>;
                 }
+                
             }
-            catch (Exception ex)
+            
+            catch
             {
-                throw;
+                
             }
             return fvc;
         }

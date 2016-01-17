@@ -17,6 +17,8 @@ using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 using HubApp4.Common;
 using Parse;
+using Windows.UI.Notifications;
+using Windows.Data.Xml.Dom;
 
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
 
@@ -40,6 +42,8 @@ namespace HubApp4
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
             ParseClient.Initialize("2zBSWSycuQVaAZvvVO1vQmm1zN1zBv6pQfCGMYUP", "psz17U1PVyjJ21FfUYiGQ3cOF2xMF2BoCvLoUwJG");
+            ToastTemplateType toastTemplate = ToastTemplateType.ToastText02;
+            XmlDocument toastXml = ToastNotificationManager.GetTemplateContent(toastTemplate);
         }
 
         /// <summary>
@@ -50,6 +54,10 @@ namespace HubApp4
         /// <param name="e">Details about the launch request and process.</param>
         protected async override void OnLaunched(LaunchActivatedEventArgs e)
         {
+            try {
+                await ParsePush.SubscribeAsync("");
+            }
+            catch { }
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
